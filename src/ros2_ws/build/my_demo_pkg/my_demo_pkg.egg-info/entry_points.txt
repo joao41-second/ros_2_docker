@@ -1,0 +1,4 @@
+[console_scripts]
+color_controller = my_demo_pkg.color_controller:main
+move_controller = my_demo_pkg.move_controller:main
+

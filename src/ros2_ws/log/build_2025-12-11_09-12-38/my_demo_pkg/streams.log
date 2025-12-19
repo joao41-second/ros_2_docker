@@ -1,0 +1,41 @@
+[0.430s] Invoking command in '/app/ros2_ws/src/my_demo_pkg': PYTHONPATH=/app/ros2_ws/build/my_demo_pkg/prefix_override:/app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_demo_pkg build --build-base /app/ros2_ws/build/my_demo_pkg/build install --record /app/ros2_ws/build/my_demo_pkg/install.log --install-scripts $base/lib/my_demo_pkg --single-version-externally-managed
+[0.567s] running egg_info
+[0.567s] creating ../../build/my_demo_pkg/my_demo_pkg.egg-info
+[0.568s] writing ../../build/my_demo_pkg/my_demo_pkg.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../../build/my_demo_pkg/my_demo_pkg.egg-info/dependency_links.txt
+[0.568s] writing entry points to ../../build/my_demo_pkg/my_demo_pkg.egg-info/entry_points.txt
+[0.568s] writing requirements to ../../build/my_demo_pkg/my_demo_pkg.egg-info/requires.txt
+[0.568s] writing top-level names to ../../build/my_demo_pkg/my_demo_pkg.egg-info/top_level.txt
+[0.569s] writing manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'
+[0.593s] reading manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'
+[0.593s] writing manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'
+[0.593s] running build
+[0.594s] running build_py
+[0.594s] creating /app/ros2_ws/build/my_demo_pkg/build
+[0.594s] creating /app/ros2_ws/build/my_demo_pkg/build/lib
+[0.594s] creating /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg
+[0.594s] copying my_demo_pkg/move_controller.py -> /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg
+[0.594s] copying my_demo_pkg/color_controller.py -> /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg
+[0.594s] copying my_demo_pkg/__init__.py -> /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg
+[0.594s] running install
+[0.595s] running install_lib
+[0.595s] creating /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg
+[0.595s] copying /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg/move_controller.py -> /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg
+[0.595s] copying /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg/color_controller.py -> /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg
+[0.596s] copying /app/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg/__init__.py -> /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg
+[0.596s] byte-compiling /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg/move_controller.py to move_controller.cpython-38.pyc
+[0.597s] byte-compiling /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg/color_controller.py to color_controller.cpython-38.pyc
+[0.597s] byte-compiling /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg/__init__.py to __init__.cpython-38.pyc
+[0.598s] running install_data
+[0.598s] creating /app/ros2_ws/install/my_demo_pkg/share/ament_index
+[0.598s] creating /app/ros2_ws/install/my_demo_pkg/share/ament_index/resource_index
+[0.598s] creating /app/ros2_ws/install/my_demo_pkg/share/ament_index/resource_index/packages
+[0.598s] copying resource/my_demo_pkg -> /app/ros2_ws/install/my_demo_pkg/share/ament_index/resource_index/packages
+[0.598s] copying package.xml -> /app/ros2_ws/install/my_demo_pkg/share/my_demo_pkg
+[0.598s] running install_egg_info
+[0.599s] Copying ../../build/my_demo_pkg/my_demo_pkg.egg-info to /app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages/my_demo_pkg-0.0.0-py3.8.egg-info
+[0.600s] running install_scripts
+[0.613s] Installing color_controller script to /app/ros2_ws/install/my_demo_pkg/lib/my_demo_pkg
+[0.613s] Installing move_controller script to /app/ros2_ws/install/my_demo_pkg/lib/my_demo_pkg
+[0.613s] writing list of installed files to '/app/ros2_ws/build/my_demo_pkg/install.log'
+[0.629s] Invoked command in '/app/ros2_ws/src/my_demo_pkg' returned '0': PYTHONPATH=/app/ros2_ws/build/my_demo_pkg/prefix_override:/app/ros2_ws/install/my_demo_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_demo_pkg build --build-base /app/ros2_ws/build/my_demo_pkg/build install --record /app/ros2_ws/build/my_demo_pkg/install.log --install-scripts $base/lib/my_demo_pkg --single-version-externally-managed

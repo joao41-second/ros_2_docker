@@ -1,0 +1,13 @@
+services: 
+  app:
+    container_name: ros_2
+    build: ./ros_2/
+    volumes:
+      - ros_src:/app/src
+volumes:
+  ros_src:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ../src
