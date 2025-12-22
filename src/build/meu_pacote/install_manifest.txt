@@ -1,0 +1,16 @@
+/src/install/meu_pacote/lib/meu_pacote/ola_mundo
+/src/install/meu_pacote/share/ament_index/resource_index/package_run_dependencies/meu_pacote
+/src/install/meu_pacote/share/ament_index/resource_index/parent_prefix_path/meu_pacote
+/src/install/meu_pacote/share/meu_pacote/environment/ament_prefix_path.sh
+/src/install/meu_pacote/share/meu_pacote/environment/ament_prefix_path.dsv
+/src/install/meu_pacote/share/meu_pacote/environment/path.sh
+/src/install/meu_pacote/share/meu_pacote/environment/path.dsv
+/src/install/meu_pacote/share/meu_pacote/local_setup.bash
+/src/install/meu_pacote/share/meu_pacote/local_setup.sh
+/src/install/meu_pacote/share/meu_pacote/local_setup.zsh
+/src/install/meu_pacote/share/meu_pacote/local_setup.dsv
+/src/install/meu_pacote/share/meu_pacote/package.dsv
+/src/install/meu_pacote/share/ament_index/resource_index/packages/meu_pacote
+/src/install/meu_pacote/share/meu_pacote/cmake/meu_pacoteConfig.cmake
+/src/install/meu_pacote/share/meu_pacote/cmake/meu_pacoteConfig-version.cmake
+/src/install/meu_pacote/share/meu_pacote/package.xml

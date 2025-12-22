@@ -1,9 +1,0 @@
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/install/strip.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/install/local.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/install.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/list_install_components.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/rebuild_cache.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/edit_cache.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/test.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/my_turtle_bringup_uninstall.dir
-/app/ros2_ws/build/my_turtle_bringup/CMakeFiles/uninstall.dir

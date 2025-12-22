@@ -1,0 +1,2 @@
+Invoking command in '/src/build/meu_pacote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /src/meu_pacote -DCMAKE_INSTALL_PREFIX=/src/install/meu_pacote
+Invoked command in '/src/build/meu_pacote' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /src/meu_pacote -DCMAKE_INSTALL_PREFIX=/src/install/meu_pacote

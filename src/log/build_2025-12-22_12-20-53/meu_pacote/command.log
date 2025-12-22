@@ -1,0 +1,6 @@
+Invoking command in '/src/build/meu_pacote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /src/meu_pacote -DCMAKE_INSTALL_PREFIX=/src/install/meu_pacote
+Invoked command in '/src/build/meu_pacote' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /src/meu_pacote -DCMAKE_INSTALL_PREFIX=/src/install/meu_pacote
+Invoking command in '/src/build/meu_pacote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /src/build/meu_pacote -- -j16 -l16
+Invoked command in '/src/build/meu_pacote' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /src/build/meu_pacote -- -j16 -l16
+Invoking command in '/src/build/meu_pacote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /src/build/meu_pacote
+Invoked command in '/src/build/meu_pacote' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /src/build/meu_pacote
