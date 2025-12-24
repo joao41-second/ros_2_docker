@@ -1,7 +1,7 @@
 #!/bin/bash
+
+echo ¨ola user¨
 set -e
 
 source /opt/ros/foxy/setup.bash
-source /app/ros2_ws/install/setup.bash
-
 exec "$@"

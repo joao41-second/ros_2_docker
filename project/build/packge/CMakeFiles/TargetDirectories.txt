@@ -1,0 +1,10 @@
+/app/project/build/packge/CMakeFiles/install/local.dir
+/app/project/build/packge/CMakeFiles/edit_cache.dir
+/app/project/build/packge/CMakeFiles/test.dir
+/app/project/build/packge/CMakeFiles/install.dir
+/app/project/build/packge/CMakeFiles/list_install_components.dir
+/app/project/build/packge/CMakeFiles/rebuild_cache.dir
+/app/project/build/packge/CMakeFiles/ola_mundo.dir
+/app/project/build/packge/CMakeFiles/install/strip.dir
+/app/project/build/packge/CMakeFiles/packge_uninstall.dir
+/app/project/build/packge/CMakeFiles/uninstall.dir

@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (packge) JobQueued: {'identifier': 'packge', 'dependencies': OrderedDict()}
+[0.000139] (packge) JobStarted: {'identifier': 'packge'}
+[0.012375] (packge) JobProgress: {'identifier': 'packge', 'progress': 'cmake'}
+[0.012992] (packge) Command: {'cmd': ['/usr/bin/cmake', '/app/project/src/packge', '-DCMAKE_INSTALL_PREFIX=/app/project/install/packge'], 'cwd': '/app/project/build/packge', 'env': OrderedDict([('HOSTNAME', '0372a2367956'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app/project/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/app/project/build/packge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.028109] (packge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.045759] (packge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099420] (-) TimerEvent: {}
+[0.168749] (packge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.194812] (packge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.197396] (packge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199492] (-) TimerEvent: {}
+[0.299699] (-) TimerEvent: {}
+[0.312091] (packge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.348659] (packge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.349690] (packge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399771] (-) TimerEvent: {}
+[0.451091] (packge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.499872] (-) TimerEvent: {}
+[0.518184] (packge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.519460] (packge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.519632] (packge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.519684] (packge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.520653] (packge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.520729] (packge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.521545] (packge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.522880] (packge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.522973] (packge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.523419] (packge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.526935] (packge) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.532710] (packge) StdoutLine: {'line': b'-- Generating done\n'}
+[0.533742] (packge) StdoutLine: {'line': b'-- Build files have been written to: /app/project/build/packge\n'}
+[0.538302] (packge) CommandEnded: {'returncode': 0}
+[0.538759] (packge) JobProgress: {'identifier': 'packge', 'progress': 'build'}
+[0.539579] (packge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/packge', '--', '-j16', '-l16'], 'cwd': '/app/project/build/packge', 'env': OrderedDict([('HOSTNAME', '0372a2367956'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app/project/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/app/project/build/packge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.581585] (packge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ola_mundo\x1b[0m\n'}
+[0.600016] (-) TimerEvent: {}
+[0.668069] (packge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ola_mundo.dir/src/main.cpp.o\x1b[0m\n'}
+[0.700097] (-) TimerEvent: {}
+[0.800344] (-) TimerEvent: {}
+[0.900630] (-) TimerEvent: {}
+[1.000904] (-) TimerEvent: {}
+[1.101198] (-) TimerEvent: {}
+[1.201482] (-) TimerEvent: {}
+[1.301763] (-) TimerEvent: {}
+[1.402052] (-) TimerEvent: {}
+[1.502339] (-) TimerEvent: {}
+[1.602659] (-) TimerEvent: {}
+[1.702936] (-) TimerEvent: {}
+[1.803208] (-) TimerEvent: {}
+[1.903489] (-) TimerEvent: {}
+[1.979068] (packge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ola_mundo\x1b[0m\n'}
+[2.003583] (-) TimerEvent: {}
+[2.090509] (packge) StdoutLine: {'line': b'[100%] Built target ola_mundo\n'}
+[2.101523] (packge) CommandEnded: {'returncode': 0}
+[2.103726] (-) TimerEvent: {}
+[2.126390] (packge) JobProgress: {'identifier': 'packge', 'progress': 'install'}
+[2.138008] (packge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/project/build/packge'], 'cwd': '/app/project/build/packge', 'env': OrderedDict([('HOSTNAME', '0372a2367956'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app/project/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/app/project/build/packge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.147664] (packge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.147826] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/lib/packge/ola_mundo\n'}
+[2.148252] (packge) StdoutLine: {'line': b'-- Set runtime path of "/app/project/install/packge/lib/packge/ola_mundo" to ""\n'}
+[2.148423] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge\n'}
+[2.148644] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge\n'}
+[2.148871] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh\n'}
+[2.149040] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv\n'}
+[2.149203] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/environment/path.sh\n'}
+[2.149367] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/environment/path.dsv\n'}
+[2.149536] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/local_setup.bash\n'}
+[2.149694] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/local_setup.sh\n'}
+[2.149846] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/local_setup.zsh\n'}
+[2.150003] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/local_setup.dsv\n'}
+[2.150160] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/package.dsv\n'}
+[2.150362] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/ament_index/resource_index/packages/packge\n'}
+[2.150581] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake\n'}
+[2.150710] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake\n'}
+[2.150863] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/package.xml\n'}
+[2.152517] (packge) CommandEnded: {'returncode': 0}
+[2.202257] (packge) JobEnded: {'identifier': 'packge', 'rc': 0}
+[2.202938] (-) EventReactorShutdown: {}

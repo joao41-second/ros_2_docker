@@ -1,0 +1,77 @@
+[0.016s] Invoking command in '/app/project/build/packge': /usr/bin/cmake /app/project/src/packge -DCMAKE_INSTALL_PREFIX=/app/project/install/packge
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.112s] -- The CXX compiler identification is GNU 9.4.0
+[0.116s] -- Check for working C compiler: /usr/bin/cc
+[0.185s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.186s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.339s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.443s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.443s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.558s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[0.559s]   add_custom_target called with invalid target name "./src/packge_uninstall".
+[0.559s]   Target names may not contain a slash.  Use ADD_CUSTOM_COMMAND to generate
+[0.559s]   files.
+[0.559s] Call Stack (most recent call first):
+[0.559s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.559s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.559s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.559s]   CMakeLists.txt:18 (find_package)
+[0.559s] 
+[0.559s] 
+[0.582s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.751s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.867s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.869s] -- Looking for pthread.h
+[0.940s] -- Looking for pthread.h - found
+[0.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.011s] -- Looking for pthread_create in pthreads
+[1.069s] -- Looking for pthread_create in pthreads - not found
+[1.069s] -- Looking for pthread_create in pthread
+[1.139s] -- Looking for pthread_create in pthread - found
+[1.139s] -- Found Threads: TRUE  
+[1.253s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.289s] Error parsing '/app/project/src/packge/package.xml':
+[1.289s] Traceback (most recent call last):
+[1.289s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.290s]     main()
+[1.290s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.290s]     raise e
+[1.290s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.290s]     package = parse_package_string(
+[1.290s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.290s]     pkg.validate(warnings=warnings)
+[1.290s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.290s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.290s] catkin_pkg.package.InvalidPackage: Error(s) in package '/app/project/src/packge/package.xml':
+[1.290s] Package name "./src/packge" does not follow naming conventions
+[1.294s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.294s]   execute_process(/usr/bin/python3
+[1.294s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.294s]   /app/project/src/packge/package.xml
+[1.294s]   /app/project/build/packge/ament_cmake_core/package.cmake) returned error
+[1.294s]   code 1
+[1.294s] Call Stack (most recent call first):
+[1.294s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.294s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.294s]   CMakeLists.txt:44 (ament_lint_auto_find_test_dependencies)
+[1.294s] 
+[1.294s] 
+[1.296s] -- Configuring incomplete, errors occurred!
+[1.296s] See also "/app/project/build/packge/CMakeFiles/CMakeOutput.log".
+[1.296s] See also "/app/project/build/packge/CMakeFiles/CMakeError.log".
+[1.302s] Invoked command in '/app/project/build/packge' returned '1': /usr/bin/cmake /app/project/src/packge -DCMAKE_INSTALL_PREFIX=/app/project/install/packge

@@ -7,8 +7,8 @@ in docker execute the coamnd.
 Next step is create the folder for our project:
 (in this project we only let's go to folder /src)
 ```
-mdkir  -p ros2_ws/src 
-cd ~/ros2_ws
+mdkir  -p project/src 
+cd /project/src
 ```
 
 The next step is cirate project extructur use the next command.
@@ -20,7 +20,7 @@ This command create a packge in disk package exit the nodes.
 The next step is create code in c++ in folder ./src/package/src.
 For execute the code use the:
 ```bash
- cd /src
+ cd /project/
  colcon  build # commpile the project
  ros2 run <name_package> <node_name>
 ```

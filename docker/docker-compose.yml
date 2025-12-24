@@ -2,12 +2,14 @@ services:
   app:
     container_name: ros_2
     build: ./ros_2/
+    tty: true
+    stdin_open: true
     volumes:
-      - ros_src:/app/src
+      - ros_src:/app/project
 volumes:
   ros_src:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: ../src
+      device: ../project

@@ -1,0 +1,2 @@
+Invoking command in '/app/project/build/packge': /usr/bin/cmake /app/project/src/packge -DCMAKE_INSTALL_PREFIX=/app/project/install/packge
+Invoked command in '/app/project/build/packge' returned '1': /usr/bin/cmake /app/project/src/packge -DCMAKE_INSTALL_PREFIX=/app/project/install/packge

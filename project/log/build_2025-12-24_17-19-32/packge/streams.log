@@ -1,0 +1,50 @@
+[0.015s] Invoking command in '/app/project/build/packge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /app/project/src/packge -DCMAKE_INSTALL_PREFIX=/app/project/install/packge
+[0.028s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.197s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.451s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.518s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.519s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.520s] -- Configured cppcheck include dirs: 
+[0.520s] -- Configured cppcheck exclude dirs and/or files: 
+[0.521s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.521s] -- Configured cpplint exclude dirs and/or files: 
+[0.521s] -- Added test 'lint_cmake' to check CMake code style
+[0.523s] -- Added test 'uncrustify' to check C / C++ code style
+[0.523s] -- Configured uncrustify additional arguments: 
+[0.523s] -- Added test 'xmllint' to check XML markup files
+[0.527s] -- Configuring done
+[0.533s] -- Generating done
+[0.534s] -- Build files have been written to: /app/project/build/packge
+[0.538s] Invoked command in '/app/project/build/packge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /app/project/src/packge -DCMAKE_INSTALL_PREFIX=/app/project/install/packge
+[0.541s] Invoking command in '/app/project/build/packge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /app/project/build/packge -- -j16 -l16
+[0.582s] [35m[1mScanning dependencies of target ola_mundo[0m
+[0.668s] [ 50%] [32mBuilding CXX object CMakeFiles/ola_mundo.dir/src/main.cpp.o[0m
+[1.979s] [100%] [32m[1mLinking CXX executable ola_mundo[0m
+[2.090s] [100%] Built target ola_mundo
+[2.102s] Invoked command in '/app/project/build/packge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /app/project/build/packge -- -j16 -l16
+[2.139s] Invoking command in '/app/project/build/packge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /app/project/build/packge
+[2.148s] -- Install configuration: ""
+[2.148s] -- Installing: /app/project/install/packge/lib/packge/ola_mundo
+[2.148s] -- Set runtime path of "/app/project/install/packge/lib/packge/ola_mundo" to ""
+[2.148s] -- Installing: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge
+[2.149s] -- Installing: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge
+[2.149s] -- Installing: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh
+[2.149s] -- Installing: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv
+[2.149s] -- Installing: /app/project/install/packge/share/packge/environment/path.sh
+[2.149s] -- Installing: /app/project/install/packge/share/packge/environment/path.dsv
+[2.149s] -- Installing: /app/project/install/packge/share/packge/local_setup.bash
+[2.150s] -- Installing: /app/project/install/packge/share/packge/local_setup.sh
+[2.150s] -- Installing: /app/project/install/packge/share/packge/local_setup.zsh
+[2.150s] -- Installing: /app/project/install/packge/share/packge/local_setup.dsv
+[2.150s] -- Installing: /app/project/install/packge/share/packge/package.dsv
+[2.150s] -- Installing: /app/project/install/packge/share/ament_index/resource_index/packages/packge
+[2.150s] -- Installing: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake
+[2.151s] -- Installing: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake
+[2.151s] -- Installing: /app/project/install/packge/share/packge/package.xml
+[2.152s] Invoked command in '/app/project/build/packge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /app/project/build/packge

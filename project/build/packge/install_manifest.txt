@@ -1,0 +1,16 @@
+/app/project/install/packge/lib/packge/ola_mundo
+/app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge
+/app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge
+/app/project/install/packge/share/packge/environment/ament_prefix_path.sh
+/app/project/install/packge/share/packge/environment/ament_prefix_path.dsv
+/app/project/install/packge/share/packge/environment/path.sh
+/app/project/install/packge/share/packge/environment/path.dsv
+/app/project/install/packge/share/packge/local_setup.bash
+/app/project/install/packge/share/packge/local_setup.sh
+/app/project/install/packge/share/packge/local_setup.zsh
+/app/project/install/packge/share/packge/local_setup.dsv
+/app/project/install/packge/share/packge/package.dsv
+/app/project/install/packge/share/ament_index/resource_index/packages/packge
+/app/project/install/packge/share/packge/cmake/packgeConfig.cmake
+/app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake
+/app/project/install/packge/share/packge/package.xml
