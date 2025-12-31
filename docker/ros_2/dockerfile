@@ -3,6 +3,18 @@ FROM osrf/ros:foxy-desktop
 
 SHELL ["/bin/bash", "-c"]
 
+RUN apt update
+RUN apt install -y \
+  ros-foxy-gazebo-ros-pkgs \
+  ros-foxy-gazebo-plugins \
+  ros-foxy-xacro 
+RUN apt -y install ros-foxy-ros2-control
+RUN apt -y install ros-foxy-ros2-controllers
+RUN apt -y install ros-foxy-gazebo-ros2-control
+
+RUN apt install ros-foxy-ros-core ros-foxy-geometry2
+
+
 WORKDIR /app
 
 COPY ./ros_entrypoint.sh ./ros_entrypoint.sh
