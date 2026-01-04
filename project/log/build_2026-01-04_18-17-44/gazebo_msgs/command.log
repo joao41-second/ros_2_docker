@@ -1,0 +1,3 @@
+Invoking command in '/app/project/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/doc_exemple/ws/src/gazebo_ros_pkgs/gazebo_msgs -DCMAKE_INSTALL_PREFIX=/app/project/install/gazebo_msgs
+Invoked command in '/app/project/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/doc_exemple/ws/src/gazebo_ros_pkgs/gazebo_msgs -DCMAKE_INSTALL_PREFIX=/app/project/install/gazebo_msgs
+Invoking command in '/app/project/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/gazebo_msgs -- -j16 -l16

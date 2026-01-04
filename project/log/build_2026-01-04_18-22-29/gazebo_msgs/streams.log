@@ -1,0 +1,15 @@
+[0.043s] Invoking command in '/app/project/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/gazebo_msgs -- -j16 -l16
+[0.123s] [  0%] Built target gazebo_msgs__cpp
+[0.133s] [ 12%] Built target gazebo_msgs__rosidl_generator_c
+[0.160s] [ 24%] Built target gazebo_msgs__rosidl_typesupport_cpp
+[0.166s] [ 37%] Built target gazebo_msgs__rosidl_typesupport_introspection_cpp
+[0.167s] [ 50%] Built target gazebo_msgs__rosidl_typesupport_c
+[0.178s] [ 63%] Built target gazebo_msgs__rosidl_typesupport_introspection_c
+[0.178s] [ 75%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.228s] [ 88%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c
+[0.258s] [ 88%] Built target gazebo_msgs
+[0.285s] [ 88%] Built target gazebo_msgs__py
+[0.333s] [100%] Built target gazebo_msgs__python
+[0.364s] [100%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.364s] [100%] Built target gazebo_msgs__rosidl_typesupport_c__pyext
+[0.364s] [100%] Built target gazebo_msgs__rosidl_typesupport_introspection_c__pyext

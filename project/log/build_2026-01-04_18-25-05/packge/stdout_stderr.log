@@ -1,0 +1,19 @@
+[100%] Built target ola_mundo
+-- Install configuration: ""
+-- Installing: /app/project/install/packge/lib/packge/ola_mundo
+-- Set runtime path of "/app/project/install/packge/lib/packge/ola_mundo" to ""
+-- Installing: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge
+-- Installing: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge
+-- Installing: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh
+-- Installing: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv
+-- Installing: /app/project/install/packge/share/packge/environment/path.sh
+-- Installing: /app/project/install/packge/share/packge/environment/path.dsv
+-- Installing: /app/project/install/packge/share/packge/local_setup.bash
+-- Installing: /app/project/install/packge/share/packge/local_setup.sh
+-- Installing: /app/project/install/packge/share/packge/local_setup.zsh
+-- Installing: /app/project/install/packge/share/packge/local_setup.dsv
+-- Installing: /app/project/install/packge/share/packge/package.dsv
+-- Installing: /app/project/install/packge/share/ament_index/resource_index/packages/packge
+-- Installing: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake
+-- Installing: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake
+-- Installing: /app/project/install/packge/share/packge/package.xml

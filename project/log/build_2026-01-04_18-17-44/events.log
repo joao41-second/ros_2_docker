@@ -1,0 +1,1042 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.000280] (gazebo_dev) JobQueued: {'identifier': 'gazebo_dev', 'dependencies': OrderedDict()}
+[0.000298] (gazebo_msgs) JobQueued: {'identifier': 'gazebo_msgs', 'dependencies': OrderedDict()}
+[0.000313] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.000327] (packge) JobQueued: {'identifier': 'packge', 'dependencies': OrderedDict()}
+[0.000341] (square_controller) JobQueued: {'identifier': 'square_controller', 'dependencies': OrderedDict()}
+[0.000355] (gazebo_ros) JobQueued: {'identifier': 'gazebo_ros', 'dependencies': OrderedDict([('gazebo_dev', '/app/project/install/gazebo_dev'), ('gazebo_msgs', '/app/project/install/gazebo_msgs')])}
+[0.000373] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/app/project/install/cv_bridge')])}
+[0.000399] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/app/project/install/cv_bridge'), ('image_geometry', '/app/project/install/image_geometry')])}
+[0.000415] (gazebo_plugins) JobQueued: {'identifier': 'gazebo_plugins', 'dependencies': OrderedDict([('cv_bridge', '/app/project/install/cv_bridge'), ('gazebo_dev', '/app/project/install/gazebo_dev'), ('gazebo_msgs', '/app/project/install/gazebo_msgs'), ('gazebo_ros', '/app/project/install/gazebo_ros')])}
+[0.000431] (gazebo_ros_pkgs) JobQueued: {'identifier': 'gazebo_ros_pkgs', 'dependencies': OrderedDict([('cv_bridge', '/app/project/install/cv_bridge'), ('gazebo_dev', '/app/project/install/gazebo_dev'), ('gazebo_msgs', '/app/project/install/gazebo_msgs'), ('gazebo_ros', '/app/project/install/gazebo_ros'), ('gazebo_plugins', '/app/project/install/gazebo_plugins')])}
+[0.000861] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.012620] (gazebo_dev) JobStarted: {'identifier': 'gazebo_dev'}
+[0.020582] (gazebo_msgs) JobStarted: {'identifier': 'gazebo_msgs'}
+[0.029562] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.038408] (packge) JobStarted: {'identifier': 'packge'}
+[0.046376] (square_controller) JobStarted: {'identifier': 'square_controller'}
+[0.056253] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.056598] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '/app/project/doc_exemple/ws/src/vision_opencv/cv_bridge', '-DCMAKE_INSTALL_PREFIX=/app/project/install/cv_bridge'], 'cwd': '/app/project/build/cv_bridge', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/cv_bridge'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.061150] (gazebo_dev) JobProgress: {'identifier': 'gazebo_dev', 'progress': 'cmake'}
+[0.061544] (gazebo_dev) Command: {'cmd': ['/usr/bin/cmake', '/app/project/doc_exemple/ws/src/gazebo_ros_pkgs/gazebo_dev', '-DCMAKE_INSTALL_PREFIX=/app/project/install/gazebo_dev'], 'cwd': '/app/project/build/gazebo_dev', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/gazebo_dev'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.064269] (gazebo_msgs) JobProgress: {'identifier': 'gazebo_msgs', 'progress': 'cmake'}
+[0.064677] (gazebo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/app/project/doc_exemple/ws/src/gazebo_ros_pkgs/gazebo_msgs', '-DCMAKE_INSTALL_PREFIX=/app/project/install/gazebo_msgs'], 'cwd': '/app/project/build/gazebo_msgs', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/gazebo_msgs'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.067356] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'cmake'}
+[0.067731] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '/app/project/doc_exemple/ws/src/vision_opencv/image_geometry', '-DCMAKE_INSTALL_PREFIX=/app/project/install/image_geometry'], 'cwd': '/app/project/build/image_geometry', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/image_geometry'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.071906] (packge) JobProgress: {'identifier': 'packge', 'progress': 'cmake'}
+[0.073320] (packge) JobProgress: {'identifier': 'packge', 'progress': 'build'}
+[0.075588] (packge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/packge', '--', '-j16', '-l16'], 'cwd': '/app/project/build/packge', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/packge'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.079522] (square_controller) JobProgress: {'identifier': 'square_controller', 'progress': 'cmake'}
+[0.080865] (square_controller) JobProgress: {'identifier': 'square_controller', 'progress': 'build'}
+[0.081467] (square_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/square_controller', '--', '-j16', '-l16'], 'cwd': '/app/project/build/square_controller', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/square_controller'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.099858] (-) TimerEvent: {}
+[0.189663] (square_controller) StdoutLine: {'line': b'[100%] Built target square_motion\n'}
+[0.189862] (packge) StdoutLine: {'line': b'[100%] Built target ola_mundo\n'}
+[0.200036] (-) TimerEvent: {}
+[0.203834] (square_controller) CommandEnded: {'returncode': 0}
+[0.208249] (packge) CommandEnded: {'returncode': 0}
+[0.228629] (cv_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.229811] (gazebo_dev) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.229982] (gazebo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.230094] (image_geometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.236213] (square_controller) JobProgress: {'identifier': 'square_controller', 'progress': 'install'}
+[0.249681] (square_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/project/build/square_controller'], 'cwd': '/app/project/build/square_controller', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/square_controller'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.253367] (packge) JobProgress: {'identifier': 'packge', 'progress': 'install'}
+[0.253937] (packge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/project/build/packge'], 'cwd': '/app/project/build/packge', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/packge'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.261256] (square_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.262051] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/lib/square_controller/square_motion\n'}
+[0.262364] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/ament_index/resource_index/package_run_dependencies/square_controller\n'}
+[0.262543] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/ament_index/resource_index/parent_prefix_path/square_controller\n'}
+[0.262820] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/ament_prefix_path.sh\n'}
+[0.262980] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/ament_prefix_path.dsv\n'}
+[0.263061] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/path.sh\n'}
+[0.263127] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/path.dsv\n'}
+[0.263190] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.bash\n'}
+[0.263280] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.sh\n'}
+[0.263344] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.zsh\n'}
+[0.263404] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.dsv\n'}
+[0.263460] (square_controller) StdoutLine: {'line': b'-- Installing: /app/project/install/square_controller/share/square_controller/package.dsv\n'}
+[0.263564] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/ament_index/resource_index/packages/square_controller\n'}
+[0.263732] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/cmake/square_controllerConfig.cmake\n'}
+[0.263797] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/cmake/square_controllerConfig-version.cmake\n'}
+[0.263879] (square_controller) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/square_controller/share/square_controller/package.xml\n'}
+[0.265501] (square_controller) CommandEnded: {'returncode': 0}
+[0.266228] (packge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.266330] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/lib/packge/ola_mundo\n'}
+[0.266418] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge\n'}
+[0.266971] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge\n'}
+[0.267084] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh\n'}
+[0.267630] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv\n'}
+[0.267695] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/environment/path.sh\n'}
+[0.267747] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/environment/path.dsv\n'}
+[0.267810] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/local_setup.bash\n'}
+[0.267861] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/local_setup.sh\n'}
+[0.267915] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/local_setup.zsh\n'}
+[0.268207] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/local_setup.dsv\n'}
+[0.268262] (packge) StdoutLine: {'line': b'-- Installing: /app/project/install/packge/share/packge/package.dsv\n'}
+[0.268326] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/ament_index/resource_index/packages/packge\n'}
+[0.268380] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake\n'}
+[0.268430] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake\n'}
+[0.268479] (packge) StdoutLine: {'line': b'-- Up-to-date: /app/project/install/packge/share/packge/package.xml\n'}
+[0.290183] (packge) CommandEnded: {'returncode': 0}
+[0.300099] (-) TimerEvent: {}
+[0.327152] (square_controller) JobEnded: {'identifier': 'square_controller', 'rc': 0}
+[0.339729] (packge) JobEnded: {'identifier': 'packge', 'rc': 0}
+[0.354725] (gazebo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.355057] (gazebo_dev) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.355210] (cv_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.355362] (image_geometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.361748] (image_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.361991] (gazebo_dev) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.362104] (gazebo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.362190] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400214] (-) TimerEvent: {}
+[0.436683] (image_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.436950] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.437045] (gazebo_dev) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.437111] (gazebo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.439558] (image_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.439715] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.439812] (gazebo_dev) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.440217] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500327] (-) TimerEvent: {}
+[0.514083] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.514393] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.514484] (image_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.516292] (gazebo_dev) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.522317] (image_geometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.522453] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.522565] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.522701] (image_geometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.522797] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.522886] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.524410] (gazebo_dev) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.524654] (gazebo_dev) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.525271] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.525375] (image_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.525468] (gazebo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.526532] (gazebo_dev) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600457] (-) TimerEvent: {}
+[0.609233] (image_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.609489] (gazebo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.609585] (gazebo_dev) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.609685] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.610056] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.610239] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.610343] (gazebo_dev) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.610616] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.695112] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.695330] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.695485] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.696658] (gazebo_dev) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700510] (-) TimerEvent: {}
+[0.703709] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.703907] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.704039] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.704130] (gazebo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.704225] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.704430] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.705160] (gazebo_dev) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.705529] (gazebo_dev) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.707667] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.707804] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_python: 0.9.12 (/opt/ros/foxy/share/ament_cmake_python/cmake)\n'}
+[0.707873] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.708063] (gazebo_dev) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.710392] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.736475] (gazebo_dev) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.736742] (gazebo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.736856] (gazebo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.736954] (gazebo_dev) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.746740] (cv_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.747005] (cv_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.747099] (image_geometry) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.747176] (image_geometry) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800608] (-) TimerEvent: {}
+[0.900970] (-) TimerEvent: {}
+[0.925394] (gazebo_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.959364] (image_geometry) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") found components: calib3d core highgui imgproc \n'}
+[0.961793] (image_geometry) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.964054] (gazebo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.974611] (gazebo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.978595] (gazebo_dev) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.980562] (gazebo_dev) StdoutLine: {'line': b'-- Generating done\n'}
+[0.981401] (gazebo_dev) StdoutLine: {'line': b'-- Build files have been written to: /app/project/build/gazebo_dev\n'}
+[0.985207] (gazebo_dev) CommandEnded: {'returncode': 0}
+[0.985694] (gazebo_dev) JobProgress: {'identifier': 'gazebo_dev', 'progress': 'build'}
+[0.986071] (gazebo_dev) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/gazebo_dev', '--', '-j16', '-l16'], 'cwd': '/app/project/build/gazebo_dev', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/gazebo_dev'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[0.995684] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001020] (-) TimerEvent: {}
+[1.004619] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.035042] (gazebo_dev) CommandEnded: {'returncode': 0}
+[1.061173] (gazebo_dev) JobProgress: {'identifier': 'gazebo_dev', 'progress': 'install'}
+[1.063923] (gazebo_dev) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/project/build/gazebo_dev'], 'cwd': '/app/project/build/gazebo_dev', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/gazebo_dev'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[1.073618] (gazebo_dev) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.073891] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev\n'}
+[1.074096] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev\n'}
+[1.074306] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh\n'}
+[1.074455] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv\n'}
+[1.074622] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/environment/path.sh\n'}
+[1.074839] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/environment/path.dsv\n'}
+[1.075025] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/local_setup.bash\n'}
+[1.075219] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/local_setup.sh\n'}
+[1.075414] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/local_setup.zsh\n'}
+[1.075614] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/local_setup.dsv\n'}
+[1.075820] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/package.dsv\n'}
+[1.076050] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev\n'}
+[1.076229] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake\n'}
+[1.076370] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake\n'}
+[1.076475] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake\n'}
+[1.076617] (gazebo_dev) StdoutLine: {'line': b'-- Installing: /app/project/install/gazebo_dev/share/gazebo_dev/package.xml\n'}
+[1.081616] (gazebo_dev) CommandEnded: {'returncode': 0}
+[1.101158] (-) TimerEvent: {}
+[1.112487] (gazebo_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.117714] (image_geometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.123781] (gazebo_dev) JobEnded: {'identifier': 'gazebo_dev', 'rc': 0}
+[1.155051] (gazebo_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.155267] (image_geometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.201215] (-) TimerEvent: {}
+[1.263601] (gazebo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.263789] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.294173] (gazebo_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.301296] (-) TimerEvent: {}
+[1.312426] (gazebo_msgs) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[1.401405] (-) TimerEvent: {}
+[1.410611] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") found components: Development NumPy Interpreter \n'}
+[1.410841] (gazebo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.433336] (cv_bridge) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python38 \n'}
+[1.436813] (cv_bridge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.454791] (gazebo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.487851] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.496143] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.501472] (-) TimerEvent: {}
+[1.601686] (-) TimerEvent: {}
+[1.609805] (cv_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.650118] (cv_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.701799] (-) TimerEvent: {}
+[1.745215] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801886] (-) TimerEvent: {}
+[1.802653] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.804894] (cv_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.806365] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.835290] (image_geometry) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.837514] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.844518] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[1.847960] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[1.851399] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[1.854565] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.888767] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.888980] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.901982] (-) TimerEvent: {}
+[1.914817] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.915046] (image_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.968268] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.968533] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.993685] (image_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.993891] (image_geometry) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.002066] (-) TimerEvent: {}
+[2.035593] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.035772] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.073434] (image_geometry) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[2.074378] (image_geometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.102182] (-) TimerEvent: {}
+[2.111008] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.112034] (cv_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.130358] (gazebo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.132320] (image_geometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.147411] (image_geometry) StdoutLine: {'line': b'-- Generating done\n'}
+[2.149072] (image_geometry) StdoutLine: {'line': b'-- Build files have been written to: /app/project/build/image_geometry\n'}
+[2.157752] (image_geometry) CommandEnded: {'returncode': 0}
+[2.158242] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'build'}
+[2.158729] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/image_geometry', '--', '-j16', '-l16'], 'cwd': '/app/project/build/image_geometry', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/image_geometry'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[2.202324] (-) TimerEvent: {}
+[2.206053] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[2.206330] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[2.206407] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_geometry\x1b[0m\n'}
+[2.229074] (image_geometry) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.229266] (image_geometry) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.236986] (gazebo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.255947] (cv_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.261441] (gazebo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.264578] (gazebo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.284009] (image_geometry) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o\x1b[0m\n'}
+[2.284225] (image_geometry) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o\x1b[0m\n'}
+[2.291897] (gazebo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.292176] (gazebo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.292319] (gazebo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.292435] (gazebo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.302378] (-) TimerEvent: {}
+[2.313717] (gazebo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.392386] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[2.397901] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[2.401207] (gazebo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[2.402454] (-) TimerEvent: {}
+[2.416795] (gazebo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.483707] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[2.484739] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[2.502589] (-) TimerEvent: {}
+[2.562112] (gazebo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.565099] (gazebo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /app/project/build/gazebo_msgs\n'}
+[2.578416] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[2.578700] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[2.581018] (gazebo_msgs) CommandEnded: {'returncode': 0}
+[2.582032] (gazebo_msgs) JobProgress: {'identifier': 'gazebo_msgs', 'progress': 'build'}
+[2.582780] (gazebo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/gazebo_msgs', '--', '-j16', '-l16'], 'cwd': '/app/project/build/gazebo_msgs', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/gazebo_msgs'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[2.602719] (-) TimerEvent: {}
+[2.656292] (gazebo_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.656575] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__cpp\x1b[0m\n'}
+[2.671258] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[2.672876] (gazebo_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.678161] (cv_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.702808] (-) TimerEvent: {}
+[2.767885] (cv_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.770420] (cv_bridge) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.802925] (-) TimerEvent: {}
+[2.859442] (cv_bridge) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[2.903030] (-) TimerEvent: {}
+[3.003469] (-) TimerEvent: {}
+[3.103757] (-) TimerEvent: {}
+[3.204073] (-) TimerEvent: {}
+[3.234291] (image_geometry) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.281333] (image_geometry) StdoutLine: {'line': b'[ 45%] Built target gtest_main\n'}
+[3.304164] (-) TimerEvent: {}
+[3.404419] (-) TimerEvent: {}
+[3.504683] (-) TimerEvent: {}
+[3.546341] (image_geometry) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libimage_geometry.so\x1b[0m\n'}
+[3.604807] (-) TimerEvent: {}
+[3.674569] (image_geometry) StdoutLine: {'line': b'[ 54%] Built target image_geometry\n'}
+[3.704902] (-) TimerEvent: {}
+[3.805191] (-) TimerEvent: {}
+[3.905488] (-) TimerEvent: {}
+[4.005826] (-) TimerEvent: {}
+[4.106190] (-) TimerEvent: {}
+[4.156713] (cv_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.177622] (cv_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[4.179545] (cv_bridge) StdoutLine: {'line': b'-- Build files have been written to: /app/project/build/cv_bridge\n'}
+[4.191206] (cv_bridge) CommandEnded: {'returncode': 0}
+[4.191768] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[4.192058] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/project/build/cv_bridge', '--', '-j16', '-l16'], 'cwd': '/app/project/build/cv_bridge', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/cv_bridge'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[4.206297] (-) TimerEvent: {}
+[4.243593] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[4.243786] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[4.243875] (cv_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cv_bridge\x1b[0m\n'}
+[4.259649] (cv_bridge) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.262315] (cv_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[4.285307] (cv_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o\x1b[0m\n'}
+[4.285520] (cv_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o\x1b[0m\n'}
+[4.286855] (cv_bridge) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o\x1b[0m\n'}
+[4.306390] (-) TimerEvent: {}
+[4.376102] (cv_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/app/project/doc_exemple/ws/src/vision_opencv/cv_bridge/src/cv_mat_sensor_msgs_image_type_adapter.cpp:26\x1b[m\x1b[K:\n'}
+[4.376356] (cv_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/app/project/doc_exemple/ws/src/vision_opencv/cv_bridge/src/../include/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/type_adapter.hpp: No such file or directory\n'}
+[4.376472] (cv_bridge) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"rclcpp/type_adapter.hpp"\x1b[m\x1b[K\n'}
+[4.376548] (cv_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.376621] (cv_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[4.378926] (cv_bridge) StderrLine: {'line': b'make[2]: *** [src/CMakeFiles/cv_bridge.dir/build.make:76: src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o] Error 1\n'}
+[4.379102] (cv_bridge) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[4.406498] (-) TimerEvent: {}
+[4.506823] (-) TimerEvent: {}
+[4.607178] (-) TimerEvent: {}
+[4.707466] (-) TimerEvent: {}
+[4.807796] (-) TimerEvent: {}
+[4.908160] (-) TimerEvent: {}
+[5.008447] (-) TimerEvent: {}
+[5.108725] (-) TimerEvent: {}
+[5.208993] (-) TimerEvent: {}
+[5.216838] (cv_bridge) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.260329] (cv_bridge) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[5.309097] (-) TimerEvent: {}
+[5.362277] (image_geometry) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.409202] (-) TimerEvent: {}
+[5.428997] (image_geometry) StdoutLine: {'line': b'[ 63%] Built target gtest\n'}
+[5.442966] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_geometry-utest\x1b[0m\n'}
+[5.443244] (image_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_geometry-utest-equi\x1b[0m\n'}
+[5.478895] (image_geometry) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/CMakeFiles/image_geometry-utest.dir/utest.cpp.o\x1b[0m\n'}
+[5.479264] (image_geometry) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/CMakeFiles/image_geometry-utest-equi.dir/utest_equi.cpp.o\x1b[0m\n'}
+[5.509333] (-) TimerEvent: {}
+[5.609766] (-) TimerEvent: {}
+[5.710138] (-) TimerEvent: {}
+[5.810414] (-) TimerEvent: {}
+[5.910859] (-) TimerEvent: {}
+[6.011350] (-) TimerEvent: {}
+[6.111668] (-) TimerEvent: {}
+[6.211998] (-) TimerEvent: {}
+[6.312371] (-) TimerEvent: {}
+[6.412716] (-) TimerEvent: {}
+[6.512977] (-) TimerEvent: {}
+[6.613394] (-) TimerEvent: {}
+[6.717026] (-) TimerEvent: {}
+[6.817747] (-) TimerEvent: {}
+[6.853253] (gazebo_msgs) StdoutLine: {'line': b'[  0%] Built target gazebo_msgs__cpp\n'}
+[6.869249] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.869592] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.869724] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.919715] (-) TimerEvent: {}
+[7.023030] (-) TimerEvent: {}
+[7.125202] (-) TimerEvent: {}
+[7.225581] (-) TimerEvent: {}
+[7.247552] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_generator_c\x1b[0m\n'}
+[7.300144] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/entity_state__functions.c.o\x1b[0m\n'}
+[7.301577] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/link_state__functions.c.o\x1b[0m\n'}
+[7.301834] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/performance_metrics__functions.c.o\x1b[0m\n'}
+[7.302855] (gazebo_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/model_states__functions.c.o\x1b[0m\n'}
+[7.303058] (gazebo_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/model_state__functions.c.o\x1b[0m\n'}
+[7.303210] (gazebo_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/contact_state__functions.c.o\x1b[0m\n'}
+[7.303981] (gazebo_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/contacts_state__functions.c.o\x1b[0m\n'}
+[7.307227] (gazebo_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/ode_physics__functions.c.o\x1b[0m\n'}
+[7.310042] (gazebo_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/ode_joint_properties__functions.c.o\x1b[0m\n'}
+[7.311553] (gazebo_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/sensor_performance_metric__functions.c.o\x1b[0m\n'}
+[7.311799] (gazebo_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/link_states__functions.c.o\x1b[0m\n'}
+[7.315093] (gazebo_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/world_state__functions.c.o\x1b[0m\n'}
+[7.318051] (gazebo_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/msg/detail/wheel_slip__functions.c.o\x1b[0m\n'}
+[7.326681] (-) TimerEvent: {}
+[7.394577] (gazebo_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/apply_body_wrench__functions.c.o\x1b[0m\n'}
+[7.407492] (gazebo_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/body_request__functions.c.o\x1b[0m\n'}
+[7.412224] (gazebo_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/apply_link_wrench__functions.c.o\x1b[0m\n'}
+[7.412994] (gazebo_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/apply_joint_effort__functions.c.o\x1b[0m\n'}
+[7.413202] (gazebo_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/delete_light__functions.c.o\x1b[0m\n'}
+[7.413341] (gazebo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/delete_model__functions.c.o\x1b[0m\n'}
+[7.417600] (gazebo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/delete_entity__functions.c.o\x1b[0m\n'}
+[7.426789] (-) TimerEvent: {}
+[7.428379] (gazebo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_joint_properties__functions.c.o\x1b[0m\n'}
+[7.441528] (gazebo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_link_properties__functions.c.o\x1b[0m\n'}
+[7.450225] (gazebo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_entity_state__functions.c.o\x1b[0m\n'}
+[7.453522] (gazebo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_link_state__functions.c.o\x1b[0m\n'}
+[7.453831] (gazebo_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_light_properties__functions.c.o\x1b[0m\n'}
+[7.475907] (gazebo_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_model_list__functions.c.o\x1b[0m\n'}
+[7.517022] (gazebo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_model_properties__functions.c.o\x1b[0m\n'}
+[7.517489] (gazebo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_model_state__functions.c.o\x1b[0m\n'}
+[7.528034] (-) TimerEvent: {}
+[7.533282] (gazebo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_physics_properties__functions.c.o\x1b[0m\n'}
+[7.558022] (gazebo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/link_request__functions.c.o\x1b[0m\n'}
+[7.558403] (gazebo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/joint_request__functions.c.o\x1b[0m\n'}
+[7.558636] (gazebo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/get_world_properties__functions.c.o\x1b[0m\n'}
+[7.574890] (gazebo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_joint_properties__functions.c.o\x1b[0m\n'}
+[7.583107] (gazebo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_entity_state__functions.c.o\x1b[0m\n'}
+[7.584231] (gazebo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_joint_trajectory__functions.c.o\x1b[0m\n'}
+[7.591170] (gazebo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_link_properties__functions.c.o\x1b[0m\n'}
+[7.591415] (gazebo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_light_properties__functions.c.o\x1b[0m\n'}
+[7.607362] (gazebo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_model_configuration__functions.c.o\x1b[0m\n'}
+[7.609016] (gazebo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_link_state__functions.c.o\x1b[0m\n'}
+[7.628145] (-) TimerEvent: {}
+[7.654709] (gazebo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_physics_properties__functions.c.o\x1b[0m\n'}
+[7.657282] (gazebo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/set_model_state__functions.c.o\x1b[0m\n'}
+[7.675961] (image_geometry) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable image_geometry-utest-equi\x1b[0m\n'}
+[7.682140] (gazebo_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/spawn_entity__functions.c.o\x1b[0m\n'}
+[7.684719] (gazebo_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/rosidl_generator_c/gazebo_msgs/srv/detail/spawn_model__functions.c.o\x1b[0m\n'}
+[7.728260] (-) TimerEvent: {}
+[7.749492] (image_geometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_geometry-utest\x1b[0m\n'}
+[7.769718] (gazebo_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libgazebo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.828406] (-) TimerEvent: {}
+[7.845939] (gazebo_msgs) StdoutLine: {'line': b'[ 13%] Built target gazebo_msgs__rosidl_generator_c\n'}
+[7.866553] (gazebo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.868554] (cv_bridge) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[7.868776] (gazebo_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.921310] (image_geometry) StdoutLine: {'line': b'[100%] Built target image_geometry-utest-equi\n'}
+[7.928503] (-) TimerEvent: {}
+[7.951569] (cv_bridge) StdoutLine: {'line': b'[ 38%] Built target gtest\n'}
+[7.954733] (image_geometry) StdoutLine: {'line': b'[100%] Built target image_geometry-utest\n'}
+[7.975775] (image_geometry) CommandEnded: {'returncode': 0}
+[8.013591] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'install'}
+[8.016038] (image_geometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/project/build/image_geometry'], 'cwd': '/app/project/build/image_geometry', 'env': OrderedDict([('HOSTNAME', 'joao41-Victus-by-HP-Laptop-16-e0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/app'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/app/project/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy'), ('PWD', '/app/project/build/image_geometry'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/foxy/lib'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/project/install/square_controller:/app/project/install/packge:/opt/ros/foxy')]), 'shell': False}
+[8.027739] (image_geometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.028064] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/environment/pythonpath.sh\n'}
+[8.028227] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/environment/pythonpath.dsv\n'}
+[8.028415] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/lib/python3.8/site-packages/image_geometry\n'}
+[8.028526] (-) TimerEvent: {}
+[8.028735] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py\n'}
+[8.029267] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py\n'}
+[8.062286] (image_geometry) StdoutLine: {'line': b"Listing '/app/project/install/image_geometry/lib/python3.8/site-packages/image_geometry'...\n"}
+[8.062513] (image_geometry) StdoutLine: {'line': b"Compiling '/app/project/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py'...\n"}
+[8.062640] (image_geometry) StdoutLine: {'line': b"Compiling '/app/project/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py'...\n"}
+[8.066504] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/include/image_geometry\n'}
+[8.066688] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/include/image_geometry/image_geometry\n'}
+[8.066828] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.hpp\n'}
+[8.066973] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.hpp\n'}
+[8.067137] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp\n'}
+[8.067402] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/lib/libimage_geometry.so\n'}
+[8.068032] (image_geometry) StdoutLine: {'line': b'-- Set runtime path of "/app/project/install/image_geometry/lib/libimage_geometry.so" to ""\n'}
+[8.068442] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry\n'}
+[8.068675] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry\n'}
+[8.068856] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh\n'}
+[8.069053] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv\n'}
+[8.069227] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/environment/path.sh\n'}
+[8.069411] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/environment/path.dsv\n'}
+[8.069576] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/local_setup.bash\n'}
+[8.069766] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/local_setup.sh\n'}
+[8.069946] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/local_setup.zsh\n'}
+[8.070116] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/local_setup.dsv\n'}
+[8.070290] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/package.dsv\n'}
+[8.070525] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/ament_index/resource_index/packages/image_geometry\n'}
+[8.070753] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake\n'}
+[8.070915] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake\n'}
+[8.071079] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.071242] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.071400] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake\n'}
+[8.071512] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake\n'}
+[8.071657] (image_geometry) StdoutLine: {'line': b'-- Installing: /app/project/install/image_geometry/share/image_geometry/package.xml\n'}
+[8.073842] (image_geometry) CommandEnded: {'returncode': 0}
+[8.128652] (-) TimerEvent: {}
+[8.135266] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 0}
+[8.228781] (-) TimerEvent: {}
+[8.329188] (-) TimerEvent: {}
+[8.429469] (-) TimerEvent: {}
+[8.529753] (-) TimerEvent: {}
+[8.629983] (-) TimerEvent: {}
+[8.730302] (-) TimerEvent: {}
+[8.830552] (-) TimerEvent: {}
+[8.917259] (cv_bridge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:221: src/CMakeFiles/cv_bridge.dir/all] Error 2\n'}
+[8.917486] (cv_bridge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.920562] (cv_bridge) CommandEnded: {'returncode': 2}
+[8.930678] (-) TimerEvent: {}
+[8.959831] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 2}
+[9.030768] (-) TimerEvent: {}
+[9.131061] (-) TimerEvent: {}
+[9.231305] (-) TimerEvent: {}
+[9.331569] (-) TimerEvent: {}
+[9.431876] (-) TimerEvent: {}
+[9.532164] (-) TimerEvent: {}
+[9.632411] (-) TimerEvent: {}
+[9.732709] (-) TimerEvent: {}
+[9.832981] (-) TimerEvent: {}
+[9.933233] (-) TimerEvent: {}
+[10.033487] (-) TimerEvent: {}
+[10.130403] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.133566] (-) TimerEvent: {}
+[10.169553] (gazebo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/ode_physics__type_support.cpp.o\x1b[0m\n'}
+[10.169918] (gazebo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/contacts_state__type_support.cpp.o\x1b[0m\n'}
+[10.170166] (gazebo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/sensor_performance_metric__type_support.cpp.o\x1b[0m\n'}
+[10.170297] (gazebo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/performance_metrics__type_support.cpp.o\x1b[0m\n'}
+[10.170401] (gazebo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/contact_state__type_support.cpp.o\x1b[0m\n'}
+[10.170489] (gazebo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/entity_state__type_support.cpp.o\x1b[0m\n'}
+[10.170572] (gazebo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/wheel_slip__type_support.cpp.o\x1b[0m\n'}
+[10.170657] (gazebo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/link_state__type_support.cpp.o\x1b[0m\n'}
+[10.170739] (gazebo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/ode_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[10.170817] (gazebo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/link_states__type_support.cpp.o\x1b[0m\n'}
+[10.170902] (gazebo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/model_state__type_support.cpp.o\x1b[0m\n'}
+[10.170983] (gazebo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/model_states__type_support.cpp.o\x1b[0m\n'}
+[10.233752] (-) TimerEvent: {}
+[10.335132] (-) TimerEvent: {}
+[10.438993] (-) TimerEvent: {}
+[10.539361] (-) TimerEvent: {}
+[10.576982] (gazebo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/apply_body_wrench__type_support.cpp.o\x1b[0m\n'}
+[10.577256] (gazebo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/msg/world_state__type_support.cpp.o\x1b[0m\n'}
+[10.587693] (gazebo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/apply_joint_effort__type_support.cpp.o\x1b[0m\n'}
+[10.588117] (gazebo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/apply_link_wrench__type_support.cpp.o\x1b[0m\n'}
+[10.593580] (gazebo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/body_request__type_support.cpp.o\x1b[0m\n'}
+[10.593957] (gazebo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[10.603357] (gazebo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/delete_light__type_support.cpp.o\x1b[0m\n'}
+[10.612295] (gazebo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/delete_model__type_support.cpp.o\x1b[0m\n'}
+[10.624831] (gazebo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[10.625209] (gazebo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_entity_state__type_support.cpp.o\x1b[0m\n'}
+[10.641004] (-) TimerEvent: {}
+[10.657790] (gazebo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_light_properties__type_support.cpp.o\x1b[0m\n'}
+[10.676761] (gazebo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_link_properties__type_support.cpp.o\x1b[0m\n'}
+[10.741109] (-) TimerEvent: {}
+[10.845146] (-) TimerEvent: {}
+[10.945542] (-) TimerEvent: {}
+[11.010409] (gazebo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_link_state__type_support.cpp.o\x1b[0m\n'}
+[11.016025] (gazebo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_model_list__type_support.cpp.o\x1b[0m\n'}
+[11.016362] (gazebo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_model_properties__type_support.cpp.o\x1b[0m\n'}
+[11.023872] (gazebo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_model_state__type_support.cpp.o\x1b[0m\n'}
+[11.032038] (gazebo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[11.045657] (-) TimerEvent: {}
+[11.054452] (gazebo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/get_world_properties__type_support.cpp.o\x1b[0m\n'}
+[11.056478] (gazebo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/joint_request__type_support.cpp.o\x1b[0m\n'}
+[11.100025] (gazebo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/link_request__type_support.cpp.o\x1b[0m\n'}
+[11.105108] (gazebo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_entity_state__type_support.cpp.o\x1b[0m\n'}
+[11.110159] (gazebo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[11.132604] (gazebo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_joint_trajectory__type_support.cpp.o\x1b[0m\n'}
+[11.145891] (-) TimerEvent: {}
+[11.158977] (gazebo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_light_properties__type_support.cpp.o\x1b[0m\n'}
+[11.247503] (-) TimerEvent: {}
+[11.348000] (-) TimerEvent: {}
+[11.448471] (-) TimerEvent: {}
+[11.489865] (gazebo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_link_properties__type_support.cpp.o\x1b[0m\n'}
+[11.490296] (gazebo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_link_state__type_support.cpp.o\x1b[0m\n'}
+[11.493138] (gazebo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_model_configuration__type_support.cpp.o\x1b[0m\n'}
+[11.505256] (gazebo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_model_state__type_support.cpp.o\x1b[0m\n'}
+[11.523516] (gazebo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/set_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[11.527631] (gazebo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[11.548636] (-) TimerEvent: {}
+[11.552978] (gazebo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_msgs/srv/spawn_model__type_support.cpp.o\x1b[0m\n'}
+[11.650009] (-) TimerEvent: {}
+[11.677067] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[11.704355] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[11.732988] (gazebo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/contact_state__type_support.cpp.o\x1b[0m\n'}
+[11.741751] (gazebo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/contacts_state__type_support.cpp.o\x1b[0m\n'}
+[11.742148] (gazebo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/entity_state__type_support.cpp.o\x1b[0m\n'}
+[11.742352] (gazebo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/link_state__type_support.cpp.o\x1b[0m\n'}
+[11.751013] (-) TimerEvent: {}
+[11.756699] (gazebo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/model_state__type_support.cpp.o\x1b[0m\n'}
+[11.757092] (gazebo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/link_states__type_support.cpp.o\x1b[0m\n'}
+[11.763599] (gazebo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/contact_state__type_support.cpp.o\x1b[0m\n'}
+[11.793011] (gazebo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/contacts_state__type_support.cpp.o\x1b[0m\n'}
+[11.808172] (gazebo_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/entity_state__type_support.cpp.o\x1b[0m\n'}
+[11.811608] (gazebo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/link_state__type_support.cpp.o\x1b[0m\n'}
+[11.819286] (gazebo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/model_states__type_support.cpp.o\x1b[0m\n'}
+[11.827727] (gazebo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/ode_physics__type_support.cpp.o\x1b[0m\n'}
+[11.828775] (gazebo_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/ode_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[11.851121] (-) TimerEvent: {}
+[11.883945] (gazebo_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/link_states__type_support.cpp.o\x1b[0m\n'}
+[11.905056] (gazebo_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/model_state__type_support.cpp.o\x1b[0m\n'}
+[11.906848] (gazebo_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/performance_metrics__type_support.cpp.o\x1b[0m\n'}
+[11.922629] (gazebo_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/model_states__type_support.cpp.o\x1b[0m\n'}
+[11.940727] (gazebo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/sensor_performance_metric__type_support.cpp.o\x1b[0m\n'}
+[11.946325] (gazebo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/wheel_slip__type_support.cpp.o\x1b[0m\n'}
+[11.947544] (gazebo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/msg/world_state__type_support.cpp.o\x1b[0m\n'}
+[11.951235] (-) TimerEvent: {}
+[11.962864] (gazebo_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/ode_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[11.980959] (gazebo_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/ode_physics__type_support.cpp.o\x1b[0m\n'}
+[12.002062] (gazebo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/sensor_performance_metric__type_support.cpp.o\x1b[0m\n'}
+[12.007031] (gazebo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/apply_body_wrench__type_support.cpp.o\x1b[0m\n'}
+[12.007399] (gazebo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/performance_metrics__type_support.cpp.o\x1b[0m\n'}
+[12.017702] (gazebo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/wheel_slip__type_support.cpp.o\x1b[0m\n'}
+[12.018041] (gazebo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.051521] (-) TimerEvent: {}
+[12.075023] (gazebo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/apply_link_wrench__type_support.cpp.o\x1b[0m\n'}
+[12.127173] (gazebo_msgs) StdoutLine: {'line': b'[ 34%] Built target gazebo_msgs__rosidl_typesupport_cpp\n'}
+[12.149899] (gazebo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/apply_joint_effort__type_support.cpp.o\x1b[0m\n'}
+[12.152999] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[12.153317] (-) TimerEvent: {}
+[12.157208] (gazebo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/msg/detail/world_state__type_support.cpp.o\x1b[0m\n'}
+[12.209023] (gazebo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/body_request__type_support.cpp.o\x1b[0m\n'}
+[12.254784] (-) TimerEvent: {}
+[12.261306] (gazebo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[12.278257] (gazebo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/contact_state__type_support.cpp.o\x1b[0m\n'}
+[12.278667] (gazebo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/delete_light__type_support.cpp.o\x1b[0m\n'}
+[12.297193] (gazebo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/delete_model__type_support.cpp.o\x1b[0m\n'}
+[12.341408] (gazebo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/contacts_state__type_support.cpp.o\x1b[0m\n'}
+[12.343653] (gazebo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/apply_body_wrench__type_support.cpp.o\x1b[0m\n'}
+[12.354941] (-) TimerEvent: {}
+[12.360845] (gazebo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[12.391485] (gazebo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_entity_state__type_support.cpp.o\x1b[0m\n'}
+[12.401473] (gazebo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/entity_state__type_support.cpp.o\x1b[0m\n'}
+[12.439093] (gazebo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/apply_link_wrench__type_support.cpp.o\x1b[0m\n'}
+[12.441304] (gazebo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_light_properties__type_support.cpp.o\x1b[0m\n'}
+[12.443124] (gazebo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_link_properties__type_support.cpp.o\x1b[0m\n'}
+[12.444371] (gazebo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/apply_joint_effort__type_support.cpp.o\x1b[0m\n'}
+[12.456192] (-) TimerEvent: {}
+[12.459123] (gazebo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/body_request__type_support.cpp.o\x1b[0m\n'}
+[12.484425] (gazebo_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/link_state__type_support.cpp.o\x1b[0m\n'}
+[12.494352] (gazebo_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_link_state__type_support.cpp.o\x1b[0m\n'}
+[12.515677] (gazebo_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/link_states__type_support.cpp.o\x1b[0m\n'}
+[12.553010] (gazebo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_model_list__type_support.cpp.o\x1b[0m\n'}
+[12.554500] (gazebo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/model_state__type_support.cpp.o\x1b[0m\n'}
+[12.556290] (-) TimerEvent: {}
+[12.562963] (gazebo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/model_states__type_support.cpp.o\x1b[0m\n'}
+[12.563334] (gazebo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_model_properties__type_support.cpp.o\x1b[0m\n'}
+[12.619011] (gazebo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/ode_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[12.623107] (gazebo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_model_state__type_support.cpp.o\x1b[0m\n'}
+[12.623844] (gazebo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/ode_physics__type_support.cpp.o\x1b[0m\n'}
+[12.656429] (-) TimerEvent: {}
+[12.681554] (gazebo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[12.742201] (gazebo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/get_world_properties__type_support.cpp.o\x1b[0m\n'}
+[12.756553] (-) TimerEvent: {}
+[12.812384] (gazebo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/joint_request__type_support.cpp.o\x1b[0m\n'}
+[12.827492] (gazebo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/performance_metrics__type_support.cpp.o\x1b[0m\n'}
+[12.856701] (-) TimerEvent: {}
+[12.880618] (gazebo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/link_request__type_support.cpp.o\x1b[0m\n'}
+[12.882695] (gazebo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/sensor_performance_metric__type_support.cpp.o\x1b[0m\n'}
+[12.903228] (gazebo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_entity_state__type_support.cpp.o\x1b[0m\n'}
+[12.939105] (gazebo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[12.942872] (gazebo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[12.955750] (gazebo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/wheel_slip__type_support.cpp.o\x1b[0m\n'}
+[12.956767] (-) TimerEvent: {}
+[12.966761] (gazebo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/delete_light__type_support.cpp.o\x1b[0m\n'}
+[12.997029] (gazebo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_joint_trajectory__type_support.cpp.o\x1b[0m\n'}
+[13.057782] (gazebo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_light_properties__type_support.cpp.o\x1b[0m\n'}
+[13.058124] (-) TimerEvent: {}
+[13.112098] (gazebo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/delete_model__type_support.cpp.o\x1b[0m\n'}
+[13.124731] (gazebo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_link_properties__type_support.cpp.o\x1b[0m\n'}
+[13.132472] (gazebo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[13.132837] (gazebo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/msg/detail/dds_fastrtps/world_state__type_support.cpp.o\x1b[0m\n'}
+[13.155896] (gazebo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_link_state__type_support.cpp.o\x1b[0m\n'}
+[13.159079] (-) TimerEvent: {}
+[13.211484] (gazebo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_entity_state__type_support.cpp.o\x1b[0m\n'}
+[13.215982] (gazebo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_model_configuration__type_support.cpp.o\x1b[0m\n'}
+[13.225022] (gazebo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_light_properties__type_support.cpp.o\x1b[0m\n'}
+[13.259224] (-) TimerEvent: {}
+[13.269839] (gazebo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_model_state__type_support.cpp.o\x1b[0m\n'}
+[13.335046] (gazebo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/set_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[13.359439] (-) TimerEvent: {}
+[13.365153] (gazebo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_link_properties__type_support.cpp.o\x1b[0m\n'}
+[13.365518] (gazebo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[13.395364] (gazebo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_link_state__type_support.cpp.o\x1b[0m\n'}
+[13.414408] (gazebo_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_model_list__type_support.cpp.o\x1b[0m\n'}
+[13.426134] (gazebo_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_msgs/srv/spawn_model__type_support.cpp.o\x1b[0m\n'}
+[13.426507] (gazebo_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_model_properties__type_support.cpp.o\x1b[0m\n'}
+[13.447850] (gazebo_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/apply_body_wrench__type_support.cpp.o\x1b[0m\n'}
+[13.459570] (-) TimerEvent: {}
+[13.482814] (gazebo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.524952] (gazebo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_model_state__type_support.cpp.o\x1b[0m\n'}
+[13.544268] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.546022] (gazebo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[13.558902] (gazebo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/get_world_properties__type_support.cpp.o\x1b[0m\n'}
+[13.559858] (-) TimerEvent: {}
+[13.582604] (gazebo_msgs) StdoutLine: {'line': b'[ 51%] Built target gazebo_msgs__rosidl_typesupport_c\n'}
+[13.603285] (gazebo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/joint_request__type_support.cpp.o\x1b[0m\n'}
+[13.603754] (gazebo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/apply_link_wrench__type_support.cpp.o\x1b[0m\n'}
+[13.641036] (gazebo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/contact_state__type_support.c.o\x1b[0m\n'}
+[13.660038] (-) TimerEvent: {}
+[13.662657] (gazebo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/apply_joint_effort__type_support.cpp.o\x1b[0m\n'}
+[13.712057] (gazebo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/body_request__type_support.cpp.o\x1b[0m\n'}
+[13.718350] (gazebo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/contacts_state__type_support.c.o\x1b[0m\n'}
+[13.718839] (gazebo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[13.760157] (-) TimerEvent: {}
+[13.772424] (gazebo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/entity_state__type_support.c.o\x1b[0m\n'}
+[13.790361] (gazebo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/link_request__type_support.cpp.o\x1b[0m\n'}
+[13.853852] (gazebo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/link_state__type_support.c.o\x1b[0m\n'}
+[13.861294] (-) TimerEvent: {}
+[13.874328] (gazebo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/link_states__type_support.c.o\x1b[0m\n'}
+[13.879548] (gazebo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/model_state__type_support.c.o\x1b[0m\n'}
+[13.934843] (gazebo_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/model_states__type_support.c.o\x1b[0m\n'}
+[13.947330] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_entity_state__type_support.cpp.o\x1b[0m\n'}
+[13.947701] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/delete_light__type_support.cpp.o\x1b[0m\n'}
+[13.964046] (-) TimerEvent: {}
+[13.968027] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/ode_joint_properties__type_support.c.o\x1b[0m\n'}
+[13.982777] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/ode_physics__type_support.c.o\x1b[0m\n'}
+[13.993697] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/performance_metrics__type_support.c.o\x1b[0m\n'}
+[14.016895] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/delete_model__type_support.cpp.o\x1b[0m\n'}
+[14.042045] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_entity_state__type_support.cpp.o\x1b[0m\n'}
+[14.042449] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[14.054639] (gazebo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[14.064189] (-) TimerEvent: {}
+[14.071689] (gazebo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/sensor_performance_metric__type_support.c.o\x1b[0m\n'}
+[14.084737] (gazebo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_joint_trajectory__type_support.cpp.o\x1b[0m\n'}
+[14.092317] (gazebo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_light_properties__type_support.cpp.o\x1b[0m\n'}
+[14.095104] (gazebo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/wheel_slip__type_support.c.o\x1b[0m\n'}
+[14.134236] (gazebo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_link_properties__type_support.cpp.o\x1b[0m\n'}
+[14.134707] (gazebo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_link_state__type_support.cpp.o\x1b[0m\n'}
+[14.159023] (gazebo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/msg/detail/world_state__type_support.c.o\x1b[0m\n'}
+[14.164309] (-) TimerEvent: {}
+[14.237295] (gazebo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/apply_body_wrench__type_support.c.o\x1b[0m\n'}
+[14.260243] (gazebo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_model_list__type_support.cpp.o\x1b[0m\n'}
+[14.264438] (-) TimerEvent: {}
+[14.318708] (gazebo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/apply_link_wrench__type_support.c.o\x1b[0m\n'}
+[14.319129] (gazebo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_light_properties__type_support.cpp.o\x1b[0m\n'}
+[14.354620] (gazebo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/apply_joint_effort__type_support.c.o\x1b[0m\n'}
+[14.364622] (-) TimerEvent: {}
+[14.391858] (gazebo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_link_state__type_support.cpp.o\x1b[0m\n'}
+[14.392297] (gazebo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_link_properties__type_support.cpp.o\x1b[0m\n'}
+[14.414497] (gazebo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_model_configuration__type_support.cpp.o\x1b[0m\n'}
+[14.427015] (gazebo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/body_request__type_support.c.o\x1b[0m\n'}
+[14.427371] (gazebo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_model_state__type_support.cpp.o\x1b[0m\n'}
+[14.464751] (-) TimerEvent: {}
+[14.496073] (gazebo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/delete_entity__type_support.c.o\x1b[0m\n'}
+[14.533359] (gazebo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/delete_light__type_support.c.o\x1b[0m\n'}
+[14.563150] (gazebo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_model_properties__type_support.cpp.o\x1b[0m\n'}
+[14.564851] (-) TimerEvent: {}
+[14.605799] (gazebo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/delete_model__type_support.c.o\x1b[0m\n'}
+[14.606173] (gazebo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_model_state__type_support.cpp.o\x1b[0m\n'}
+[14.658601] (gazebo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_joint_properties__type_support.c.o\x1b[0m\n'}
+[14.667031] (-) TimerEvent: {}
+[14.682069] (gazebo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_entity_state__type_support.c.o\x1b[0m\n'}
+[14.724967] (gazebo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_light_properties__type_support.c.o\x1b[0m\n'}
+[14.726740] (gazebo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/set_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[14.727734] (gazebo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[14.768051] (gazebo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[14.768414] (-) TimerEvent: {}
+[14.802101] (gazebo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_link_properties__type_support.c.o\x1b[0m\n'}
+[14.802432] (gazebo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/get_world_properties__type_support.cpp.o\x1b[0m\n'}
+[14.802657] (gazebo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/joint_request__type_support.cpp.o\x1b[0m\n'}
+[14.818189] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_link_state__type_support.c.o\x1b[0m\n'}
+[14.863748] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_model_list__type_support.c.o\x1b[0m\n'}
+[14.867825] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_model_properties__type_support.c.o\x1b[0m\n'}
+[14.869152] (-) TimerEvent: {}
+[14.878275] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/link_request__type_support.cpp.o\x1b[0m\n'}
+[14.885872] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_msgs/srv/detail/spawn_model__type_support.cpp.o\x1b[0m\n'}
+[14.904885] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_model_state__type_support.c.o\x1b[0m\n'}
+[14.911304] (gazebo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_entity_state__type_support.cpp.o\x1b[0m\n'}
+[14.934201] (gazebo_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_joint_properties__type_support.cpp.o\x1b[0m\n'}
+[14.935115] (gazebo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_physics_properties__type_support.c.o\x1b[0m\n'}
+[14.938287] (gazebo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/get_world_properties__type_support.c.o\x1b[0m\n'}
+[14.970046] (-) TimerEvent: {}
+[14.975431] (gazebo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_joint_trajectory__type_support.cpp.o\x1b[0m\n'}
+[15.004967] (gazebo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_light_properties__type_support.cpp.o\x1b[0m\n'}
+[15.009169] (gazebo_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_link_properties__type_support.cpp.o\x1b[0m\n'}
+[15.009515] (gazebo_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/joint_request__type_support.c.o\x1b[0m\n'}
+[15.032326] (gazebo_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/link_request__type_support.c.o\x1b[0m\n'}
+[15.070197] (-) TimerEvent: {}
+[15.081089] (gazebo_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_link_state__type_support.cpp.o\x1b[0m\n'}
+[15.099519] (gazebo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_entity_state__type_support.c.o\x1b[0m\n'}
+[15.167886] (gazebo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_joint_properties__type_support.c.o\x1b[0m\n'}
+[15.170289] (-) TimerEvent: {}
+[15.211189] (gazebo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_joint_trajectory__type_support.c.o\x1b[0m\n'}
+[15.242392] (gazebo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_light_properties__type_support.c.o\x1b[0m\n'}
+[15.255136] (gazebo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_model_configuration__type_support.cpp.o\x1b[0m\n'}
+[15.270434] (-) TimerEvent: {}
+[15.287032] (gazebo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_link_properties__type_support.c.o\x1b[0m\n'}
+[15.302845] (gazebo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_model_state__type_support.cpp.o\x1b[0m\n'}
+[15.319065] (gazebo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/set_physics_properties__type_support.cpp.o\x1b[0m\n'}
+[15.331047] (gazebo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[15.360037] (gazebo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_link_state__type_support.c.o\x1b[0m\n'}
+[15.370577] (-) TimerEvent: {}
+[15.420331] (gazebo_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.430155] (gazebo_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_model_configuration__type_support.c.o\x1b[0m\n'}
+[15.452427] (gazebo_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_msgs/srv/detail/dds_fastrtps/spawn_model__type_support.cpp.o\x1b[0m\n'}
+[15.470688] (-) TimerEvent: {}
+[15.475026] (gazebo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_model_state__type_support.c.o\x1b[0m\n'}
+[15.506344] (gazebo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/set_physics_properties__type_support.c.o\x1b[0m\n'}
+[15.537557] (gazebo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/spawn_entity__type_support.c.o\x1b[0m\n'}
+[15.566658] (gazebo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_msgs/srv/detail/spawn_model__type_support.c.o\x1b[0m\n'}
+[15.570830] (-) TimerEvent: {}
+[15.634039] (gazebo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking C shared library libgazebo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.670961] (-) TimerEvent: {}
+[15.692345] (gazebo_msgs) StdoutLine: {'line': b'[ 75%] Built target gazebo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[15.703831] (gazebo_msgs) StdoutLine: {'line': b'[ 75%] Built target gazebo_msgs__rosidl_typesupport_introspection_c\n'}
+[15.771094] (-) TimerEvent: {}
+[15.871493] (-) TimerEvent: {}
+[15.904787] (gazebo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.971603] (-) TimerEvent: {}
+[16.029315] (gazebo_msgs) StdoutLine: {'line': b'[ 75%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[16.043717] (gazebo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.071684] (-) TimerEvent: {}
+[16.171917] (-) TimerEvent: {}
+[16.272161] (-) TimerEvent: {}
+[16.372430] (-) TimerEvent: {}
+[16.472789] (-) TimerEvent: {}
+[16.573034] (-) TimerEvent: {}
+[16.673267] (-) TimerEvent: {}
+[16.773496] (-) TimerEvent: {}
+[16.873717] (-) TimerEvent: {}
+[16.973955] (-) TimerEvent: {}
+[17.074182] (-) TimerEvent: {}
+[17.174453] (-) TimerEvent: {}
+[17.274755] (-) TimerEvent: {}
+[17.374982] (-) TimerEvent: {}
+[17.475264] (-) TimerEvent: {}
+[17.575503] (-) TimerEvent: {}
+[17.675732] (-) TimerEvent: {}
+[17.775971] (-) TimerEvent: {}
+[17.876238] (-) TimerEvent: {}
+[17.976613] (-) TimerEvent: {}
+[18.076975] (-) TimerEvent: {}
+[18.177216] (-) TimerEvent: {}
+[18.277445] (-) TimerEvent: {}
+[18.377681] (-) TimerEvent: {}
+[18.477902] (-) TimerEvent: {}
+[18.578138] (-) TimerEvent: {}
+[18.678370] (-) TimerEvent: {}
+[18.778623] (-) TimerEvent: {}
+[18.878847] (-) TimerEvent: {}
+[18.979120] (-) TimerEvent: {}
+[19.079352] (-) TimerEvent: {}
+[19.179598] (-) TimerEvent: {}
+[19.275744] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[19.279662] (-) TimerEvent: {}
+[19.364076] (gazebo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/link_states__type_support_c.cpp.o\x1b[0m\n'}
+[19.364512] (gazebo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/model_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.364676] (gazebo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/ode_joint_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.364854] (gazebo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/model_states__type_support_c.cpp.o\x1b[0m\n'}
+[19.364952] (gazebo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/contact_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.365046] (gazebo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/ode_physics__type_support_c.cpp.o\x1b[0m\n'}
+[19.365115] (gazebo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/performance_metrics__type_support_c.cpp.o\x1b[0m\n'}
+[19.365180] (gazebo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/contacts_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.365440] (gazebo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/wheel_slip__type_support_c.cpp.o\x1b[0m\n'}
+[19.365868] (gazebo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/world_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.366171] (gazebo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/sensor_performance_metric__type_support_c.cpp.o\x1b[0m\n'}
+[19.366266] (gazebo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/apply_body_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[19.366375] (gazebo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/apply_link_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[19.366471] (gazebo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/link_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.366732] (gazebo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/msg/detail/entity_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.372200] (gazebo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/apply_joint_effort__type_support_c.cpp.o\x1b[0m\n'}
+[19.379830] (-) TimerEvent: {}
+[19.483031] (-) TimerEvent: {}
+[19.583532] (-) TimerEvent: {}
+[19.684006] (-) TimerEvent: {}
+[19.784512] (-) TimerEvent: {}
+[19.885046] (-) TimerEvent: {}
+[19.893338] (gazebo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/body_request__type_support_c.cpp.o\x1b[0m\n'}
+[19.896569] (gazebo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/delete_entity__type_support_c.cpp.o\x1b[0m\n'}
+[19.902729] (gazebo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_joint_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.903143] (gazebo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/delete_light__type_support_c.cpp.o\x1b[0m\n'}
+[19.903329] (gazebo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/delete_model__type_support_c.cpp.o\x1b[0m\n'}
+[19.903471] (gazebo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_entity_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.908106] (gazebo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_light_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.913187] (gazebo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_link_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.926387] (gazebo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_link_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.931169] (gazebo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_model_list__type_support_c.cpp.o\x1b[0m\n'}
+[19.955052] (gazebo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_model_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.959124] (gazebo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_model_state__type_support_c.cpp.o\x1b[0m\n'}
+[19.979018] (gazebo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_physics_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.981663] (gazebo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/joint_request__type_support_c.cpp.o\x1b[0m\n'}
+[19.981962] (gazebo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/get_world_properties__type_support_c.cpp.o\x1b[0m\n'}
+[19.982141] (gazebo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/link_request__type_support_c.cpp.o\x1b[0m\n'}
+[19.985105] (-) TimerEvent: {}
+[20.085875] (-) TimerEvent: {}
+[20.189039] (-) TimerEvent: {}
+[20.289550] (-) TimerEvent: {}
+[20.390246] (-) TimerEvent: {}
+[20.445267] (gazebo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_entity_state__type_support_c.cpp.o\x1b[0m\n'}
+[20.455223] (gazebo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_joint_properties__type_support_c.cpp.o\x1b[0m\n'}
+[20.464681] (gazebo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_joint_trajectory__type_support_c.cpp.o\x1b[0m\n'}
+[20.468168] (gazebo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_light_properties__type_support_c.cpp.o\x1b[0m\n'}
+[20.470099] (gazebo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_link_state__type_support_c.cpp.o\x1b[0m\n'}
+[20.470441] (gazebo_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_link_properties__type_support_c.cpp.o\x1b[0m\n'}
+[20.473393] (gazebo_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_model_configuration__type_support_c.cpp.o\x1b[0m\n'}
+[20.479764] (gazebo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_model_state__type_support_c.cpp.o\x1b[0m\n'}
+[20.482583] (gazebo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/set_physics_properties__type_support_c.cpp.o\x1b[0m\n'}
+[20.486258] (gazebo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/spawn_entity__type_support_c.cpp.o\x1b[0m\n'}
+[20.490347] (-) TimerEvent: {}
+[20.503321] (gazebo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_msgs/srv/detail/spawn_model__type_support_c.cpp.o\x1b[0m\n'}
+[20.590494] (-) TimerEvent: {}
+[20.691028] (-) TimerEvent: {}
+[20.791664] (-) TimerEvent: {}
+[20.892292] (-) TimerEvent: {}
+[20.971612] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.992384] (-) TimerEvent: {}
+[21.078810] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[21.089690] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs\x1b[0m\n'}
+[21.092449] (-) TimerEvent: {}
+[21.102780] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] Built target gazebo_msgs\n'}
+[21.115248] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__py\x1b[0m\n'}
+[21.129248] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.192552] (-) TimerEvent: {}
+[21.292812] (-) TimerEvent: {}
+[21.393074] (-) TimerEvent: {}
+[21.493349] (-) TimerEvent: {}
+[21.593582] (-) TimerEvent: {}
+[21.693811] (-) TimerEvent: {}
+[21.794040] (-) TimerEvent: {}
+[21.894287] (-) TimerEvent: {}
+[21.994573] (-) TimerEvent: {}
+[22.094805] (-) TimerEvent: {}
+[22.195038] (-) TimerEvent: {}
+[22.295266] (-) TimerEvent: {}
+[22.395497] (-) TimerEvent: {}
+[22.495725] (-) TimerEvent: {}
+[22.595970] (-) TimerEvent: {}
+[22.696218] (-) TimerEvent: {}
+[22.796465] (-) TimerEvent: {}
+[22.896710] (-) TimerEvent: {}
+[22.996989] (-) TimerEvent: {}
+[23.097228] (-) TimerEvent: {}
+[23.197465] (-) TimerEvent: {}
+[23.297700] (-) TimerEvent: {}
+[23.397955] (-) TimerEvent: {}
+[23.498190] (-) TimerEvent: {}
+[23.598430] (-) TimerEvent: {}
+[23.698660] (-) TimerEvent: {}
+[23.798907] (-) TimerEvent: {}
+[23.899159] (-) TimerEvent: {}
+[23.999388] (-) TimerEvent: {}
+[24.099640] (-) TimerEvent: {}
+[24.199895] (-) TimerEvent: {}
+[24.300153] (-) TimerEvent: {}
+[24.400395] (-) TimerEvent: {}
+[24.500657] (-) TimerEvent: {}
+[24.600909] (-) TimerEvent: {}
+[24.701162] (-) TimerEvent: {}
+[24.801389] (-) TimerEvent: {}
+[24.901618] (-) TimerEvent: {}
+[25.001828] (-) TimerEvent: {}
+[25.102064] (-) TimerEvent: {}
+[25.202304] (-) TimerEvent: {}
+[25.302537] (-) TimerEvent: {}
+[25.402770] (-) TimerEvent: {}
+[25.502985] (-) TimerEvent: {}
+[25.603224] (-) TimerEvent: {}
+[25.703489] (-) TimerEvent: {}
+[25.803725] (-) TimerEvent: {}
+[25.903964] (-) TimerEvent: {}
+[26.004192] (-) TimerEvent: {}
+[26.104438] (-) TimerEvent: {}
+[26.204700] (-) TimerEvent: {}
+[26.304968] (-) TimerEvent: {}
+[26.405263] (-) TimerEvent: {}
+[26.505616] (-) TimerEvent: {}
+[26.605909] (-) TimerEvent: {}
+[26.706173] (-) TimerEvent: {}
+[26.806451] (-) TimerEvent: {}
+[26.906699] (-) TimerEvent: {}
+[27.006966] (-) TimerEvent: {}
+[27.107239] (-) TimerEvent: {}
+[27.207507] (-) TimerEvent: {}
+[27.307752] (-) TimerEvent: {}
+[27.407983] (-) TimerEvent: {}
+[27.508227] (-) TimerEvent: {}
+[27.608518] (-) TimerEvent: {}
+[27.708746] (-) TimerEvent: {}
+[27.808973] (-) TimerEvent: {}
+[27.909228] (-) TimerEvent: {}
+[28.009518] (-) TimerEvent: {}
+[28.109757] (-) TimerEvent: {}
+[28.209976] (-) TimerEvent: {}
+[28.310259] (-) TimerEvent: {}
+[28.345711] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] Built target gazebo_msgs__py\n'}
+[28.358710] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__python\x1b[0m\n'}
+[28.410329] (-) TimerEvent: {}
+[28.468986] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_link_state_s.c.o\x1b[0m\n'}
+[28.469404] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_link_states_s.c.o\x1b[0m\n'}
+[28.469513] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_contact_state_s.c.o\x1b[0m\n'}
+[28.469604] (gazebo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_model_state_s.c.o\x1b[0m\n'}
+[28.469690] (gazebo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_ode_physics_s.c.o\x1b[0m\n'}
+[28.469757] (gazebo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_entity_state_s.c.o\x1b[0m\n'}
+[28.469821] (gazebo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_model_states_s.c.o\x1b[0m\n'}
+[28.469885] (gazebo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_contacts_state_s.c.o\x1b[0m\n'}
+[28.469959] (gazebo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_ode_joint_properties_s.c.o\x1b[0m\n'}
+[28.470099] (gazebo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_sensor_performance_metric_s.c.o\x1b[0m\n'}
+[28.470182] (gazebo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_wheel_slip_s.c.o\x1b[0m\n'}
+[28.470249] (gazebo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_performance_metrics_s.c.o\x1b[0m\n'}
+[28.470312] (gazebo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/msg/_world_state_s.c.o\x1b[0m\n'}
+[28.470381] (gazebo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_apply_body_wrench_s.c.o\x1b[0m\n'}
+[28.470604] (gazebo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_apply_link_wrench_s.c.o\x1b[0m\n'}
+[28.476367] (gazebo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_apply_joint_effort_s.c.o\x1b[0m\n'}
+[28.510508] (-) TimerEvent: {}
+[28.613099] (-) TimerEvent: {}
+[28.624486] (gazebo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_delete_light_s.c.o\x1b[0m\n'}
+[28.624853] (gazebo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_delete_model_s.c.o\x1b[0m\n'}
+[28.625319] (gazebo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_body_request_s.c.o\x1b[0m\n'}
+[28.626340] (gazebo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_delete_entity_s.c.o\x1b[0m\n'}
+[28.626575] (gazebo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_joint_properties_s.c.o\x1b[0m\n'}
+[28.627524] (gazebo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_entity_state_s.c.o\x1b[0m\n'}
+[28.629024] (gazebo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_light_properties_s.c.o\x1b[0m\n'}
+[28.637412] (gazebo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_model_list_s.c.o\x1b[0m\n'}
+[28.637798] (gazebo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_model_properties_s.c.o\x1b[0m\n'}
+[28.638150] (gazebo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_model_state_s.c.o\x1b[0m\n'}
+[28.638361] (gazebo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_link_state_s.c.o\x1b[0m\n'}
+[28.639717] (gazebo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_link_properties_s.c.o\x1b[0m\n'}
+[28.647563] (gazebo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_physics_properties_s.c.o\x1b[0m\n'}
+[28.649672] (gazebo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_get_world_properties_s.c.o\x1b[0m\n'}
+[28.649959] (gazebo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_joint_request_s.c.o\x1b[0m\n'}
+[28.713313] (-) TimerEvent: {}
+[28.732971] (gazebo_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_link_request_s.c.o\x1b[0m\n'}
+[28.778730] (gazebo_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_entity_state_s.c.o\x1b[0m\n'}
+[28.780515] (gazebo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_joint_trajectory_s.c.o\x1b[0m\n'}
+[28.780884] (gazebo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_joint_properties_s.c.o\x1b[0m\n'}
+[28.787025] (gazebo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_link_properties_s.c.o\x1b[0m\n'}
+[28.787344] (gazebo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_light_properties_s.c.o\x1b[0m\n'}
+[28.799140] (gazebo_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_link_state_s.c.o\x1b[0m\n'}
+[28.800709] (gazebo_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_model_configuration_s.c.o\x1b[0m\n'}
+[28.804373] (gazebo_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_model_state_s.c.o\x1b[0m\n'}
+[28.806229] (gazebo_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_set_physics_properties_s.c.o\x1b[0m\n'}
+[28.813426] (-) TimerEvent: {}
+[28.816747] (gazebo_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_spawn_entity_s.c.o\x1b[0m\n'}
+[28.817164] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__python.dir/rosidl_generator_py/gazebo_msgs/srv/_spawn_model_s.c.o\x1b[0m\n'}
+[28.913566] (-) TimerEvent: {}
+[28.943534] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gazebo_msgs/libgazebo_msgs__python.so\x1b[0m\n'}
+[29.005827] (gazebo_msgs) StdoutLine: {'line': b'[100%] Built target gazebo_msgs__python\n'}
+[29.013678] (-) TimerEvent: {}
+[29.017246] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[29.017433] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[29.017563] (gazebo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[29.044674] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gazebo_msgs/_gazebo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.045383] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gazebo_msgs/_gazebo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.048166] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gazebo_msgs/_gazebo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.113770] (-) TimerEvent: {}
+[29.214056] (-) TimerEvent: {}
+[29.311647] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.311847] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.314117] (-) TimerEvent: {}
+[29.317597] (gazebo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[29.360918] (gazebo_msgs) StdoutLine: {'line': b'[100%] Built target gazebo_msgs__rosidl_typesupport_c__pyext\n'}
+[29.361126] (gazebo_msgs) StdoutLine: {'line': b'[100%] Built target gazebo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[29.397706] (gazebo_msgs) StdoutLine: {'line': b'[100%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.412360] (gazebo_msgs) JobEnded: {'identifier': 'gazebo_msgs', 'rc': 'SIGINT'}
+[29.414188] (-) TimerEvent: {}
+[29.422924] (gazebo_ros) JobSkipped: {'identifier': 'gazebo_ros'}
+[29.422987] (opencv_tests) JobSkipped: {'identifier': 'opencv_tests'}
+[29.423005] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[29.423019] (gazebo_plugins) JobSkipped: {'identifier': 'gazebo_plugins'}
+[29.423030] (gazebo_ros_pkgs) JobSkipped: {'identifier': 'gazebo_ros_pkgs'}
+[29.423042] (-) EventReactorShutdown: {}

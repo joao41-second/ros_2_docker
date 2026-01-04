@@ -1,0 +1,257 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    
+    <!-- Física -->
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Iluminação -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Chão -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Gravidade -->
+    <gravity>0 0 -9.8</gravity>
+
+    <!-- Modelo do Robô -->
+    <model name="simple_robot">
+      <pose>0 0 0.15 0 0 0</pose>
+      <static>false</static>
+
+      <!-- Base Footprint -->
+      <link name="base_footprint"/>
+
+      <!-- Base Link -->
+      <link name="base_link">
+        <pose relative_to="base_footprint">0 0 0.1 0 0 0</pose>
+        
+        <inertial>
+          <mass>10. 0</mass>
+          <inertia>
+            <ixx>0.4</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.4</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.4</izz>
+          </inertia>
+        </inertial>
+
+        <collision name="base_collision">
+          <geometry>
+            <box>
+              <size>0.6 0.4 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="base_visual">
+          <geometry>
+            <box>
+              <size>0.6 0.4 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0 0 0.8 1</ambient>
+            <diffuse>0 0 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Roda Esquerda -->
+      <link name="left_wheel">
+        <pose relative_to="base_link">0 0.225 -0.05 -1.5707 0 0</pose>
+        
+        <inertial>
+          <mass>1.0</mass>
+          <inertia>
+            <ixx>0.005</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.005</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.005</izz>
+          </inertia>
+        </inertial>
+
+        <collision name="left_wheel_collision">
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+
+        <visual name="left_wheel_visual">
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Roda Direita -->
+      <link name="right_wheel">
+        <pose relative_to="base_link">0 -0.225 -0.05 -1.5707 0 0</pose>
+        
+        <inertial>
+          <mass>1.0</mass>
+          <inertia>
+            <ixx>0.005</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.005</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.005</izz>
+          </inertia>
+        </inertial>
+
+        <collision name="right_wheel_collision">
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+
+        <visual name="right_wheel_visual">
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.05</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.1 0.1 0.1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Roda Caster (apoio) -->
+      <link name="caster_wheel">
+        <pose relative_to="base_link">-0.2 0 -0.15 0 0 0</pose>
+        
+        <inertial>
+          <mass>0.5</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>0.0</ixy>
+            <ixz>0.0</ixz>
+            <iyy>0.001</iyy>
+            <iyz>0.0</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+
+        <collision name="caster_collision">
+          <geometry>
+            <sphere>
+              <radius>0.05</radius>
+            </sphere>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.0</mu>
+                <mu2>0.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+
+        <visual name="caster_visual">
+          <geometry>
+            <sphere>
+              <radius>0.05</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Juntas -->
+      <joint name="base_joint" type="fixed">
+        <parent>base_footprint</parent>
+        <child>base_link</child>
+      </joint>
+
+      <joint name="left_wheel_joint" type="revolute">
+        <parent>base_link</parent>
+        <child>left_wheel</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+        </axis>
+      </joint>
+
+      <joint name="right_wheel_joint" type="revolute">
+        <parent>base_link</parent>
+        <child>right_wheel</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+        </axis>
+      </joint>
+
+      <joint name="caster_wheel_joint" type="fixed">
+        <parent>base_link</parent>
+        <child>caster_wheel</child>
+      </joint>
+
+      <!-- Plugin de controle diferencial -->
+      <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive. so">
+        <update_rate>50</update_rate>
+        <left_joint>left_wheel_joint</left_joint>
+        <right_joint>right_wheel_joint</right_joint>
+        <wheel_separation>0.45</wheel_separation>
+        <wheel_diameter>0.2</wheel_diameter>
+        <max_wheel_torque>20</max_wheel_torque>
+        <max_wheel_acceleration>1.0</max_wheel_acceleration>
+        <command_topic>cmd_vel</command_topic>
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+        <publish_wheel_tf>false</publish_wheel_tf>
+        <odometry_topic>odom</odometry_topic>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_footprint</robot_base_frame>
+      </plugin>
+
+    </model>
+
+  </world>
+</sdf>

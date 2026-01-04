@@ -1,0 +1,13 @@
+[0.055s] Invoking command in '/app/project/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/cv_bridge -- -j16 -l16
+[0.118s] [ 11%] Built target gtest_main
+[0.119s] [ 22%] Built target gtest
+[0.126s] [ 27%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o[0m
+[0.218s] In file included from [01m[K/app/project/doc_exemple/ws/src/vision_opencv/cv_bridge/src/cv_mat_sensor_msgs_image_type_adapter.cpp:26[m[K:
+[0.218s] [01m[K/app/project/doc_exemple/ws/src/vision_opencv/cv_bridge/src/../include/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/type_adapter.hpp: No such file or directory
+[0.218s]    24 | #include [01;31m[K"rclcpp/type_adapter.hpp"[m[K
+[0.218s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.218s] compilation terminated.
+[0.220s] make[2]: *** [src/CMakeFiles/cv_bridge.dir/build.make:76: src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o] Error 1
+[0.220s] make[1]: *** [CMakeFiles/Makefile2:221: src/CMakeFiles/cv_bridge.dir/all] Error 2
+[0.220s] make: *** [Makefile:141: all] Error 2
+[0.231s] Invoked command in '/app/project/build/cv_bridge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/cv_bridge -- -j16 -l16

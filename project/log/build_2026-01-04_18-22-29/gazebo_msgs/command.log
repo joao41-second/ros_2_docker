@@ -1,0 +1,1 @@
+Invoking command in '/app/project/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/gazebo_msgs -- -j16 -l16

@@ -1,0 +1,4 @@
+Invoking command in '/app/project/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/doc_exemple/ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/app/project/install/cv_bridge
+Invoked command in '/app/project/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/doc_exemple/ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/app/project/install/cv_bridge
+Invoking command in '/app/project/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/cv_bridge -- -j16 -l16
+Invoked command in '/app/project/build/cv_bridge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/cv_bridge -- -j16 -l16

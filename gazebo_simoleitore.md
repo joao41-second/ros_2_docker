@@ -14,7 +14,8 @@ add in trminal config file for set defenitive
 # start gazebo
 if start gazebo and use ros2 use the next command.
 ```
-gazebo world.world -s libgazebo_ros_factory.so
+gazebo world.world  
+ros2 launch gazebo_ros gazebo.launch.py -> this command avoid most problemes
 ```
 
 # spawn_entity in gazebo 
