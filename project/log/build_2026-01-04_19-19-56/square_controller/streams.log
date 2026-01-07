@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/app/project/build/square_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/image_geometry:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/square_controller -- -j16 -l16
+[0.070s] [35m[1mScanning dependencies of target square_motion[0m
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/square_motion.dir/src/square_motion.cpp.o[0m
+[2.522s] [100%] [32m[1mLinking CXX executable square_motion[0m
+[2.654s] [100%] Built target square_motion
+[2.666s] Invoked command in '/app/project/build/square_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/image_geometry:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/square_controller -- -j16 -l16
+[2.695s] Invoking command in '/app/project/build/square_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/image_geometry:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/square_controller
+[2.704s] -- Install configuration: ""
+[2.704s] -- Installing: /app/project/install/square_controller/lib/square_controller/square_motion
+[2.705s] -- Set runtime path of "/app/project/install/square_controller/lib/square_controller/square_motion" to ""
+[2.705s] -- Up-to-date: /app/project/install/square_controller/share/ament_index/resource_index/package_run_dependencies/square_controller
+[2.705s] -- Up-to-date: /app/project/install/square_controller/share/ament_index/resource_index/parent_prefix_path/square_controller
+[2.705s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/ament_prefix_path.sh
+[2.705s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/ament_prefix_path.dsv
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/path.sh
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/environment/path.dsv
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.bash
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.sh
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.zsh
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/local_setup.dsv
+[2.706s] -- Installing: /app/project/install/square_controller/share/square_controller/package.dsv
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/ament_index/resource_index/packages/square_controller
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/cmake/square_controllerConfig.cmake
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/cmake/square_controllerConfig-version.cmake
+[2.706s] -- Up-to-date: /app/project/install/square_controller/share/square_controller/package.xml
+[2.710s] Invoked command in '/app/project/build/square_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/image_geometry:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/square_controller
