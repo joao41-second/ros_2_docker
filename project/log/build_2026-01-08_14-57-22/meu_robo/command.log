@@ -1,0 +1,6 @@
+Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/src/meu_robo -DCMAKE_INSTALL_PREFIX=/app/project/install/meu_robo
+Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/src/meu_robo -DCMAKE_INSTALL_PREFIX=/app/project/install/meu_robo
+Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/meu_robo -- -j16 -l16
+Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/meu_robo -- -j16 -l16
+Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/meu_robo
+Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/meu_robo

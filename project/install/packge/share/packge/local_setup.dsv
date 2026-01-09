@@ -1,2 +1,1 @@
-source;share/packge/environment/ament_prefix_path.sh
-source;share/packge/environment/path.sh
+/app/project/build/packge/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,2 @@
+Invoking command in '/app/project/build/my_robot_controller': /usr/bin/cmake /app/project/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/app/project/install/my_robot_controller
+Invoked command in '/app/project/build/my_robot_controller' returned '1': /usr/bin/cmake /app/project/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/app/project/install/my_robot_controller

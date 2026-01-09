@@ -1,0 +1,16 @@
+/app/project/install/my_robot_controller/lib/my_robot_controller/forward_node
+/app/project/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+/app/project/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+/app/project/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+/app/project/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+/app/project/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+/app/project/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+/app/project/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+/app/project/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+/app/project/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+/app/project/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+/app/project/install/my_robot_controller/share/my_robot_controller/package.dsv
+/app/project/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+/app/project/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+/app/project/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+/app/project/install/my_robot_controller/share/my_robot_controller/package.xml

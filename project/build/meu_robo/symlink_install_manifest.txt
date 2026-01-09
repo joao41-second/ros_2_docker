@@ -1,0 +1,16 @@
+/app/project/install/meu_robo/lib/meu_robo/robo_node
+/app/project/install/meu_robo/share/ament_index/resource_index/package_run_dependencies/meu_robo
+/app/project/install/meu_robo/share/ament_index/resource_index/parent_prefix_path/meu_robo
+/app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.sh
+/app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.dsv
+/app/project/install/meu_robo/share/meu_robo/environment/path.sh
+/app/project/install/meu_robo/share/meu_robo/environment/path.dsv
+/app/project/install/meu_robo/share/meu_robo/local_setup.bash
+/app/project/install/meu_robo/share/meu_robo/local_setup.sh
+/app/project/install/meu_robo/share/meu_robo/local_setup.zsh
+/app/project/install/meu_robo/share/meu_robo/local_setup.dsv
+/app/project/install/meu_robo/share/meu_robo/package.dsv
+/app/project/install/meu_robo/share/ament_index/resource_index/packages/meu_robo
+/app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig.cmake
+/app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig-version.cmake
+/app/project/install/meu_robo/share/meu_robo/package.xml

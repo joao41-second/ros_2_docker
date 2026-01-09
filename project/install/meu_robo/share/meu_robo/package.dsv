@@ -1,0 +1,8 @@
+source;share/meu_robo/hook/cmake_prefix_path.ps1
+source;share/meu_robo/hook/cmake_prefix_path.dsv
+source;share/meu_robo/hook/cmake_prefix_path.sh
+source;share/meu_robo/local_setup.bash
+source;share/meu_robo/local_setup.dsv
+source;share/meu_robo/local_setup.ps1
+source;share/meu_robo/local_setup.sh
+source;share/meu_robo/local_setup.zsh

@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target robo_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robo_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robo_node[0m
+[100%] Built target robo_node
+-- Install configuration: ""
+-- Installing: /app/project/install/meu_robo/lib/meu_robo/robo_node
+-- Set runtime path of "/app/project/install/meu_robo/lib/meu_robo/robo_node" to ""
+-- Up-to-date: /app/project/install/meu_robo/share/ament_index/resource_index/package_run_dependencies/meu_robo
+-- Up-to-date: /app/project/install/meu_robo/share/ament_index/resource_index/parent_prefix_path/meu_robo
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.sh
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.dsv
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/path.sh
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/path.dsv
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.bash
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.sh
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.zsh
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.dsv
+-- Installing: /app/project/install/meu_robo/share/meu_robo/package.dsv
+-- Up-to-date: /app/project/install/meu_robo/share/ament_index/resource_index/packages/meu_robo
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig.cmake
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig-version.cmake
+-- Up-to-date: /app/project/install/meu_robo/share/meu_robo/package.xml

@@ -1,0 +1,1 @@
+/app/project/build/meu_robo/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,50 @@
+[0.030s] Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/src/meu_robo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/project/install/meu_robo
+[0.052s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.576s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.605s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.660s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.662s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.662s] -- Configured cppcheck include dirs: 
+[0.662s] -- Configured cppcheck exclude dirs and/or files: 
+[0.663s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.663s] -- Configured cpplint exclude dirs and/or files: 
+[0.666s] -- Added test 'lint_cmake' to check CMake code style
+[0.666s] -- Added test 'uncrustify' to check C / C++ code style
+[0.667s] -- Configured uncrustify additional arguments: 
+[0.667s] -- Added test 'xmllint' to check XML markup files
+[0.669s] -- Configuring done
+[0.676s] -- Generating done
+[0.678s] -- Build files have been written to: /app/project/build/meu_robo
+[0.683s] Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/src/meu_robo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/project/install/meu_robo
+[0.684s] Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/meu_robo -- -j16 -l16
+[0.754s] [ 50%] [32m[1mLinking CXX executable robo_node[0m
+[0.972s] [100%] Built target robo_node
+[0.984s] Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/meu_robo -- -j16 -l16
+[1.013s] Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/meu_robo
+[1.023s] -- Install configuration: ""
+[1.023s] -- Execute custom install script
+[1.023s] -- Symlinking: /app/project/install/meu_robo/lib/meu_robo/robo_node
+[1.034s] -- Symlinking: /app/project/install/meu_robo/share/ament_index/resource_index/package_run_dependencies/meu_robo
+[1.044s] -- Symlinking: /app/project/install/meu_robo/share/ament_index/resource_index/parent_prefix_path/meu_robo
+[1.055s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.sh
+[1.064s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.dsv
+[1.074s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/environment/path.sh
+[1.084s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/environment/path.dsv
+[1.096s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/local_setup.bash
+[1.105s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/local_setup.sh
+[1.115s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/local_setup.zsh
+[1.125s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/local_setup.dsv
+[1.137s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/package.dsv
+[1.146s] -- Symlinking: /app/project/install/meu_robo/share/ament_index/resource_index/packages/meu_robo
+[1.157s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig.cmake
+[1.168s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig-version.cmake
+[1.180s] -- Symlinking: /app/project/install/meu_robo/share/meu_robo/package.xml
+[1.196s] Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/meu_robo

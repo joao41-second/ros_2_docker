@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/meu_robo -- -j16 -l16
+[0.076s] [35m[1mScanning dependencies of target robo_node[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/robo_node.dir/src/main.cpp.o[0m
+[2.275s] [100%] [32m[1mLinking CXX executable robo_node[0m
+[2.399s] [100%] Built target robo_node
+[2.410s] Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/meu_robo -- -j16 -l16
+[2.439s] Invoking command in '/app/project/build/meu_robo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/meu_robo
+[2.448s] -- Install configuration: ""
+[2.448s] -- Installing: /app/project/install/meu_robo/lib/meu_robo/robo_node
+[2.449s] -- Set runtime path of "/app/project/install/meu_robo/lib/meu_robo/robo_node" to ""
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/ament_index/resource_index/package_run_dependencies/meu_robo
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/ament_index/resource_index/parent_prefix_path/meu_robo
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.sh
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/ament_prefix_path.dsv
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/path.sh
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/environment/path.dsv
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.bash
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.sh
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.zsh
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/local_setup.dsv
+[2.449s] -- Installing: /app/project/install/meu_robo/share/meu_robo/package.dsv
+[2.449s] -- Up-to-date: /app/project/install/meu_robo/share/ament_index/resource_index/packages/meu_robo
+[2.450s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig.cmake
+[2.450s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/cmake/meu_roboConfig-version.cmake
+[2.450s] -- Up-to-date: /app/project/install/meu_robo/share/meu_robo/package.xml
+[2.453s] Invoked command in '/app/project/build/meu_robo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/meu_robo
