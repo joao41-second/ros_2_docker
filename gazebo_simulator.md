@@ -30,8 +30,8 @@ ros2 topic list
 ```
 
 
-ros2 run gazebo_ros spawn_entity. py \
+ros2 run gazebo_ros spawn_entity.py \
   -entity simple_robot \
-  -file /app/project/src/my_robot_controller/urdf/simple_robot.cpp/ \
+  -file /app/project/src/my_robot_controller/urdf/simple_robot.urdf \
   -x 0 -y 0 -z 0.2
 
