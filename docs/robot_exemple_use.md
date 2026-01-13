@@ -1,4 +1,4 @@
-#what create robot in ros2 and gazebo
+# what create robot in ros2 and gazebo
 
 No ros2 os robos foncionao com canais de comonicasao como o /cmd
 Este canais premitem comunicsao entire o robo e o pc central or entre nods.
