@@ -1,0 +1,71 @@
+# Using the rviz2
+    O rviz2 é onde vamos desenvolver o nosso robo sendo um visualizador 3d nativo do ros2.
+
+
+## Run the rviz2
+
+```bash
+ sorece ./porject/start.sh
+ ros2 run rviz2 rviz2
+```
+    This comands open the interface the rviz2
+## open my robot in rviz2 
+ ```bash
+     sorece ./porject/start.sh
+    ros2 run robot_state_publisher robot_state_publisher   --ros-args -p robot_description:="$(cat ./simulator/robots/rob_.urdf)"
+
+ ```
+  Este commando vai startar o nosso robo no ros2 sendo que ainda nao vai estar a ser visualizado no rviz2.
+  para podermos visualizar o nosso robo no rviz2 temos que garntir que o Fixed Frame que esta no canto superior
+  esquero esta com o nome do link que esta no nosso fichiro urdf ex:
+  ```urdf
+    <link name="base_footprint"/>
+  ```
+  Em seguida devemos cliar em add que esta no canto inferior esquero e selecionar a opcão *RobotModle*.
+  apos isso cliar em OK , isto vai virar um robo na lista de objetos da cena ao abir a lista do robot 
+  vamos ter um campo que é Description Topic que devmos princher com "/robot_description" fazendo isto 
+  o nosso robo deve aparecer no ecrã.
+Podemos tambem in a file e salvar a config do ambiente actual para nao ter que configuara isto de raiz
+
+## urdf file 
+
+Vamos entender como fonciona um arquivo urfd.
+este aquivo e onde vamos projetar o nosso robo sendo a base para podermos testar se o codigo em ros2 fonciona.
+
+este arquivo comessa com a seginte estrutura:
+```urdf
+<?xml version="1.0"?>
+<robot name="rob_quadrado">
+
+  <link name="base_footprint"/> # este e nome que vamos ter que culoccar no Fixed Frame no rviz2.
+  <link name="base_link"> # neste tipo de fichiro cada link reprenseta um componete.
+    <visual>
+      <geometry>
+        <box size="0.5 0.5 0.5"/> 
+      </geometry> 
+      <material name="red">
+        <color rgba="1 1 0 1"/>
+	</material>
+      <geometry>
+        <box size="1.5 1.5 1.5"/>
+	</geometry>
+	 <material name="red">
+        <color rgba="1 0 1 1"/>
+	</material>
+	</visual> 
+  </link>
+```
+
+# juntas 
+o joint  e uma junta sendo uma das partes mais importantes do fichiro sem ela nada vai aparecer na tela 
+nela juntamos dois objetos neste casso juntamos a base_link ao base do nosso porjeto 
+tambe defenimos a lucalizacao no esapco do bojeto que estamos a juntar.
+```
+<joint name="base_joint_" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link2"/>
+    <origin xyz="1 1 0" rpy="0 0 0"/>
+  </joint>
+</robot>
+
+```
