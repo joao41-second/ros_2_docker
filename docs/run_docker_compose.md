@@ -1,8 +1,8 @@
-#Run docker compose 
+# Run docker compose 
 
-For the start the docker or multiple docker using docker compose is need the create the file 'docker-compose.yml'.
-in this file exit the config the multiple dockers and servises. using this file we can config the networks , ports ,
-conteiners and the start the project.
+To start the docker or multiple docker use the docker compose. It is needed to create the file 'docker-compose.yml'.
+in this file exist the configs, the multiple dockers and servises.We Use this file to config the networks , ports ,
+containers and to start the project.
 
 utilis comands:
 
