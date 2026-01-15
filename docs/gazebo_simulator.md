@@ -1,18 +1,17 @@
 ##gazebo 
 
 
-The gazebo is the simoleitor at use in this project. 
+The gazebo is the simulator to be used in this project. 
 
 
-#if gazebo no open in docker execute the command 
+# if gazebo does not  open, out of the docker execute the next command 
 ```
 xhost +local:docker
 ```
-Add in trminal config file for set defenitive 
-
+To set this definitive config, add it in terminal config file.
 
 # start gazebo
-if start gazebo and use ros2 use the next command.
+To start gazebo and use ros2, use the next command.Do not forget to define *source* so that ros2 works.
 ```
 ros2 launch gazebo_ros gazebo.launch.py 
 ```
@@ -21,8 +20,10 @@ ros2 launch gazebo_ros gazebo.launch.py
 ```
 ros2 run gazebo_ros spawn_entity.py -entity square_robot -file ./robot_basic.urdf -x 0 -y 0 -z 0.1
 ```
+This comand spawns the robot in the window of the gazebo. 
+
 # utils
-This command list the comonication chanels exciting running in ros2.
+This command lists the communication chanels that are running in ros2.
 ```
 ros2 topic list
 
