@@ -25,9 +25,9 @@ Now to start the img use the next command:
 ```
     docker run -it <image_name> /bin/bash
 ```
-This command opens the terminal in uor comtainer. The image_name is the name for get the command `docker images`. 
-Ok , run the our comtainer but if we exit we lose all our code.To solve this we have to create a volume this it a 
-will be a path that linkd a real pc.
+This command opens the terminal in your container. The image_name is the name to get the command `docker images`. 
+Ok ,run your container but if you exit you lose all your code.To solve this you have to create a volume. This 
+will be a path that links to a real pc.
 ```
  docker run -it -v ./src:/src  ros:humble /bin/bash
 ```
