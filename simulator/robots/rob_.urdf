@@ -1,99 +1,73 @@
 <?xml version="1.0"?>
 <robot name="rob_quadrado">
+  <link name="world">
+    <!-- Link invisível para raiz -->
+  </link>
 
-  <!-- ========================= -->
-  <!-- LINK DUMMY (ROOT)         -->
-  <!-- ========================= -->
-  <link name="base_footprint"/>
-  
-  <!-- ========================= -->
-  <!-- LINK PRINCIPAL (O QUADRADO) -->
-  <!-- ========================= -->
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
   <link name="base_link">
     <visual>
       <geometry>
         <box size="0.5 0.5 0.5"/>
       </geometry> 
-	 <material name="red">
+      <material name="red">
         <color rgba="1 0 1 1"/>
-	</material>
-     </visual>
-    <collision>
-      <geometry>
-        <box size="0.5 0.5 0.5"/>
-      </geometry>
-    </collision>
-
-    <!-- Inércia opcional, sem avisos -->
-    <inertial>
-      <mass value="1.0"/>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <inertia
-        ixx="0.02" ixy="0.0" ixz="0.0"
-        iyy="0.02" iyz="0.0"
-        izz="0.02"/>
-    </inertial>
+      </material>
+    </visual>	
   </link>
 
   <link name="base_link2">
-
     <visual>
       <geometry>
         <box size="1.5 1.5 0.5"/>
-      </geometry>  
-     </visual>
+      </geometry>
+    </visual>
     <collision>
       <geometry>
-        <box size="0.5 0.5 0.5"/>
+        <box size="1.5 1.5 0.5"/>
       </geometry>
     </collision>
-
-    <!-- Inércia opcional, sem avisos -->
     <inertial>
       <mass value="1.0"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <inertia
-        ixx="0.02" ixy="0.0" ixz="0.0"
-        iyy="0.02" iyz="0.0"
-        izz="0.02"/>
+      <inertia ixx="0.02" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.02"/>
     </inertial>
   </link>
 
   <link name="aaa">
     <visual>
-	<geometry>
+      <geometry>
         <cylinder length="1" radius="0.02"/>
       </geometry>
     </visual>
+    <collision>
+      <geometry>
+        <cylinder length="1" radius="0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
   </link>
 
-  <!-- ========================= -->
-  <!-- JUNTURA FIXA PARA ROOT     -->
-  <!-- ========================= -->
-
-  <joint name="base_joint" type="fixed">
-    <parent link="base_footprint"/>
-    <child link="base_link"/>
-    <origin xyz="1 1 0" rpy="0 0 0"/>
-  </joint>
-  
-  <joint name="base_to_arm" type="revolute">
-    <parent link="base_link"/>
-    <child link="aaa"/>
-    <axis xyz="0 1 0"/>
-    <limit effort="50.0" lower="-3.14" upper="3.14" velocity="2.0"/>
-
-    </joint>
-
- <joint name="base_joint_" type="fixed">
+  <joint name="base_joint_" type="fixed">
     <parent link="base_link"/>
     <child link="base_link2"/>
     <origin xyz="1 1 0" rpy="0 0 0"/>
-</joint>
+  </joint>
 
-  <!-- Junta rotacional -->
-
- 
-
+  <joint name="base_to_arm" type="revolute">
+    <parent link="base_link2"/>
+    <child link="aaa"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
 </robot>
-v

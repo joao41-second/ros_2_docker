@@ -13,6 +13,8 @@ RUN apt-get -y install ros-foxy-gazebo-*
 RUN apt-get -y install ros-foxy-ros2-control
 RUN apt-get -y install ros-foxy-ros2-controllers
 RUN apt-get -y install ros-foxy-gazebo-ros2-control
+RUN apt-get -y install ros-foxy-joint-state-publisher-gui
+RUN apt-get -y install ros-foxy-urdf-tutorial
 
 RUN apt install ros-foxy-ros-core ros-foxy-geometry2
 RUN echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:/opt/ros/foxy/lib" >> ~/.bashrc
