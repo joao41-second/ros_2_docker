@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 <robot name="rob_quadrado">
 
@@ -15,18 +14,10 @@
       <geometry>
         <box size="0.5 0.5 0.5"/>
       </geometry> 
-      <material name="red">
-        <color rgba="1 1 0 1"/>
-	</material>
-      <geometry>
-        <box size="1.5 1.5 1.5"/>
-	</geometry>
 	 <material name="red">
         <color rgba="1 0 1 1"/>
 	</material>
-	</visual>
-
-
+     </visual>
     <collision>
       <geometry>
         <box size="0.5 0.5 0.5"/>
@@ -43,6 +34,7 @@
         izz="0.02"/>
     </inertial>
   </link>
+
   <link name="base_link2">
 
     <visual>
@@ -67,18 +59,10 @@
     </inertial>
   </link>
 
-  <link name="arm_link">
+  <link name="aaa">
     <visual>
 	<geometry>
         <cylinder length="1" radius="0.02"/>
-      </geometry>
-    </visual>
-  </link>
-
-  <link name="box1">
-    <visual>
-	<geometry>
-        <box size="0.5 0.5 0.2"/>
       </geometry>
     </visual>
   </link>
@@ -92,34 +76,24 @@
     <child link="base_link"/>
     <origin xyz="1 1 0" rpy="0 0 0"/>
   </joint>
+  
+  <joint name="base_to_arm" type="revolute">
+    <parent link="base_link"/>
+    <child link="aaa"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="50.0" lower="-3.14" upper="3.14" velocity="2.0"/>
+
+    </joint>
 
  <joint name="base_joint_" type="fixed">
     <parent link="base_link"/>
     <child link="base_link2"/>
     <origin xyz="1 1 0" rpy="0 0 0"/>
-  </joint>
+</joint>
 
   <!-- Junta rotacional -->
 
- <joint name="base_to_arm" type="revolute">
-    <parent link="base_link"/>
-    <child link="arm_link"/>
-    <origin xyz="1 1 0" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
-    <limit effort="50" lower="-3.14" upper="3.14" velocity="2.0"/>
-    <origin xyz="1 2 0" rpy="0 0 0"/>
-  </joint>
-
-
- <joint name="base_joint_box" type="fixed">
-    <parent link="arm_link"/>
-    <child link="box1"/>
-    <origin xyz="1 1 2" rpy="0 0 0"/>
-  </joint>
-
-  
-
-
+ 
 
 </robot>
-
+v
