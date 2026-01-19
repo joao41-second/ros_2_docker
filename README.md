@@ -1,9 +1,16 @@
 # Ros 2 Docker example
+   Aqui temos o manual de instrusões para parender ros2.
 
-    neste repositoro esta a docomantsao basica para usar um Docker com ros2 bem como iniciar um projeto novo
-    de ros2.
+# Start the project use the ros2
+    - [ start ros2 project ](/dosc/start_ros_porject.md)
+
 ## lista de contents
-- [ install Docker/Docker-compose ](install_docker_and_download_ros.md)
-- [ run Docker compose ](run_docker_compose.md)
-- [ start ros2 project ](start_ros_porject.md)
-- [run simulator]( gazebo_simulator.md)
+- [ install Docker/Docker-compose ](/docs/install_docker_and_download_ros.md) 
+- [ run Docker compose ](/docs/run_docker_compose.md)
+- [ start ros2 project ](/dosc/start_ros_porject.md)
+- [run simulator](/docs/gazebo_simulator.md)
+
+
+
+# TODO
+- add the use the command rviz2 for start rviz2

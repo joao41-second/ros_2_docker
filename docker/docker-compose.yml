@@ -6,6 +6,7 @@ services:
     stdin_open: true
     environment:
       - DISPLAY=${DISPLAY}
+      - PATH=/app/simulator/scripts:${PATH}
     volumes:
       - ros_src:/app/project
       - simulator:/app/simulator

@@ -1,0 +1,2 @@
+ source /app/project/start.sh
+ ros2 run rviz2 rviz2
