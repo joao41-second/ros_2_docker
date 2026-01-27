@@ -10,6 +10,7 @@ services:
     volumes:
       - ros_src:/app/project
       - simulator:/app/simulator
+      - stl:/app/stl
       - /tmp/.X11-unix:/tmp/.X11-unix:rw   # necessário para GUI
     network_mode: "host"   # necessário para Gazebo
     privileged: true       # opcional, ajuda com drivers gráficos
@@ -26,3 +27,11 @@ volumes:
       type: none
       o: bind
       device: ../simulator
+  stl:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ../Rover_completo_STL
+
+
