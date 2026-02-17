@@ -10,13 +10,149 @@
     <origin xyz="0 0 0" rpy="0 0 0"/>
   </joint>
 
-  <link name="base_link">
+ 
+
+<joint name="world_to_base2" type="fixed">
+    <parent link="base_link"/>
+    <child link="p2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>j
+
+
+<joint name="world_to_base3" type="fixed">
+    <parent link="base_link"/>
+    <child link="p3"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>j
+
+<joint name="world_to_base4" type="fixed">
+    <parent link="base_link"/>
+    <child link="p4"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>j
+
+<joint name="world_to_base5" type="fixed">
+    <parent link="base_link"/>
+    <child link="p5"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>j
+
+
+<joint name="world_to_base6" type="fixed">
+    <parent link="base_link"/>
+    <child link="p6"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>j
+
+
+
+ <link name="p6">
+
 
     <!-- VISUAL -->
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-	 <mesh filename="file:///app/stl/rover_caixa.stl" scale="0.01 0.01 0.01"/>
+	 <mesh filename="file:///app/stl/Parte6.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- COLLISION -->
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte6.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+
+  </link>
+
+ <link name="p5">
+
+
+    <!-- VISUAL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte5.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- COLLISION -->
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte5.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+
+  </link>
+
+ <link name="p4">
+
+
+    <!-- VISUAL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte4.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- COLLISION -->
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte4.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+
+  </link>
+
+
+  <link name="p3">
+
+
+    <!-- VISUAL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte3.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 1.6 1.0 1.0"/>
+      </material>
+    </visual>
+
+    <!-- COLLISION -->
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte3.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+
+  </link>
+
+
+
+  <link name="p2">
+
+
+    <!-- VISUAL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte2.STL" scale="0.01 0.01 0.01"/>
       </geometry>
       <material name="gray">
         <color rgba="0.6 0.6 0.6 1.0"/>
@@ -27,14 +163,35 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-	 <mesh filename="file:///app/stl/rover_caixa.stl" scale="0.01 0.01 0.01"/>
+	 <mesh filename="file:///app/stl/Parte2.STL" scale="0.01 0.01 0.01"/>
       </geometry>
     </collision>
 
-
-
   </link>
 
+  <link name="base_link">
+
+
+    <!-- VISUAL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte1.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+
+    <!-- COLLISION -->
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	 <mesh filename="file:///app/stl/Parte1.STL" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+
+  </link>
 
 </robot>
 
