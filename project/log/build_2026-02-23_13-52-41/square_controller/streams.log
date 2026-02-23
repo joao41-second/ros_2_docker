@@ -1,0 +1,23 @@
+[0.193s] Invoking command in '/app/project/build/square_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/square_controller -- -j16 -l16
+[0.279s] [100%] Built target square_motion
+[0.294s] Invoked command in '/app/project/build/square_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/square_controller -- -j16 -l16
+[0.338s] Invoking command in '/app/project/build/square_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/square_controller
+[0.349s] -- Install configuration: ""
+[0.349s] -- Execute custom install script
+[0.350s] -- Up-to-date symlink: /app/project/install/square_controller/lib/square_controller/square_motion
+[0.350s] -- Up-to-date symlink: /app/project/install/square_controller/share/ament_index/resource_index/package_run_dependencies/square_controller
+[0.350s] -- Up-to-date symlink: /app/project/install/square_controller/share/ament_index/resource_index/parent_prefix_path/square_controller
+[0.351s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/environment/ament_prefix_path.sh
+[0.351s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/environment/path.sh
+[0.352s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/environment/path.dsv
+[0.352s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/local_setup.bash
+[0.352s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/local_setup.sh
+[0.352s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/local_setup.zsh
+[0.353s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/local_setup.dsv
+[0.353s] -- Symlinking: /app/project/install/square_controller/share/square_controller/package.dsv
+[0.365s] -- Up-to-date symlink: /app/project/install/square_controller/share/ament_index/resource_index/packages/square_controller
+[0.366s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/cmake/square_controllerConfig.cmake
+[0.366s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/cmake/square_controllerConfig-version.cmake
+[0.366s] -- Up-to-date symlink: /app/project/install/square_controller/share/square_controller/package.xml
+[0.408s] Invoked command in '/app/project/build/square_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/square_controller

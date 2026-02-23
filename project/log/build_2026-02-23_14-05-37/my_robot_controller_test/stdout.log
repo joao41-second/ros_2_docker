@@ -1,0 +1,19 @@
+[100%] Built target forward_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /app/project/install/my_robot_controller_test/lib/my_robot_controller_test/forward_node
+-- Symlinking: /app/project/install/my_robot_controller_test/share/ament_index/resource_index/package_run_dependencies/my_robot_controller_test
+-- Symlinking: /app/project/install/my_robot_controller_test/share/ament_index/resource_index/parent_prefix_path/my_robot_controller_test
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/ament_prefix_path.sh
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/ament_prefix_path.dsv
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/path.sh
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/path.dsv
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.bash
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.sh
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.zsh
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.dsv
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/package.dsv
+-- Symlinking: /app/project/install/my_robot_controller_test/share/ament_index/resource_index/packages/my_robot_controller_test
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/cmake/my_robot_controller_testConfig.cmake
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/cmake/my_robot_controller_testConfig-version.cmake
+-- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/package.xml

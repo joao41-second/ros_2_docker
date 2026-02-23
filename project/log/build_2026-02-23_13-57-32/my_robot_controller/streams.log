@@ -1,0 +1,23 @@
+[0.206s] Invoking command in '/app/project/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/my_robot_controller -- -j16 -l16
+[0.288s] [100%] Built target forward_node
+[0.305s] Invoked command in '/app/project/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/my_robot_controller -- -j16 -l16
+[0.355s] Invoking command in '/app/project/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/my_robot_controller
+[0.368s] -- Install configuration: ""
+[0.369s] -- Execute custom install script
+[0.369s] -- Symlinking: /app/project/install/my_robot_controller/lib/my_robot_controller/forward_node
+[0.379s] -- Symlinking: /app/project/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+[0.392s] -- Symlinking: /app/project/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+[0.404s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+[0.416s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+[0.428s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+[0.439s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+[0.453s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+[0.466s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+[0.479s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+[0.493s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+[0.507s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/package.dsv
+[0.521s] -- Symlinking: /app/project/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+[0.535s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+[0.548s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+[0.562s] -- Symlinking: /app/project/install/my_robot_controller/share/my_robot_controller/package.xml
+[0.579s] Invoked command in '/app/project/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/my_robot_controller

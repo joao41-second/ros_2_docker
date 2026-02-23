@@ -1,0 +1,19 @@
+[100%] Built target ola_mundo
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /app/project/install/packge/lib/packge/ola_mundo
+-- Up-to-date symlink: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge
+-- Up-to-date symlink: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge
+-- Up-to-date symlink: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /app/project/install/packge/share/packge/environment/path.sh
+-- Up-to-date symlink: /app/project/install/packge/share/packge/environment/path.dsv
+-- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.bash
+-- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.sh
+-- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.zsh
+-- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.dsv
+-- Symlinking: /app/project/install/packge/share/packge/package.dsv
+-- Up-to-date symlink: /app/project/install/packge/share/ament_index/resource_index/packages/packge
+-- Up-to-date symlink: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake
+-- Up-to-date symlink: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake
+-- Up-to-date symlink: /app/project/install/packge/share/packge/package.xml

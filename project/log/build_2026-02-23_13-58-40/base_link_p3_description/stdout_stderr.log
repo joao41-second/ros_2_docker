@@ -1,0 +1,42 @@
+running develop
+running egg_info
+writing base_link_p3_description.egg-info/PKG-INFO
+writing dependency_links to base_link_p3_description.egg-info/dependency_links.txt
+writing entry points to base_link_p3_description.egg-info/entry_points.txt
+writing requirements to base_link_p3_description.egg-info/requires.txt
+writing top-level names to base_link_p3_description.egg-info/top_level.txt
+reading manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+writing manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/site.py
+Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base-link-p3-description.egg-link (link to .)
+
+Installed /app/project/build/base_link_p3_description
+running install_data
+creating /app/project/install/base_link_p3_description/share/ament_index
+creating /app/project/install/base_link_p3_description/share/ament_index/resource_index
+creating /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+copying resource/base_link_p3_description -> /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+copying package.xml -> /app/project/install/base_link_p3_description/share/base_link_p3_description
+creating /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+copying launch/gazebo.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+copying launch/display.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+creating /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+copying urdf/base_link_p3.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+copying urdf/base_link_p3.urdf -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+copying urdf/base_link_p3.gazebo -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+copying urdf/base_link_p3.trans -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+copying urdf/materials.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+creating /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/base_link.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte6_1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte6_3.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte6_5.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte6_2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte6_4.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+creating /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+copying config/display.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+copying config/gazebo.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config

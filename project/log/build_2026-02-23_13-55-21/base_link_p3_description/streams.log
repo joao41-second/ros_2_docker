@@ -1,0 +1,30 @@
+[0.600s] Invoking command in '/app/project/build/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /app/project/build/base_link_p3_description/build
+[0.786s] running develop
+[0.875s] Removing /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base-link-p3-description.egg-link (link to .)
+[0.928s] Invoked command in '/app/project/build/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /app/project/build/base_link_p3_description/build
+[0.929s] Invoking command in '/app/project/src/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/base_link_p3_description build --build-base /app/project/build/base_link_p3_description/build install --record /app/project/build/base_link_p3_description/install.log --single-version-externally-managed
+[1.107s] running egg_info
+[1.107s] writing ../../build/base_link_p3_description/base_link_p3_description.egg-info/PKG-INFO
+[1.107s] writing dependency_links to ../../build/base_link_p3_description/base_link_p3_description.egg-info/dependency_links.txt
+[1.107s] writing entry points to ../../build/base_link_p3_description/base_link_p3_description.egg-info/entry_points.txt
+[1.108s] writing requirements to ../../build/base_link_p3_description/base_link_p3_description.egg-info/requires.txt
+[1.108s] writing top-level names to ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt
+[1.139s] reading manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'
+[1.141s] writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'
+[1.141s] running build
+[1.141s] running build_py
+[1.141s] creating /app/project/build/base_link_p3_description/build
+[1.141s] creating /app/project/build/base_link_p3_description/build/lib
+[1.141s] creating /app/project/build/base_link_p3_description/build/lib/base_link_p3_description
+[1.142s] copying base_link_p3_description/__init__.py -> /app/project/build/base_link_p3_description/build/lib/base_link_p3_description
+[1.142s] running install
+[1.142s] running install_lib
+[1.143s] creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description
+[1.143s] copying /app/project/build/base_link_p3_description/build/lib/base_link_p3_description/__init__.py -> /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description
+[1.143s] byte-compiling /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description/__init__.py to __init__.cpython-38.pyc
+[1.146s] running install_data
+[1.147s] running install_egg_info
+[1.148s] Copying ../../build/base_link_p3_description/base_link_p3_description.egg-info to /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description-0.0.0-py3.8.egg-info
+[1.149s] running install_scripts
+[1.164s] writing list of installed files to '/app/project/build/base_link_p3_description/install.log'
+[1.195s] Invoked command in '/app/project/src/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/base_link_p3_description build --build-base /app/project/build/base_link_p3_description/build install --record /app/project/build/base_link_p3_description/install.log --single-version-externally-managed

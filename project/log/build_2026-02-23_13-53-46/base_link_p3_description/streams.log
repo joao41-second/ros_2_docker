@@ -1,0 +1,16 @@
+[0.574s] Invoking command in '/app/project/build/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data
+[0.721s] running develop
+[0.790s] running egg_info
+[0.790s] writing base_link_p3_description.egg-info/PKG-INFO
+[0.790s] writing dependency_links to base_link_p3_description.egg-info/dependency_links.txt
+[0.791s] writing entry points to base_link_p3_description.egg-info/entry_points.txt
+[0.791s] writing requirements to base_link_p3_description.egg-info/requires.txt
+[0.791s] writing top-level names to base_link_p3_description.egg-info/top_level.txt
+[0.813s] reading manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.813s] writing manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.840s] running build_ext
+[0.840s] Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base-link-p3-description.egg-link (link to .)
+[0.841s] 
+[0.841s] Installed /app/project/build/base_link_p3_description
+[0.841s] running install_data
+[0.866s] Invoked command in '/app/project/build/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data

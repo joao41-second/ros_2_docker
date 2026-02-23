@@ -1,0 +1,1 @@
+/app/project/build/my_robot_controller_test/ament_cmake_environment_hooks/local_setup.bash

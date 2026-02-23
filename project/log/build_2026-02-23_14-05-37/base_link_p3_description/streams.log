@@ -1,0 +1,28 @@
+[0.660s] Invoking command in '/app/project/build/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data
+[0.812s] running develop
+[0.880s] running egg_info
+[0.880s] writing base_link_p3_description.egg-info/PKG-INFO
+[0.880s] writing dependency_links to base_link_p3_description.egg-info/dependency_links.txt
+[0.880s] writing entry points to base_link_p3_description.egg-info/entry_points.txt
+[0.880s] writing requirements to base_link_p3_description.egg-info/requires.txt
+[0.880s] writing top-level names to base_link_p3_description.egg-info/top_level.txt
+[0.902s] reading manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.903s] writing manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.929s] running build_ext
+[0.929s] Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/site.py
+[0.931s] Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base-link-p3-description.egg-link (link to .)
+[0.932s] 
+[0.932s] Installed /app/project/build/base_link_p3_description
+[0.932s] running install_data
+[0.932s] creating /app/project/install/base_link_p3_description/share/ament_index
+[0.932s] creating /app/project/install/base_link_p3_description/share/ament_index/resource_index
+[0.932s] creating /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+[0.932s] copying resource/base_link_p3_description -> /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+[0.932s] copying package.xml -> /app/project/install/base_link_p3_description/share/base_link_p3_description
+[0.932s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[0.932s] copying launch/gazebo.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[0.932s] copying launch/display.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[0.933s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.933s] copying urdf/base_link_p3.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.933s] error: can't copy 'urdf/base_link_p3.urdf': doesn't exist or not a regular file
+[0.962s] Invoked command in '/app/project/build/base_link_p3_description' returned '1': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data

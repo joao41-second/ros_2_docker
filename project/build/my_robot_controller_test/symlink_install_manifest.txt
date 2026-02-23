@@ -1,0 +1,16 @@
+/app/project/install/my_robot_controller_test/lib/my_robot_controller_test/forward_node
+/app/project/install/my_robot_controller_test/share/ament_index/resource_index/package_run_dependencies/my_robot_controller_test
+/app/project/install/my_robot_controller_test/share/ament_index/resource_index/parent_prefix_path/my_robot_controller_test
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/ament_prefix_path.sh
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/ament_prefix_path.dsv
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/path.sh
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/path.dsv
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.bash
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.sh
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.zsh
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.dsv
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/package.dsv
+/app/project/install/my_robot_controller_test/share/ament_index/resource_index/packages/my_robot_controller_test
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/cmake/my_robot_controller_testConfig.cmake
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/cmake/my_robot_controller_testConfig-version.cmake
+/app/project/install/my_robot_controller_test/share/my_robot_controller_test/package.xml

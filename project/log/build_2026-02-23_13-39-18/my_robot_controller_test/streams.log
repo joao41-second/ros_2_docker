@@ -1,0 +1,78 @@
+[0.206s] Invoking command in '/app/project/build/my_robot_controller_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/src/my_robot_controller_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/project/install/my_robot_controller_test
+[0.378s] -- The C compiler identification is GNU 9.4.0
+[0.508s] -- The CXX compiler identification is GNU 9.4.0
+[0.513s] -- Check for working C compiler: /usr/bin/cc
+[0.603s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.604s] -- Detecting C compiler ABI info
+[0.691s] -- Detecting C compiler ABI info - done
+[0.700s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.805s] -- Detecting CXX compiler ABI info
+[0.905s] -- Detecting CXX compiler ABI info - done
+[0.915s] -- Detecting CXX compile features
+[0.915s] -- Detecting CXX compile features - done
+[0.919s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.947s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.947s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.139s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.354s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.390s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.528s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.531s] -- Looking for pthread.h
+[1.620s] -- Looking for pthread.h - found
+[1.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.708s] -- Looking for pthread_create in pthreads
+[1.780s] -- Looking for pthread_create in pthreads - not found
+[1.780s] -- Looking for pthread_create in pthread
+[1.851s] -- Looking for pthread_create in pthread - found
+[1.852s] -- Found Threads: TRUE  
+[1.967s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.993s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.059s] -- Configured cppcheck include dirs: 
+[2.059s] -- Configured cppcheck exclude dirs and/or files: 
+[2.060s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.060s] -- Configured cpplint exclude dirs and/or files: 
+[2.060s] -- Added test 'lint_cmake' to check CMake code style
+[2.061s] -- Added test 'uncrustify' to check C / C++ code style
+[2.061s] -- Configured uncrustify additional arguments: 
+[2.062s] -- Added test 'xmllint' to check XML markup files
+[2.065s] -- Configuring done
+[2.071s] -- Generating done
+[2.072s] -- Build files have been written to: /app/project/build/my_robot_controller_test
+[2.078s] Invoked command in '/app/project/build/my_robot_controller_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /app/project/src/my_robot_controller_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/project/install/my_robot_controller_test
+[2.081s] Invoking command in '/app/project/build/my_robot_controller_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/my_robot_controller_test -- -j16 -l16
+[2.128s] [35m[1mScanning dependencies of target forward_node[0m
+[2.213s] [ 50%] [32mBuilding CXX object CMakeFiles/forward_node.dir/src/forward_node.cpp.o[0m
+[4.270s] [100%] [32m[1mLinking CXX executable forward_node[0m
+[4.383s] [100%] Built target forward_node
+[4.394s] Invoked command in '/app/project/build/my_robot_controller_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/my_robot_controller_test -- -j16 -l16
+[4.427s] Invoking command in '/app/project/build/my_robot_controller_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/my_robot_controller_test
+[4.435s] -- Install configuration: ""
+[4.435s] -- Execute custom install script
+[4.435s] -- Symlinking: /app/project/install/my_robot_controller_test/lib/my_robot_controller_test/forward_node
+[4.446s] -- Symlinking: /app/project/install/my_robot_controller_test/share/ament_index/resource_index/package_run_dependencies/my_robot_controller_test
+[4.455s] -- Symlinking: /app/project/install/my_robot_controller_test/share/ament_index/resource_index/parent_prefix_path/my_robot_controller_test
+[4.464s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/ament_prefix_path.sh
+[4.474s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/ament_prefix_path.dsv
+[4.483s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/path.sh
+[4.493s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/environment/path.dsv
+[4.503s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.bash
+[4.513s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.sh
+[4.522s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.zsh
+[4.531s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/local_setup.dsv
+[4.540s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/package.dsv
+[4.550s] -- Symlinking: /app/project/install/my_robot_controller_test/share/ament_index/resource_index/packages/my_robot_controller_test
+[4.558s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/cmake/my_robot_controller_testConfig.cmake
+[4.567s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/cmake/my_robot_controller_testConfig-version.cmake
+[4.576s] -- Symlinking: /app/project/install/my_robot_controller_test/share/my_robot_controller_test/package.xml
+[4.590s] Invoked command in '/app/project/build/my_robot_controller_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/my_robot_controller_test

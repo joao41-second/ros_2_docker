@@ -1,0 +1,23 @@
+[0.198s] Invoking command in '/app/project/build/packge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/packge -- -j16 -l16
+[0.269s] [100%] Built target ola_mundo
+[0.286s] Invoked command in '/app/project/build/packge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --build /app/project/build/packge -- -j16 -l16
+[0.337s] Invoking command in '/app/project/build/packge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/packge
+[0.349s] -- Install configuration: ""
+[0.349s] -- Execute custom install script
+[0.349s] -- Up-to-date symlink: /app/project/install/packge/lib/packge/ola_mundo
+[0.349s] -- Up-to-date symlink: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/packge/environment/path.sh
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/packge/environment/path.dsv
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.bash
+[0.350s] -- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.sh
+[0.351s] -- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.zsh
+[0.352s] -- Up-to-date symlink: /app/project/install/packge/share/packge/local_setup.dsv
+[0.352s] -- Symlinking: /app/project/install/packge/share/packge/package.dsv
+[0.365s] -- Up-to-date symlink: /app/project/install/packge/share/ament_index/resource_index/packages/packge
+[0.365s] -- Up-to-date symlink: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake
+[0.365s] -- Up-to-date symlink: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake
+[0.366s] -- Up-to-date symlink: /app/project/install/packge/share/packge/package.xml
+[0.371s] Invoked command in '/app/project/build/packge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/project/install/base_link_p3_description:/opt/ros/foxy /usr/bin/cmake --install /app/project/build/packge

@@ -1,0 +1,17 @@
+[0.585s] Invoking command in '/app/project/build/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data
+[0.734s] running develop
+[0.803s] running egg_info
+[0.803s] writing base_link_p3_description.egg-info/PKG-INFO
+[0.803s] writing dependency_links to base_link_p3_description.egg-info/dependency_links.txt
+[0.803s] writing entry points to base_link_p3_description.egg-info/entry_points.txt
+[0.803s] writing requirements to base_link_p3_description.egg-info/requires.txt
+[0.803s] writing top-level names to base_link_p3_description.egg-info/top_level.txt
+[0.825s] reading manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.826s] writing manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.852s] running build_ext
+[0.852s] Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base-link-p3-description.egg-link (link to .)
+[0.853s] 
+[0.853s] Installed /app/project/build/base_link_p3_description
+[0.853s] running install_data
+[0.853s] error: can't copy 'urdf/base_link_p3.urdf': doesn't exist or not a regular file
+[0.877s] Invoked command in '/app/project/build/base_link_p3_description' returned '1': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data

@@ -1,0 +1,44 @@
+[0.560s] Invoking command in '/app/project/build/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data
+[0.738s] running develop
+[0.823s] running egg_info
+[0.823s] writing base_link_p3_description.egg-info/PKG-INFO
+[0.823s] writing dependency_links to base_link_p3_description.egg-info/dependency_links.txt
+[0.823s] writing entry points to base_link_p3_description.egg-info/entry_points.txt
+[0.823s] writing requirements to base_link_p3_description.egg-info/requires.txt
+[0.823s] writing top-level names to base_link_p3_description.egg-info/top_level.txt
+[0.854s] reading manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.855s] writing manifest file 'base_link_p3_description.egg-info/SOURCES.txt'
+[0.888s] running build_ext
+[0.889s] Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/site.py
+[0.891s] Creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base-link-p3-description.egg-link (link to .)
+[0.892s] 
+[0.892s] Installed /app/project/build/base_link_p3_description
+[0.892s] running install_data
+[0.892s] creating /app/project/install/base_link_p3_description/share/ament_index
+[0.892s] creating /app/project/install/base_link_p3_description/share/ament_index/resource_index
+[0.892s] creating /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+[0.892s] copying resource/base_link_p3_description -> /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+[0.892s] copying package.xml -> /app/project/install/base_link_p3_description/share/base_link_p3_description
+[0.893s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[0.893s] copying launch/gazebo.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[0.896s] copying launch/display.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[0.896s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.896s] copying urdf/base_link_p3.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.896s] copying urdf/base_link_p3.urdf -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.896s] copying urdf/base_link_p3.gazebo -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.897s] copying urdf/base_link_p3.trans -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.897s] copying urdf/materials.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[0.898s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.898s] copying meshes/base_link.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.898s] copying meshes/Parte6_1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.898s] copying meshes/Parte6_3.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.898s] copying meshes/Parte6_5.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.898s] copying meshes/Parte6_2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.900s] copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.908s] copying meshes/Parte6_4.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.909s] copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[0.917s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[0.917s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[0.917s] copying config/display.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[0.917s] copying config/gazebo.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[0.952s] Invoked command in '/app/project/build/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /app/project/build/base_link_p3_description/build --no-deps install_data

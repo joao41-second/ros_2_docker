@@ -1,0 +1,52 @@
+[0.658s] Invoking command in '/app/project/build/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /app/project/build/base_link_p3_description/build
+[0.822s] running develop
+[0.908s] Invoked command in '/app/project/build/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /app/project/build/base_link_p3_description/build
+[0.912s] Invoking command in '/app/project/src/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/base_link_p3_description build --build-base /app/project/build/base_link_p3_description/build install --record /app/project/build/base_link_p3_description/install.log --single-version-externally-managed
+[1.052s] running egg_info
+[1.052s] writing ../../build/base_link_p3_description/base_link_p3_description.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../build/base_link_p3_description/base_link_p3_description.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../../build/base_link_p3_description/base_link_p3_description.egg-info/entry_points.txt
+[1.052s] writing requirements to ../../build/base_link_p3_description/base_link_p3_description.egg-info/requires.txt
+[1.052s] writing top-level names to ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt
+[1.076s] reading manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'
+[1.077s] writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'
+[1.077s] running build
+[1.077s] running build_py
+[1.077s] running install
+[1.078s] running install_lib
+[1.078s] creating /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description
+[1.079s] copying /app/project/build/base_link_p3_description/build/lib/base_link_p3_description/__init__.py -> /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description
+[1.079s] byte-compiling /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description/__init__.py to __init__.cpython-38.pyc
+[1.080s] running install_data
+[1.080s] creating /app/project/install/base_link_p3_description/share/ament_index
+[1.080s] creating /app/project/install/base_link_p3_description/share/ament_index/resource_index
+[1.080s] creating /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+[1.080s] copying resource/base_link_p3_description -> /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages
+[1.080s] copying package.xml -> /app/project/install/base_link_p3_description/share/base_link_p3_description
+[1.080s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[1.080s] copying launch/gazebo.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[1.081s] copying launch/display.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch
+[1.081s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[1.081s] copying urdf/base_link_p3.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[1.081s] copying urdf/base_link_p3.urdf -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[1.081s] copying urdf/base_link_p3.gazebo -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[1.081s] copying urdf/base_link_p3.trans -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[1.081s] copying urdf/materials.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf
+[1.081s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.081s] copying meshes/base_link.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.083s] copying meshes/Parte6_1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.084s] copying meshes/Parte6_3.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.085s] copying meshes/Parte6_5.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.086s] copying meshes/Parte6_2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.087s] copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.096s] copying meshes/Parte6_4.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.098s] copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes
+[1.107s] creating /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[1.107s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[1.107s] copying config/display.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[1.107s] copying config/gazebo.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config
+[1.107s] running install_egg_info
+[1.109s] Copying ../../build/base_link_p3_description/base_link_p3_description.egg-info to /app/project/install/base_link_p3_description/lib/python3.8/site-packages/base_link_p3_description-0.0.0-py3.8.egg-info
+[1.110s] running install_scripts
+[1.124s] writing list of installed files to '/app/project/build/base_link_p3_description/install.log'
+[1.151s] Invoked command in '/app/project/src/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/app/project/install/base_link_p3_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/base_link_p3_description build --build-base /app/project/build/base_link_p3_description/build install --record /app/project/build/base_link_p3_description/install.log --single-version-externally-managed

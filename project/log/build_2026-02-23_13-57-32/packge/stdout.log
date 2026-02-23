@@ -1,0 +1,19 @@
+[100%] Built target ola_mundo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /app/project/install/packge/lib/packge/ola_mundo
+-- Symlinking: /app/project/install/packge/share/ament_index/resource_index/package_run_dependencies/packge
+-- Symlinking: /app/project/install/packge/share/ament_index/resource_index/parent_prefix_path/packge
+-- Symlinking: /app/project/install/packge/share/packge/environment/ament_prefix_path.sh
+-- Symlinking: /app/project/install/packge/share/packge/environment/ament_prefix_path.dsv
+-- Symlinking: /app/project/install/packge/share/packge/environment/path.sh
+-- Symlinking: /app/project/install/packge/share/packge/environment/path.dsv
+-- Symlinking: /app/project/install/packge/share/packge/local_setup.bash
+-- Symlinking: /app/project/install/packge/share/packge/local_setup.sh
+-- Symlinking: /app/project/install/packge/share/packge/local_setup.zsh
+-- Symlinking: /app/project/install/packge/share/packge/local_setup.dsv
+-- Symlinking: /app/project/install/packge/share/packge/package.dsv
+-- Symlinking: /app/project/install/packge/share/ament_index/resource_index/packages/packge
+-- Symlinking: /app/project/install/packge/share/packge/cmake/packgeConfig.cmake
+-- Symlinking: /app/project/install/packge/share/packge/cmake/packgeConfig-version.cmake
+-- Symlinking: /app/project/install/packge/share/packge/package.xml
