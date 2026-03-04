@@ -2,7 +2,7 @@
 <robot name="robot_test" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find robot_test_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find robot_test_description)/urdf/robot_test.trans" />
+<xacro:include filename="$(find robot_test_description)/urdf/robot_test.ros2control" />
 <xacro:include filename="$(find robot_test_description)/urdf/robot_test.gazebo" />
 <link name="base_link">
   <inertial>
@@ -25,3 +25,32 @@
   </collision>
 </link>
 
+<link name="body_one_1">
+  <inertial>
+    <origin xyz="-6.252379929153885e-05 0.00012393560484965667 0.016292479013174894" rpy="0 0 0"/>
+    <mass value="0.022600742013882354"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_test_description)/meshes/body_one_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find robot_test_description)/meshes/body_one_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolucionar 2" type="continuous">
+  <origin xyz="0.0 0.0 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="body_one_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+</robot>
