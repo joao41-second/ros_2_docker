@@ -1,24 +1,25 @@
 
-FROM osrf/ros:humble-desktop
+FROM osrf/ros:foxy-desktop
 
 SHELL ["/bin/bash", "-c"]
 
 RUN apt -y  update
 
 RUN apt -y install -y \
-  ros-humble-gazebo-ros-pkgs \
-  ros-humble-gazebo-plugins \
-  ros-humble-xacro 
+  ros-foxy-gazebo-ros-pkgs \
+  ros-foxy-gazebo-plugins \
+  ros-foxy-xacro 
 
-RUN apt-get -y install ros-humble-gazebo-*
-RUN apt-get -y install ros-humble-ros2-control
-RUN apt-get -y install ros-humble-ros2-controllers
-RUN apt-get -y install ros-humble-gazebo-ros2-control
-RUN apt-get -y install ros-humble-joint-state-publisher-gui
-RUN apt-get -y install ros-humble-urdf-tutorial
+RUN apt-get -y install ros-foxy-gazebo-*
+RUN apt-get -y install ros-foxy-ros2-control
+RUN apt-get -y install ros-foxy-ros2-controllers
+RUN apt-get -y install ros-foxy-gazebo-ros2-control
+RUN apt-get -y install ros-foxy-joint-state-publisher-gui
+RUN apt-get -y install ros-foxy-urdf-tutorial
+RUN apt-get -y install freecad 
 
-RUN apt -y install ros-humble-ros-core ros-humble-geometry2
-RUN echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:/opt/ros/humble/lib" >> ~/.bashrc
+RUN apt -y install ros-foxy-ros-core ros-foxy-geometry2
+RUN echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:/opt/ros/foxy/lib" >> ~/.bashrc
 
 WORKDIR /app
 
