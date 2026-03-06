@@ -1,0 +1,51 @@
+[0.889s] Invoking command in '/app/project/src/base_link_t1_description': PYTHONPATH=/app/project/build/base_link_t1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_link_t1_description build --build-base /app/project/build/base_link_t1_description/build install --record /app/project/build/base_link_t1_description/install.log --single-version-externally-managed install_data
+[1.052s] running egg_info
+[1.052s] creating ../../build/base_link_t1_description/base_link_t1_description.egg-info
+[1.052s] writing ../../build/base_link_t1_description/base_link_t1_description.egg-info/PKG-INFO
+[1.053s] writing dependency_links to ../../build/base_link_t1_description/base_link_t1_description.egg-info/dependency_links.txt
+[1.053s] writing entry points to ../../build/base_link_t1_description/base_link_t1_description.egg-info/entry_points.txt
+[1.053s] writing requirements to ../../build/base_link_t1_description/base_link_t1_description.egg-info/requires.txt
+[1.053s] writing top-level names to ../../build/base_link_t1_description/base_link_t1_description.egg-info/top_level.txt
+[1.053s] writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'
+[1.054s] reading manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'
+[1.054s] writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'
+[1.054s] running build
+[1.055s] running build_py
+[1.055s] creating /app/project/build/base_link_t1_description/build
+[1.055s] creating /app/project/build/base_link_t1_description/build/lib
+[1.055s] creating /app/project/build/base_link_t1_description/build/lib/base_link_t1_description
+[1.055s] copying base_link_t1_description/__init__.py -> /app/project/build/base_link_t1_description/build/lib/base_link_t1_description
+[1.055s] running install
+[1.055s] running install_lib
+[1.056s] creating /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description
+[1.056s] copying /app/project/build/base_link_t1_description/build/lib/base_link_t1_description/__init__.py -> /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description
+[1.056s] byte-compiling /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description/__init__.py to __init__.cpython-310.pyc
+[1.056s] running install_data
+[1.056s] creating /app/project/install/base_link_t1_description/share/ament_index
+[1.056s] creating /app/project/install/base_link_t1_description/share/ament_index/resource_index
+[1.057s] creating /app/project/install/base_link_t1_description/share/ament_index/resource_index/packages
+[1.057s] copying resource/base_link_t1_description -> /app/project/install/base_link_t1_description/share/ament_index/resource_index/packages
+[1.057s] copying package.xml -> /app/project/install/base_link_t1_description/share/base_link_t1_description
+[1.057s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/launch
+[1.057s] copying launch/gazebo.launch.py -> /app/project/install/base_link_t1_description/share/base_link_t1_description/launch
+[1.057s] copying launch/display.launch.py -> /app/project/install/base_link_t1_description/share/base_link_t1_description/launch
+[1.058s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[1.058s] copying urdf/base_link_t1.xacro -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[1.058s] copying urdf/base_link_t1.ros2control -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[1.058s] copying urdf/base_link_t1.gazebo -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[1.058s] copying urdf/materials.xacro -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[1.058s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[1.058s] copying meshes/base_link.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[1.059s] copying meshes/Parte6_1.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[1.060s] copying meshes/Parte6_2.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[1.060s] copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[1.068s] copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[1.075s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[1.075s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[1.075s] copying config/display.rviz -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[1.075s] copying config/gazebo.rviz -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[1.075s] running install_egg_info
+[1.077s] Copying ../../build/base_link_t1_description/base_link_t1_description.egg-info to /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description-0.0.0-py3.10.egg-info
+[1.078s] running install_scripts
+[1.096s] writing list of installed files to '/app/project/build/base_link_t1_description/install.log'
+[1.122s] Invoked command in '/app/project/src/base_link_t1_description' returned '0': PYTHONPATH=/app/project/build/base_link_t1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_link_t1_description build --build-base /app/project/build/base_link_t1_description/build install --record /app/project/build/base_link_t1_description/install.log --single-version-externally-managed install_data

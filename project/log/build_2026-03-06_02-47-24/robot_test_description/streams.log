@@ -1,0 +1,48 @@
+[0.886s] Invoking command in '/app/project/src/robot_test_description': PYTHONPATH=/app/project/build/robot_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/robot_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_test_description build --build-base /app/project/build/robot_test_description/build install --record /app/project/build/robot_test_description/install.log --single-version-externally-managed install_data
+[1.049s] running egg_info
+[1.049s] creating ../../build/robot_test_description/robot_test_description.egg-info
+[1.049s] writing ../../build/robot_test_description/robot_test_description.egg-info/PKG-INFO
+[1.049s] writing dependency_links to ../../build/robot_test_description/robot_test_description.egg-info/dependency_links.txt
+[1.049s] writing entry points to ../../build/robot_test_description/robot_test_description.egg-info/entry_points.txt
+[1.049s] writing requirements to ../../build/robot_test_description/robot_test_description.egg-info/requires.txt
+[1.049s] writing top-level names to ../../build/robot_test_description/robot_test_description.egg-info/top_level.txt
+[1.049s] writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+[1.051s] reading manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+[1.051s] writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+[1.051s] running build
+[1.051s] running build_py
+[1.052s] creating /app/project/build/robot_test_description/build
+[1.052s] creating /app/project/build/robot_test_description/build/lib
+[1.052s] creating /app/project/build/robot_test_description/build/lib/robot_test_description
+[1.052s] copying robot_test_description/__init__.py -> /app/project/build/robot_test_description/build/lib/robot_test_description
+[1.052s] running install
+[1.052s] running install_lib
+[1.053s] creating /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description
+[1.053s] copying /app/project/build/robot_test_description/build/lib/robot_test_description/__init__.py -> /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description
+[1.054s] byte-compiling /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description/__init__.py to __init__.cpython-310.pyc
+[1.054s] running install_data
+[1.054s] creating /app/project/install/robot_test_description/share/ament_index
+[1.054s] creating /app/project/install/robot_test_description/share/ament_index/resource_index
+[1.054s] creating /app/project/install/robot_test_description/share/ament_index/resource_index/packages
+[1.054s] copying resource/robot_test_description -> /app/project/install/robot_test_description/share/ament_index/resource_index/packages
+[1.054s] copying package.xml -> /app/project/install/robot_test_description/share/robot_test_description
+[1.055s] creating /app/project/install/robot_test_description/share/robot_test_description/launch
+[1.055s] copying launch/gazebo.launch.py -> /app/project/install/robot_test_description/share/robot_test_description/launch
+[1.055s] copying launch/display.launch.py -> /app/project/install/robot_test_description/share/robot_test_description/launch
+[1.055s] creating /app/project/install/robot_test_description/share/robot_test_description/urdf
+[1.055s] copying urdf/robot_test.gazebo -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+[1.055s] copying urdf/robot_test.ros2control -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+[1.055s] copying urdf/robot_test.xacro -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+[1.055s] copying urdf/materials.xacro -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+[1.055s] creating /app/project/install/robot_test_description/share/robot_test_description/meshes
+[1.055s] copying meshes/base_link.stl -> /app/project/install/robot_test_description/share/robot_test_description/meshes
+[1.055s] copying meshes/body_one_1.stl -> /app/project/install/robot_test_description/share/robot_test_description/meshes
+[1.055s] creating /app/project/install/robot_test_description/share/robot_test_description/config
+[1.055s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/robot_test_description/share/robot_test_description/config
+[1.055s] copying config/display.rviz -> /app/project/install/robot_test_description/share/robot_test_description/config
+[1.055s] copying config/gazebo.rviz -> /app/project/install/robot_test_description/share/robot_test_description/config
+[1.055s] running install_egg_info
+[1.056s] Copying ../../build/robot_test_description/robot_test_description.egg-info to /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info
+[1.057s] running install_scripts
+[1.072s] writing list of installed files to '/app/project/build/robot_test_description/install.log'
+[1.092s] Invoked command in '/app/project/src/robot_test_description' returned '0': PYTHONPATH=/app/project/build/robot_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/robot_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_test_description build --build-base /app/project/build/robot_test_description/build install --record /app/project/build/robot_test_description/install.log --single-version-externally-managed install_data

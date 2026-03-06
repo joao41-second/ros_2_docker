@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000642] (base_link_p3_description) JobQueued: {'identifier': 'base_link_p3_description', 'dependencies': OrderedDict()}
+[0.000676] (base_link_t1_description) JobQueued: {'identifier': 'base_link_t1_description', 'dependencies': OrderedDict()}
+[0.000692] (robot_test_description) JobQueued: {'identifier': 'robot_test_description', 'dependencies': OrderedDict()}
+[0.000706] (base_link_p3_description) JobStarted: {'identifier': 'base_link_p3_description'}
+[0.011052] (base_link_t1_description) JobStarted: {'identifier': 'base_link_t1_description'}
+[0.015032] (robot_test_description) JobStarted: {'identifier': 'robot_test_description'}
+[0.099817] (-) TimerEvent: {}
+[0.200065] (-) TimerEvent: {}
+[0.300278] (-) TimerEvent: {}
+[0.400541] (-) TimerEvent: {}
+[0.500774] (-) TimerEvent: {}
+[0.601014] (-) TimerEvent: {}
+[0.701293] (-) TimerEvent: {}
+[0.801600] (-) TimerEvent: {}
+[0.894053] (base_link_p3_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_link_p3_description', 'build', '--build-base', '/app/project/build/base_link_p3_description/build', 'install', '--record', '/app/project/build/base_link_p3_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/base_link_p3_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/app/project/build/base_link_p3_description', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib', 'PYTHONPATH': '/app/project/build/base_link_p3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.898156] (base_link_t1_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_link_t1_description', 'build', '--build-base', '/app/project/build/base_link_t1_description/build', 'install', '--record', '/app/project/build/base_link_t1_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/base_link_t1_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/app/project/build/base_link_t1_description', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib', 'PYTHONPATH': '/app/project/build/base_link_t1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.900458] (robot_test_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_test_description', 'build', '--build-base', '/app/project/build/robot_test_description/build', 'install', '--record', '/app/project/build/robot_test_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/robot_test_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/app/project/build/robot_test_description', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib', 'PYTHONPATH': '/app/project/build/robot_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/robot_test_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.901654] (-) TimerEvent: {}
+[1.001849] (-) TimerEvent: {}
+[1.062712] (base_link_t1_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.062941] (base_link_p3_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.063154] (base_link_t1_description) StdoutLine: {'line': b'creating ../../build/base_link_t1_description/base_link_t1_description.egg-info\n'}
+[1.063305] (base_link_t1_description) StdoutLine: {'line': b'writing ../../build/base_link_t1_description/base_link_t1_description.egg-info/PKG-INFO\n'}
+[1.063478] (base_link_p3_description) StdoutLine: {'line': b'creating ../../build/base_link_p3_description/base_link_p3_description.egg-info\n'}
+[1.063572] (base_link_p3_description) StdoutLine: {'line': b'writing ../../build/base_link_p3_description/base_link_p3_description.egg-info/PKG-INFO\n'}
+[1.063751] (base_link_p3_description) StdoutLine: {'line': b'writing dependency_links to ../../build/base_link_p3_description/base_link_p3_description.egg-info/dependency_links.txt\n'}
+[1.063828] (base_link_t1_description) StdoutLine: {'line': b'writing dependency_links to ../../build/base_link_t1_description/base_link_t1_description.egg-info/dependency_links.txt\n'}
+[1.063890] (base_link_p3_description) StdoutLine: {'line': b'writing entry points to ../../build/base_link_p3_description/base_link_p3_description.egg-info/entry_points.txt\n'}
+[1.064033] (base_link_t1_description) StdoutLine: {'line': b'writing entry points to ../../build/base_link_t1_description/base_link_t1_description.egg-info/entry_points.txt\n'}
+[1.064089] (base_link_t1_description) StdoutLine: {'line': b'writing requirements to ../../build/base_link_t1_description/base_link_t1_description.egg-info/requires.txt\n'}
+[1.064130] (base_link_t1_description) StdoutLine: {'line': b'writing top-level names to ../../build/base_link_t1_description/base_link_t1_description.egg-info/top_level.txt\n'}
+[1.064169] (base_link_t1_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'\n"}
+[1.064208] (base_link_p3_description) StdoutLine: {'line': b'writing requirements to ../../build/base_link_p3_description/base_link_p3_description.egg-info/requires.txt\n'}
+[1.064247] (base_link_p3_description) StdoutLine: {'line': b'writing top-level names to ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt\n'}
+[1.064285] (robot_test_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.064384] (base_link_p3_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[1.064430] (robot_test_description) StdoutLine: {'line': b'creating ../../build/robot_test_description/robot_test_description.egg-info\n'}
+[1.064506] (robot_test_description) StdoutLine: {'line': b'writing ../../build/robot_test_description/robot_test_description.egg-info/PKG-INFO\n'}
+[1.064608] (robot_test_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_test_description/robot_test_description.egg-info/dependency_links.txt\n'}
+[1.064691] (robot_test_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_test_description/robot_test_description.egg-info/entry_points.txt\n'}
+[1.064765] (robot_test_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_test_description/robot_test_description.egg-info/requires.txt\n'}
+[1.064825] (robot_test_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_test_description/robot_test_description.egg-info/top_level.txt\n'}
+[1.064920] (robot_test_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'\n"}
+[1.065095] (base_link_t1_description) StdoutLine: {'line': b"reading manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'\n"}
+[1.065283] (base_link_p3_description) StdoutLine: {'line': b"reading manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[1.065661] (base_link_t1_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'\n"}
+[1.065767] (base_link_t1_description) StdoutLine: {'line': b'running build\n'}
+[1.065838] (base_link_t1_description) StdoutLine: {'line': b'running build_py\n'}
+[1.065919] (base_link_p3_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[1.066002] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/build/base_link_t1_description/build\n'}
+[1.066055] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/build/base_link_t1_description/build/lib\n'}
+[1.066127] (base_link_p3_description) StdoutLine: {'line': b'running build\n'}
+[1.066216] (base_link_p3_description) StdoutLine: {'line': b'running build_py\n'}
+[1.066263] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/build/base_link_p3_description/build\n'}
+[1.066305] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/build/base_link_p3_description/build/lib\n'}
+[1.066345] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/build/base_link_p3_description/build/lib/base_link_p3_description\n'}
+[1.066385] (robot_test_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'\n"}
+[1.066477] (base_link_p3_description) StdoutLine: {'line': b'copying base_link_p3_description/__init__.py -> /app/project/build/base_link_p3_description/build/lib/base_link_p3_description\n'}
+[1.066518] (base_link_p3_description) StdoutLine: {'line': b'running install\n'}
+[1.066555] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/build/base_link_t1_description/build/lib/base_link_t1_description\n'}
+[1.066604] (base_link_t1_description) StdoutLine: {'line': b'copying base_link_t1_description/__init__.py -> /app/project/build/base_link_t1_description/build/lib/base_link_t1_description\n'}
+[1.066643] (base_link_t1_description) StdoutLine: {'line': b'running install\n'}
+[1.066684] (base_link_t1_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.066725] (base_link_p3_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.066790] (robot_test_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'\n"}
+[1.066836] (robot_test_description) StdoutLine: {'line': b'running build\n'}
+[1.066879] (robot_test_description) StdoutLine: {'line': b'running build_py\n'}
+[1.066957] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description\n'}
+[1.067042] (base_link_t1_description) StdoutLine: {'line': b'copying /app/project/build/base_link_t1_description/build/lib/base_link_t1_description/__init__.py -> /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description\n'}
+[1.067086] (robot_test_description) StdoutLine: {'line': b'creating /app/project/build/robot_test_description/build\n'}
+[1.067133] (robot_test_description) StdoutLine: {'line': b'creating /app/project/build/robot_test_description/build/lib\n'}
+[1.067174] (robot_test_description) StdoutLine: {'line': b'creating /app/project/build/robot_test_description/build/lib/robot_test_description\n'}
+[1.067214] (robot_test_description) StdoutLine: {'line': b'copying robot_test_description/__init__.py -> /app/project/build/robot_test_description/build/lib/robot_test_description\n'}
+[1.067271] (robot_test_description) StdoutLine: {'line': b'running install\n'}
+[1.067342] (base_link_t1_description) StdoutLine: {'line': b'byte-compiling /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.067386] (robot_test_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.067444] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description\n'}
+[1.067507] (base_link_p3_description) StdoutLine: {'line': b'copying /app/project/build/base_link_p3_description/build/lib/base_link_p3_description/__init__.py -> /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description\n'}
+[1.067567] (base_link_p3_description) StdoutLine: {'line': b'byte-compiling /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.067641] (base_link_t1_description) StdoutLine: {'line': b'running install_data\n'}
+[1.067683] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/ament_index\n'}
+[1.067724] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/ament_index/resource_index\n'}
+[1.067763] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/ament_index/resource_index/packages\n'}
+[1.067919] (base_link_t1_description) StdoutLine: {'line': b'copying resource/base_link_t1_description -> /app/project/install/base_link_t1_description/share/ament_index/resource_index/packages\n'}
+[1.068058] (base_link_t1_description) StdoutLine: {'line': b'copying package.xml -> /app/project/install/base_link_t1_description/share/base_link_t1_description\n'}
+[1.068160] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/base_link_t1_description/launch\n'}
+[1.068229] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description\n'}
+[1.068337] (robot_test_description) StdoutLine: {'line': b'copying /app/project/build/robot_test_description/build/lib/robot_test_description/__init__.py -> /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description\n'}
+[1.068406] (base_link_p3_description) StdoutLine: {'line': b'running install_data\n'}
+[1.068545] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/ament_index\n'}
+[1.068600] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/ament_index/resource_index\n'}
+[1.068645] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages\n'}
+[1.068687] (base_link_p3_description) StdoutLine: {'line': b'copying resource/base_link_p3_description -> /app/project/install/base_link_p3_description/share/ament_index/resource_index/packages\n'}
+[1.068737] (base_link_t1_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /app/project/install/base_link_t1_description/share/base_link_t1_description/launch\n'}
+[1.068780] (base_link_t1_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /app/project/install/base_link_t1_description/share/base_link_t1_description/launch\n'}
+[1.068821] (base_link_p3_description) StdoutLine: {'line': b'copying package.xml -> /app/project/install/base_link_p3_description/share/base_link_p3_description\n'}
+[1.068863] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf\n'}
+[1.068906] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/base_link_p3_description/launch\n'}
+[1.068961] (robot_test_description) StdoutLine: {'line': b'byte-compiling /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.069060] (base_link_t1_description) StdoutLine: {'line': b'copying urdf/base_link_t1.xacro -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf\n'}
+[1.069168] (base_link_t1_description) StdoutLine: {'line': b'copying urdf/base_link_t1.ros2control -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf\n'}
+[1.069243] (base_link_p3_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch\n'}
+[1.069306] (base_link_t1_description) StdoutLine: {'line': b'copying urdf/base_link_t1.gazebo -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf\n'}
+[1.069368] (base_link_t1_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf\n'}
+[1.069420] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes\n'}
+[1.069470] (robot_test_description) StdoutLine: {'line': b'running install_data\n'}
+[1.069515] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/ament_index\n'}
+[1.069561] (base_link_p3_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /app/project/install/base_link_p3_description/share/base_link_p3_description/launch\n'}
+[1.069607] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/ament_index/resource_index\n'}
+[1.069678] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/ament_index/resource_index/packages\n'}
+[1.069725] (base_link_t1_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes\n'}
+[1.069770] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf\n'}
+[1.069815] (base_link_p3_description) StdoutLine: {'line': b'copying urdf/base_link_p3.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf\n'}
+[1.069860] (robot_test_description) StdoutLine: {'line': b'copying resource/robot_test_description -> /app/project/install/robot_test_description/share/ament_index/resource_index/packages\n'}
+[1.069910] (robot_test_description) StdoutLine: {'line': b'copying package.xml -> /app/project/install/robot_test_description/share/robot_test_description\n'}
+[1.070026] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/robot_test_description/launch\n'}
+[1.070076] (robot_test_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /app/project/install/robot_test_description/share/robot_test_description/launch\n'}
+[1.070119] (robot_test_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /app/project/install/robot_test_description/share/robot_test_description/launch\n'}
+[1.070163] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/robot_test_description/urdf\n'}
+[1.070207] (robot_test_description) StdoutLine: {'line': b'copying urdf/robot_test.gazebo -> /app/project/install/robot_test_description/share/robot_test_description/urdf\n'}
+[1.070252] (base_link_p3_description) StdoutLine: {'line': b'copying urdf/base_link_p3.urdf -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf\n'}
+[1.070313] (robot_test_description) StdoutLine: {'line': b'copying urdf/robot_test.ros2control -> /app/project/install/robot_test_description/share/robot_test_description/urdf\n'}
+[1.070357] (robot_test_description) StdoutLine: {'line': b'copying urdf/robot_test.xacro -> /app/project/install/robot_test_description/share/robot_test_description/urdf\n'}
+[1.070399] (robot_test_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /app/project/install/robot_test_description/share/robot_test_description/urdf\n'}
+[1.070439] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/robot_test_description/meshes\n'}
+[1.070488] (robot_test_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /app/project/install/robot_test_description/share/robot_test_description/meshes\n'}
+[1.070534] (robot_test_description) StdoutLine: {'line': b'copying meshes/body_one_1.stl -> /app/project/install/robot_test_description/share/robot_test_description/meshes\n'}
+[1.070576] (base_link_t1_description) StdoutLine: {'line': b'copying meshes/Parte6_1.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes\n'}
+[1.070622] (base_link_p3_description) StdoutLine: {'line': b'copying urdf/base_link_p3.gazebo -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf\n'}
+[1.070663] (base_link_p3_description) StdoutLine: {'line': b'copying urdf/base_link_p3.trans -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf\n'}
+[1.070708] (base_link_p3_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf\n'}
+[1.070763] (robot_test_description) StdoutLine: {'line': b'creating /app/project/install/robot_test_description/share/robot_test_description/config\n'}
+[1.070805] (robot_test_description) StdoutLine: {'line': b'copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/robot_test_description/share/robot_test_description/config\n'}
+[1.070853] (robot_test_description) StdoutLine: {'line': b'copying config/display.rviz -> /app/project/install/robot_test_description/share/robot_test_description/config\n'}
+[1.070895] (robot_test_description) StdoutLine: {'line': b'copying config/gazebo.rviz -> /app/project/install/robot_test_description/share/robot_test_description/config\n'}
+[1.070947] (robot_test_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.070997] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.071044] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.071086] (base_link_t1_description) StdoutLine: {'line': b'copying meshes/Parte6_2.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes\n'}
+[1.071263] (robot_test_description) StdoutLine: {'line': b'Copying ../../build/robot_test_description/robot_test_description.egg-info to /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info\n'}
+[1.071738] (base_link_t1_description) StdoutLine: {'line': b'copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes\n'}
+[1.072007] (robot_test_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.073126] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte6_1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.075593] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte6_3.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.078416] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte6_5.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.079050] (base_link_t1_description) StdoutLine: {'line': b'copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes\n'}
+[1.080515] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte6_2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.083243] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.086404] (base_link_t1_description) StdoutLine: {'line': b'creating /app/project/install/base_link_t1_description/share/base_link_t1_description/config\n'}
+[1.086497] (base_link_t1_description) StdoutLine: {'line': b'copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config\n'}
+[1.086589] (base_link_t1_description) StdoutLine: {'line': b'copying config/display.rviz -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config\n'}
+[1.086667] (base_link_t1_description) StdoutLine: {'line': b'copying config/gazebo.rviz -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config\n'}
+[1.086736] (base_link_t1_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.087545] (robot_test_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/robot_test_description/install.log'\n"}
+[1.088466] (base_link_t1_description) StdoutLine: {'line': b'Copying ../../build/base_link_t1_description/base_link_t1_description.egg-info to /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description-0.0.0-py3.10.egg-info\n'}
+[1.089259] (base_link_t1_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.099558] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte6_4.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.101939] (-) TimerEvent: {}
+[1.102117] (base_link_p3_description) StdoutLine: {'line': b'copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes\n'}
+[1.106738] (base_link_t1_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/base_link_t1_description/install.log'\n"}
+[1.106960] (robot_test_description) CommandEnded: {'returncode': 0}
+[1.130741] (base_link_p3_description) StdoutLine: {'line': b'creating /app/project/install/base_link_p3_description/share/base_link_p3_description/config\n'}
+[1.131179] (base_link_p3_description) StdoutLine: {'line': b'copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config\n'}
+[1.131265] (base_link_p3_description) StdoutLine: {'line': b'copying config/display.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config\n'}
+[1.131336] (base_link_p3_description) StdoutLine: {'line': b'copying config/gazebo.rviz -> /app/project/install/base_link_p3_description/share/base_link_p3_description/config\n'}
+[1.131400] (base_link_p3_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.131461] (base_link_p3_description) StdoutLine: {'line': b'Copying ../../build/base_link_p3_description/base_link_p3_description.egg-info to /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info\n'}
+[1.131525] (base_link_p3_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.132497] (robot_test_description) JobEnded: {'identifier': 'robot_test_description', 'rc': 0}
+[1.133431] (base_link_t1_description) CommandEnded: {'returncode': 0}
+[1.137907] (base_link_t1_description) JobEnded: {'identifier': 'base_link_t1_description', 'rc': 0}
+[1.138982] (base_link_p3_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/base_link_p3_description/install.log'\n"}
+[1.165270] (base_link_p3_description) CommandEnded: {'returncode': 0}
+[1.170162] (base_link_p3_description) JobEnded: {'identifier': 'base_link_p3_description', 'rc': 0}
+[1.170668] (-) EventReactorShutdown: {}
