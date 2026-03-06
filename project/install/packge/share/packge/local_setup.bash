@@ -1,1 +1,0 @@
-/app/project/build/packge/ament_cmake_environment_hooks/local_setup.bash

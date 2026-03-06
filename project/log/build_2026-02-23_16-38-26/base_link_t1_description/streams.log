@@ -1,0 +1,51 @@
+[0.638s] Invoking command in '/app/project/src/base_link_t1_description': PYTHONPATH=/app/project/build/base_link_t1_description/prefix_override:/app/project/install/base_link_t1_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/base_link_t1_description build --build-base /app/project/build/base_link_t1_description/build install --record /app/project/build/base_link_t1_description/install.log --single-version-externally-managed
+[0.784s] running egg_info
+[0.784s] creating ../../build/base_link_t1_description/base_link_t1_description.egg-info
+[0.784s] writing ../../build/base_link_t1_description/base_link_t1_description.egg-info/PKG-INFO
+[0.784s] writing dependency_links to ../../build/base_link_t1_description/base_link_t1_description.egg-info/dependency_links.txt
+[0.784s] writing entry points to ../../build/base_link_t1_description/base_link_t1_description.egg-info/entry_points.txt
+[0.784s] writing requirements to ../../build/base_link_t1_description/base_link_t1_description.egg-info/requires.txt
+[0.785s] writing top-level names to ../../build/base_link_t1_description/base_link_t1_description.egg-info/top_level.txt
+[0.786s] writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'
+[0.810s] reading manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'
+[0.811s] writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'
+[0.811s] running build
+[0.811s] running build_py
+[0.811s] creating /app/project/build/base_link_t1_description/build
+[0.811s] creating /app/project/build/base_link_t1_description/build/lib
+[0.812s] creating /app/project/build/base_link_t1_description/build/lib/base_link_t1_description
+[0.812s] copying base_link_t1_description/__init__.py -> /app/project/build/base_link_t1_description/build/lib/base_link_t1_description
+[0.812s] running install
+[0.812s] running install_lib
+[0.813s] creating /app/project/install/base_link_t1_description/lib/python3.8/site-packages/base_link_t1_description
+[0.813s] copying /app/project/build/base_link_t1_description/build/lib/base_link_t1_description/__init__.py -> /app/project/install/base_link_t1_description/lib/python3.8/site-packages/base_link_t1_description
+[0.813s] byte-compiling /app/project/install/base_link_t1_description/lib/python3.8/site-packages/base_link_t1_description/__init__.py to __init__.cpython-38.pyc
+[0.814s] running install_data
+[0.815s] creating /app/project/install/base_link_t1_description/share/ament_index
+[0.815s] creating /app/project/install/base_link_t1_description/share/ament_index/resource_index
+[0.815s] creating /app/project/install/base_link_t1_description/share/ament_index/resource_index/packages
+[0.815s] copying resource/base_link_t1_description -> /app/project/install/base_link_t1_description/share/ament_index/resource_index/packages
+[0.815s] copying package.xml -> /app/project/install/base_link_t1_description/share/base_link_t1_description
+[0.815s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/launch
+[0.815s] copying launch/gazebo.launch.py -> /app/project/install/base_link_t1_description/share/base_link_t1_description/launch
+[0.815s] copying launch/display.launch.py -> /app/project/install/base_link_t1_description/share/base_link_t1_description/launch
+[0.815s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[0.815s] copying urdf/base_link_t1.xacro -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[0.815s] copying urdf/base_link_t1.ros2control -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[0.815s] copying urdf/base_link_t1.gazebo -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[0.816s] copying urdf/materials.xacro -> /app/project/install/base_link_t1_description/share/base_link_t1_description/urdf
+[0.816s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[0.816s] copying meshes/base_link.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[0.817s] copying meshes/Parte6_1.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[0.818s] copying meshes/Parte6_2.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[0.820s] copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[0.828s] copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_t1_description/share/base_link_t1_description/meshes
+[0.836s] creating /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[0.836s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[0.836s] copying config/display.rviz -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[0.837s] copying config/gazebo.rviz -> /app/project/install/base_link_t1_description/share/base_link_t1_description/config
+[0.837s] running install_egg_info
+[0.839s] Copying ../../build/base_link_t1_description/base_link_t1_description.egg-info to /app/project/install/base_link_t1_description/lib/python3.8/site-packages/base_link_t1_description-0.0.0-py3.8.egg-info
+[0.840s] running install_scripts
+[0.857s] writing list of installed files to '/app/project/build/base_link_t1_description/install.log'
+[0.888s] Invoked command in '/app/project/src/base_link_t1_description' returned '0': PYTHONPATH=/app/project/build/base_link_t1_description/prefix_override:/app/project/install/base_link_t1_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/base_link_t1_description build --build-base /app/project/build/base_link_t1_description/build install --record /app/project/build/base_link_t1_description/install.log --single-version-externally-managed
