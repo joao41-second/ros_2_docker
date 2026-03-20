@@ -1,0 +1,50 @@
+[1.074s] Invoking command in '/app/project/src/rover_se_pernas_description': PYTHONPATH=/app/project/build/rover_se_pernas_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/rover_se_pernas_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_se_pernas_description build --build-base /app/project/build/rover_se_pernas_description/build install --record /app/project/build/rover_se_pernas_description/install.log --single-version-externally-managed install_data
+[1.241s] running egg_info
+[1.263s] creating ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info
+[1.264s] writing ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/PKG-INFO
+[1.265s] writing dependency_links to ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/dependency_links.txt
+[1.266s] writing entry points to ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/entry_points.txt
+[1.266s] writing requirements to ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/requires.txt
+[1.266s] writing top-level names to ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/top_level.txt
+[1.266s] writing manifest file '../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/SOURCES.txt'
+[1.266s] reading manifest file '../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/SOURCES.txt'
+[1.266s] writing manifest file '../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info/SOURCES.txt'
+[1.266s] running build
+[1.266s] running build_py
+[1.266s] creating /app/project/build/rover_se_pernas_description/build
+[1.266s] creating /app/project/build/rover_se_pernas_description/build/lib
+[1.266s] creating /app/project/build/rover_se_pernas_description/build/lib/rover_se_pernas_description
+[1.266s] copying rover_se_pernas_description/__init__.py -> /app/project/build/rover_se_pernas_description/build/lib/rover_se_pernas_description
+[1.266s] running install
+[1.266s] running install_lib
+[1.266s] creating /app/project/install/rover_se_pernas_description/lib/python3.10/site-packages/rover_se_pernas_description
+[1.266s] copying /app/project/build/rover_se_pernas_description/build/lib/rover_se_pernas_description/__init__.py -> /app/project/install/rover_se_pernas_description/lib/python3.10/site-packages/rover_se_pernas_description
+[1.266s] byte-compiling /app/project/install/rover_se_pernas_description/lib/python3.10/site-packages/rover_se_pernas_description/__init__.py to __init__.cpython-310.pyc
+[1.266s] running install_data
+[1.266s] creating /app/project/install/rover_se_pernas_description/share/ament_index
+[1.266s] creating /app/project/install/rover_se_pernas_description/share/ament_index/resource_index
+[1.266s] creating /app/project/install/rover_se_pernas_description/share/ament_index/resource_index/packages
+[1.266s] copying resource/rover_se_pernas_description -> /app/project/install/rover_se_pernas_description/share/ament_index/resource_index/packages
+[1.266s] copying package.xml -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description
+[1.266s] creating /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/launch
+[1.266s] copying launch/gazebo.launch.py -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/launch
+[1.267s] copying launch/display.launch.py -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/launch
+[1.267s] creating /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/urdf
+[1.267s] copying urdf/rover_se_pernas.gazebo -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/urdf
+[1.267s] copying urdf/rover_se_pernas.xacro -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/urdf
+[1.267s] copying urdf/rover_se_pernas.ros2control -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/urdf
+[1.267s] copying urdf/materials.xacro -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/urdf
+[1.267s] creating /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/meshes
+[1.267s] copying meshes/base_link.stl -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/meshes
+[1.267s] copying meshes/body_four_2.stl -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/meshes
+[1.267s] copying meshes/body_three_1.stl -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/meshes
+[1.267s] copying meshes/body_five_v1_1.stl -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/meshes
+[1.267s] creating /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/config
+[1.267s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/config
+[1.267s] copying config/display.rviz -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/config
+[1.267s] copying config/gazebo.rviz -> /app/project/install/rover_se_pernas_description/share/rover_se_pernas_description/config
+[1.267s] running install_egg_info
+[1.267s] Copying ../../build/rover_se_pernas_description/rover_se_pernas_description.egg-info to /app/project/install/rover_se_pernas_description/lib/python3.10/site-packages/rover_se_pernas_description-0.0.0-py3.10.egg-info
+[1.267s] running install_scripts
+[1.272s] writing list of installed files to '/app/project/build/rover_se_pernas_description/install.log'
+[1.313s] Invoked command in '/app/project/src/rover_se_pernas_description' returned '0': PYTHONPATH=/app/project/build/rover_se_pernas_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/rover_se_pernas_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_se_pernas_description build --build-base /app/project/build/rover_se_pernas_description/build install --record /app/project/build/rover_se_pernas_description/install.log --single-version-externally-managed install_data

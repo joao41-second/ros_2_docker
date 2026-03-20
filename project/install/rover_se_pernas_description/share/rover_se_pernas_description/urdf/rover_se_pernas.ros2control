@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<robot name="rover_se_pernas" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+</robot>

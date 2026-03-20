@@ -22,11 +22,16 @@ meshes/Parte6_3.stl
 meshes/Parte6_4.stl
 meshes/Parte6_5.stl
 meshes/base_link.stl
+meshes/body_1.stl
+meshes/body_3.stl
+meshes/body_4.stl
+meshes/body_5.stl
 resource/base_link_p3_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/base_link_p3.gazebo
+urdf/base_link_p3.ros2control
 urdf/base_link_p3.trans
 urdf/base_link_p3.urdf
 urdf/base_link_p3.xacro

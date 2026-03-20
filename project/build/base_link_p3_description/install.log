@@ -7,10 +7,15 @@
 /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf/base_link_p3.xacro
 /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf/base_link_p3.urdf
 /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf/base_link_p3.gazebo
+/app/project/install/base_link_p3_description/share/base_link_p3_description/urdf/base_link_p3.ros2control
 /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf/base_link_p3.trans
 /app/project/install/base_link_p3_description/share/base_link_p3_description/urdf/materials.xacro
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/base_link.stl
+/app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/body_5.stl
+/app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/body_3.stl
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte6_1.stl
+/app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/body_4.stl
+/app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/body_1.stl
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte6_3.stl
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte6_5.stl
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte6_2.stl

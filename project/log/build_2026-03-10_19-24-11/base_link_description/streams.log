@@ -1,0 +1,53 @@
+[1.503s] Invoking command in '/app/project/src/base_link_description': PYTHONPATH=/app/project/build/base_link_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_link_description build --build-base /app/project/build/base_link_description/build install --record /app/project/build/base_link_description/install.log --single-version-externally-managed install_data
+[1.698s] running egg_info
+[1.698s] creating ../../build/base_link_description/base_link_description.egg-info
+[1.698s] writing ../../build/base_link_description/base_link_description.egg-info/PKG-INFO
+[1.698s] writing dependency_links to ../../build/base_link_description/base_link_description.egg-info/dependency_links.txt
+[1.699s] writing entry points to ../../build/base_link_description/base_link_description.egg-info/entry_points.txt
+[1.699s] writing requirements to ../../build/base_link_description/base_link_description.egg-info/requires.txt
+[1.699s] writing top-level names to ../../build/base_link_description/base_link_description.egg-info/top_level.txt
+[1.699s] writing manifest file '../../build/base_link_description/base_link_description.egg-info/SOURCES.txt'
+[1.700s] reading manifest file '../../build/base_link_description/base_link_description.egg-info/SOURCES.txt'
+[1.701s] writing manifest file '../../build/base_link_description/base_link_description.egg-info/SOURCES.txt'
+[1.701s] running build
+[1.701s] running build_py
+[1.702s] creating /app/project/build/base_link_description/build
+[1.702s] creating /app/project/build/base_link_description/build/lib
+[1.702s] creating /app/project/build/base_link_description/build/lib/base_link_description
+[1.702s] copying base_link_description/__init__.py -> /app/project/build/base_link_description/build/lib/base_link_description
+[1.702s] running install
+[1.702s] running install_lib
+[1.703s] creating /app/project/install/base_link_description/lib/python3.10/site-packages/base_link_description
+[1.703s] copying /app/project/build/base_link_description/build/lib/base_link_description/__init__.py -> /app/project/install/base_link_description/lib/python3.10/site-packages/base_link_description
+[1.703s] byte-compiling /app/project/install/base_link_description/lib/python3.10/site-packages/base_link_description/__init__.py to __init__.cpython-310.pyc
+[1.704s] running install_data
+[1.704s] creating /app/project/install/base_link_description/share/ament_index
+[1.704s] creating /app/project/install/base_link_description/share/ament_index/resource_index
+[1.704s] creating /app/project/install/base_link_description/share/ament_index/resource_index/packages
+[1.704s] copying resource/base_link_description -> /app/project/install/base_link_description/share/ament_index/resource_index/packages
+[1.704s] copying package.xml -> /app/project/install/base_link_description/share/base_link_description
+[1.704s] creating /app/project/install/base_link_description/share/base_link_description/launch
+[1.704s] copying launch/gazebo.launch.py -> /app/project/install/base_link_description/share/base_link_description/launch
+[1.704s] copying launch/display.launch.py -> /app/project/install/base_link_description/share/base_link_description/launch
+[1.704s] creating /app/project/install/base_link_description/share/base_link_description/urdf
+[1.704s] copying urdf/base_link.gazebo -> /app/project/install/base_link_description/share/base_link_description/urdf
+[1.705s] copying urdf/base_link.ros2control -> /app/project/install/base_link_description/share/base_link_description/urdf
+[1.705s] copying urdf/base_link.xacro -> /app/project/install/base_link_description/share/base_link_description/urdf
+[1.705s] copying urdf/materials.xacro -> /app/project/install/base_link_description/share/base_link_description/urdf
+[1.705s] creating /app/project/install/base_link_description/share/base_link_description/meshes
+[1.705s] copying meshes/base_link.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.706s] copying meshes/Parte6_3.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.707s] copying meshes/Parte6_5.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.708s] copying meshes/Parte6_2.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.709s] copying meshes/Parte1__17__2.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.719s] copying meshes/Parte6_4.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.720s] copying meshes/Parte1__17__1.stl -> /app/project/install/base_link_description/share/base_link_description/meshes
+[1.728s] creating /app/project/install/base_link_description/share/base_link_description/config
+[1.728s] copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/base_link_description/share/base_link_description/config
+[1.728s] copying config/display.rviz -> /app/project/install/base_link_description/share/base_link_description/config
+[1.728s] copying config/gazebo.rviz -> /app/project/install/base_link_description/share/base_link_description/config
+[1.729s] running install_egg_info
+[1.731s] Copying ../../build/base_link_description/base_link_description.egg-info to /app/project/install/base_link_description/lib/python3.10/site-packages/base_link_description-0.0.0-py3.10.egg-info
+[1.732s] running install_scripts
+[1.763s] writing list of installed files to '/app/project/build/base_link_description/install.log'
+[1.809s] Invoked command in '/app/project/src/base_link_description' returned '0': PYTHONPATH=/app/project/build/base_link_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_link_description build --build-base /app/project/build/base_link_description/build install --record /app/project/build/base_link_description/install.log --single-version-externally-managed install_data
