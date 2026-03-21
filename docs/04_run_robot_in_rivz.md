@@ -1,11 +1,17 @@
 #Run the robot use 
 
-Temos dois tipos de visualizadors no ros2 sendo else o rivz e o gazebo o gazebo e identico ao nundo real 
-e o rivz o lugar para cirasao de driveres e teste dos mosmos.
-para iniciar os dois podemos usar o makefile or diretamente o commando
+when use the ROS2 for visualization the robot is normal using the two applications the rivz and gazebo.
+
+The rivz is used for visualize junts and testing same. 
+for execute use the  next commands.  
 ```
-open rivz
 	ros2 launch (nome do pakage) gazebo.launch.py
-open gazebo
+    or 
+    make run_robot // use the normal termiinal not in ros2 bash  
+```
+The gazebo using for testing the rial use de robot simutaing the real word 
+```
 	ros2 launch (nome do pakage) display.launch.py
+    or 
+    make run_robot_gazebo  // use the normal termiinal not in ros2 bash
 ```
