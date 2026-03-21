@@ -1,1 +1,0 @@
-/app/project/build/square_controller/ament_cmake_core/square_controllerConfig-version.cmake

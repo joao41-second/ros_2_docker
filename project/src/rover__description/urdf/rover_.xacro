@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<robot name="rover_" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find rover__description)/urdf/materials.xacro" />
+<xacro:include filename="$(find rover__description)/urdf/rover_.ros2control" />
+<xacro:include filename="$(find rover__description)/urdf/rover_.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.4882383881861825 0.14983639102105517 1.1930603195605387" rpy="0 0 0"/>
+    <mass value="46.37689397650178"/>
+    <inertia ixx="2.002069" iyy="3.88283" izz="4.845997" ixy="0.001994" iyz="-0.000599" ixz="0.602482"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="body_two_1">
+  <inertial>
+    <origin xyz="0.0007132587028424453 0.004261269870717066 -0.024439219322571537" rpy="0 0 0"/>
+    <mass value="11.34429754130934"/>
+    <inertia ixx="0.034487" iyy="1.409892" izz="1.396504" ixy="0.000254" iyz="-0.003774" ixz="-0.000343"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/body_two_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/body_two_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="body_three_1">
+  <inertial>
+    <origin xyz="-0.00016661936339282257 0.0043586374363612235 -0.17574654298758008" rpy="0 0 0"/>
+    <mass value="8.11027433263604"/>
+    <inertia ixx="0.066405" iyy="0.050529" izz="0.027423" ixy="0.000354" iyz="0.006045" ixz="-0.000168"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/body_three_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/body_three_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="body_four_2">
+  <inertial>
+    <origin xyz="0.0066653499891486945 -0.0548531709495671 -0.0019198429630405967" rpy="0 0 0"/>
+    <mass value="8.776606415040463"/>
+    <inertia ixx="0.06053" iyy="0.104432" izz="0.061611" ixy="-0.001068" iyz="-0.0" ixz="-2.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.053261 -0.651279 -0.908273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/body_four_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.053261 -0.651279 -0.908273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find rover__description)/meshes/body_four_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rígido 2" type="fixed">
+  <origin xyz="0.360009 0.49 1.192273" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="body_two_1"/>
+</joint>
+
+<joint name="Revolucionar 3" type="continuous">
+  <origin xyz="-0.41 0.027322 -0.059" rpy="0 0 0"/>
+  <parent link="body_two_1"/>
+  <child link="body_three_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="Revolucionar 16" type="continuous">
+  <origin xyz="-0.00327 0.133957 -0.225" rpy="0 0 0"/>
+  <parent link="body_three_1"/>
+  <child link="body_four_2"/>
+  <axis xyz="-0.024316 0.999704 0.0"/>
+</joint>
+
+</robot>
