@@ -3,12 +3,14 @@ FROM osrf/ros:humble-desktop
 
 SHELL ["/bin/bash", "-c"]
 
-RUN apt -y  update
 
-RUN apt -y install -y \
-  ros-humble-gazebo-ros-pkgs \
-  ros-humble-gazebo-plugins \
-  ros-humble-xacro 
+RUN apt-get update && apt-get install -y
+
+RUN apt -y install \
+  ros-humble-ros-gz-sim \
+  ros-humble-ros-gz-bridge \
+  ros-humble-ros-gz-interfaces \
+  ros-humble-xacro
 
 RUN apt-get -y install ros-humble-gazebo-*
 RUN apt-get -y install ros-humble-ros2-control
@@ -16,6 +18,7 @@ RUN apt-get -y install ros-humble-ros2-controllers
 RUN apt-get -y install ros-humble-gazebo-ros2-control
 RUN apt-get -y install ros-humble-joint-state-publisher-gui
 RUN apt-get -y install ros-humble-urdf-tutorial
+
 
 RUN apt -y install ros-humble-ros-core ros-humble-geometry2
 RUN echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:/opt/ros/humble/lib" >> ~/.bashrc

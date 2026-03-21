@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (base_link_description) JobQueued: {'identifier': 'base_link_description', 'dependencies': OrderedDict()}
+[0.000704] (base_link_p3_description) JobQueued: {'identifier': 'base_link_p3_description', 'dependencies': OrderedDict()}
+[0.000731] (base_link_t1_description) JobQueued: {'identifier': 'base_link_t1_description', 'dependencies': OrderedDict()}
+[0.000749] (base_link_description) JobStarted: {'identifier': 'base_link_description'}
+[0.010461] (base_link_p3_description) JobStarted: {'identifier': 'base_link_p3_description'}
+[0.018722] (base_link_t1_description) JobStarted: {'identifier': 'base_link_t1_description'}
+[0.099840] (-) TimerEvent: {}
+[0.200013] (-) TimerEvent: {}
+[0.300228] (-) TimerEvent: {}
+[0.400399] (-) TimerEvent: {}
+[0.500566] (-) TimerEvent: {}
+[0.600731] (-) TimerEvent: {}
+[0.701101] (-) TimerEvent: {}
+[0.801442] (-) TimerEvent: {}
+[0.901613] (-) TimerEvent: {}
+[1.001817] (-) TimerEvent: {}
+[1.027006] (base_link_t1_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_link_t1_description', 'build', '--build-base', '/app/project/build/base_link_t1_description/build', 'install', '--record', '/app/project/build/base_link_t1_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/base_link_t1_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/app/project/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/app/project/install/base_link_t1_description:/app/project/install/base_link_p3_description:/app/project/install/base_link_description:/opt/ros/humble', 'PWD': '/app/project/build/base_link_t1_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/project/build/base_link_t1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.031519] (base_link_p3_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_link_p3_description', 'build', '--build-base', '/app/project/build/base_link_p3_description/build', 'install', '--record', '/app/project/build/base_link_p3_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/base_link_p3_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/app/project/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/app/project/install/base_link_t1_description:/app/project/install/base_link_p3_description:/app/project/install/base_link_description:/opt/ros/humble', 'PWD': '/app/project/build/base_link_p3_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/project/build/base_link_p3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.048964] (base_link_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_link_description', 'build', '--build-base', '/app/project/build/base_link_description/build', 'install', '--record', '/app/project/build/base_link_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/base_link_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/app/project/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/app/project/install/base_link_t1_description:/app/project/install/base_link_p3_description:/app/project/install/base_link_description:/opt/ros/humble', 'PWD': '/app/project/build/base_link_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/project/build/base_link_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_description/lib/python3.10/site-packages:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.101903] (-) TimerEvent: {}
+[1.202124] (-) TimerEvent: {}
+[1.244605] (base_link_t1_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.244936] (base_link_p3_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.245463] (base_link_t1_description) StdoutLine: {'line': b'writing ../../build/base_link_t1_description/base_link_t1_description.egg-info/PKG-INFO\n'}
+[1.245913] (base_link_t1_description) StdoutLine: {'line': b'writing dependency_links to ../../build/base_link_t1_description/base_link_t1_description.egg-info/dependency_links.txt\n'}
+[1.246030] (base_link_p3_description) StdoutLine: {'line': b'writing ../../build/base_link_p3_description/base_link_p3_description.egg-info/PKG-INFO\n'}
+[1.246278] (base_link_t1_description) StdoutLine: {'line': b'writing entry points to ../../build/base_link_t1_description/base_link_t1_description.egg-info/entry_points.txt\n'}
+[1.246464] (base_link_t1_description) StdoutLine: {'line': b'writing requirements to ../../build/base_link_t1_description/base_link_t1_description.egg-info/requires.txt\n'}
+[1.246601] (base_link_p3_description) StdoutLine: {'line': b'writing dependency_links to ../../build/base_link_p3_description/base_link_p3_description.egg-info/dependency_links.txt\n'}
+[1.246662] (base_link_t1_description) StdoutLine: {'line': b'writing top-level names to ../../build/base_link_t1_description/base_link_t1_description.egg-info/top_level.txt\n'}
+[1.246712] (base_link_p3_description) StdoutLine: {'line': b'writing entry points to ../../build/base_link_p3_description/base_link_p3_description.egg-info/entry_points.txt\n'}
+[1.246761] (base_link_p3_description) StdoutLine: {'line': b'writing requirements to ../../build/base_link_p3_description/base_link_p3_description.egg-info/requires.txt\n'}
+[1.246915] (base_link_p3_description) StdoutLine: {'line': b'writing top-level names to ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt\n'}
+[1.248889] (base_link_t1_description) StdoutLine: {'line': b"reading manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'\n"}
+[1.249197] (base_link_p3_description) StdoutLine: {'line': b"reading manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[1.249821] (base_link_t1_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_t1_description/base_link_t1_description.egg-info/SOURCES.txt'\n"}
+[1.249962] (base_link_t1_description) StdoutLine: {'line': b'running build\n'}
+[1.250030] (base_link_t1_description) StdoutLine: {'line': b'running build_py\n'}
+[1.250250] (base_link_p3_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[1.250329] (base_link_t1_description) StdoutLine: {'line': b'running install\n'}
+[1.250381] (base_link_p3_description) StdoutLine: {'line': b'running build\n'}
+[1.250442] (base_link_p3_description) StdoutLine: {'line': b'running build_py\n'}
+[1.250632] (base_link_p3_description) StdoutLine: {'line': b'running install\n'}
+[1.250717] (base_link_t1_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.250952] (base_link_p3_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.252072] (base_link_t1_description) StdoutLine: {'line': b'running install_data\n'}
+[1.252326] (base_link_p3_description) StdoutLine: {'line': b'running install_data\n'}
+[1.252476] (base_link_t1_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.253023] (base_link_p3_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.255177] (base_link_t1_description) StdoutLine: {'line': b"removing '/app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.255561] (base_link_p3_description) StdoutLine: {'line': b"removing '/app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.255829] (base_link_t1_description) StdoutLine: {'line': b'Copying ../../build/base_link_t1_description/base_link_t1_description.egg-info to /app/project/install/base_link_t1_description/lib/python3.10/site-packages/base_link_t1_description-0.0.0-py3.10.egg-info\n'}
+[1.255921] (base_link_p3_description) StdoutLine: {'line': b'Copying ../../build/base_link_p3_description/base_link_p3_description.egg-info to /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info\n'}
+[1.256705] (base_link_t1_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.256793] (base_link_p3_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.267357] (base_link_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.268219] (base_link_description) StdoutLine: {'line': b'writing ../../build/base_link_description/base_link_description.egg-info/PKG-INFO\n'}
+[1.268592] (base_link_description) StdoutLine: {'line': b'writing dependency_links to ../../build/base_link_description/base_link_description.egg-info/dependency_links.txt\n'}
+[1.268852] (base_link_description) StdoutLine: {'line': b'writing entry points to ../../build/base_link_description/base_link_description.egg-info/entry_points.txt\n'}
+[1.268934] (base_link_description) StdoutLine: {'line': b'writing requirements to ../../build/base_link_description/base_link_description.egg-info/requires.txt\n'}
+[1.269057] (base_link_description) StdoutLine: {'line': b'writing top-level names to ../../build/base_link_description/base_link_description.egg-info/top_level.txt\n'}
+[1.271218] (base_link_description) StdoutLine: {'line': b"reading manifest file '../../build/base_link_description/base_link_description.egg-info/SOURCES.txt'\n"}
+[1.272276] (base_link_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_description/base_link_description.egg-info/SOURCES.txt'\n"}
+[1.272367] (base_link_description) StdoutLine: {'line': b'running build\n'}
+[1.272432] (base_link_description) StdoutLine: {'line': b'running build_py\n'}
+[1.272578] (base_link_description) StdoutLine: {'line': b'running install\n'}
+[1.272861] (base_link_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.274133] (base_link_description) StdoutLine: {'line': b'running install_data\n'}
+[1.274674] (base_link_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.276991] (base_link_description) StdoutLine: {'line': b"removing '/app/project/install/base_link_description/lib/python3.10/site-packages/base_link_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.277361] (base_link_description) StdoutLine: {'line': b'Copying ../../build/base_link_description/base_link_description.egg-info to /app/project/install/base_link_description/lib/python3.10/site-packages/base_link_description-0.0.0-py3.10.egg-info\n'}
+[1.278208] (base_link_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.283053] (base_link_p3_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/base_link_p3_description/install.log'\n"}
+[1.284203] (base_link_t1_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/base_link_t1_description/install.log'\n"}
+[1.302216] (-) TimerEvent: {}
+[1.305842] (base_link_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/base_link_description/install.log'\n"}
+[1.338760] (base_link_p3_description) CommandEnded: {'returncode': 0}
+[1.373960] (base_link_p3_description) JobEnded: {'identifier': 'base_link_p3_description', 'rc': 0}
+[1.375438] (base_link_t1_description) CommandEnded: {'returncode': 0}
+[1.382579] (base_link_t1_description) JobEnded: {'identifier': 'base_link_t1_description', 'rc': 0}
+[1.383067] (base_link_description) CommandEnded: {'returncode': 0}
+[1.390320] (base_link_description) JobEnded: {'identifier': 'base_link_description', 'rc': 0}
+[1.390853] (-) EventReactorShutdown: {}
