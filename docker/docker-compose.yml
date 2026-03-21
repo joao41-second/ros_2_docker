@@ -1,6 +1,6 @@
 services: 
   app:
-    container_name: ros_2
+    container_name: ros_2_h
     build: ./ros_2/
     tty: true
     stdin_open: true
