@@ -22,6 +22,7 @@
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte1__17__2.stl
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte6_4.stl
 /app/project/install/base_link_p3_description/share/base_link_p3_description/meshes/Parte1__17__1.stl
+/app/project/install/base_link_p3_description/share/base_link_p3_description/config/controllers.yaml
 /app/project/install/base_link_p3_description/share/base_link_p3_description/config/ros_gz_bridge_gazebo.yaml
 /app/project/install/base_link_p3_description/share/base_link_p3_description/config/display.rviz
 /app/project/install/base_link_p3_description/share/base_link_p3_description/config/gazebo.rviz

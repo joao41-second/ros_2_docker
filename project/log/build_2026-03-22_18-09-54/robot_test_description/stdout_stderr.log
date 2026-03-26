@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/robot_test_description/robot_test_description.egg-info
+writing ../../build/robot_test_description/robot_test_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_test_description/robot_test_description.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_test_description/robot_test_description.egg-info/entry_points.txt
+writing requirements to ../../build/robot_test_description/robot_test_description.egg-info/requires.txt
+writing top-level names to ../../build/robot_test_description/robot_test_description.egg-info/top_level.txt
+writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /app/project/build/robot_test_description/build
+creating /app/project/build/robot_test_description/build/lib
+creating /app/project/build/robot_test_description/build/lib/robot_test_description
+copying robot_test_description/__init__.py -> /app/project/build/robot_test_description/build/lib/robot_test_description
+running install
+running install_lib
+creating /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description
+copying /app/project/build/robot_test_description/build/lib/robot_test_description/__init__.py -> /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description
+byte-compiling /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /app/project/install/robot_test_description/share/ament_index
+creating /app/project/install/robot_test_description/share/ament_index/resource_index
+creating /app/project/install/robot_test_description/share/ament_index/resource_index/packages
+copying resource/robot_test_description -> /app/project/install/robot_test_description/share/ament_index/resource_index/packages
+copying package.xml -> /app/project/install/robot_test_description/share/robot_test_description
+creating /app/project/install/robot_test_description/share/robot_test_description/launch
+copying launch/gazebo.launch.py -> /app/project/install/robot_test_description/share/robot_test_description/launch
+copying launch/display.launch.py -> /app/project/install/robot_test_description/share/robot_test_description/launch
+creating /app/project/install/robot_test_description/share/robot_test_description/urdf
+copying urdf/robot_test.gazebo -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+copying urdf/robot_test.ros2control -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+copying urdf/robot_test.xacro -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+copying urdf/materials.xacro -> /app/project/install/robot_test_description/share/robot_test_description/urdf
+creating /app/project/install/robot_test_description/share/robot_test_description/meshes
+copying meshes/base_link.stl -> /app/project/install/robot_test_description/share/robot_test_description/meshes
+copying meshes/body_one_1.stl -> /app/project/install/robot_test_description/share/robot_test_description/meshes
+creating /app/project/install/robot_test_description/share/robot_test_description/config
+copying config/ros_gz_bridge_gazebo.yaml -> /app/project/install/robot_test_description/share/robot_test_description/config
+copying config/display.rviz -> /app/project/install/robot_test_description/share/robot_test_description/config
+copying config/gazebo.rviz -> /app/project/install/robot_test_description/share/robot_test_description/config
+running install_egg_info
+Copying ../../build/robot_test_description/robot_test_description.egg-info to /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/app/project/build/robot_test_description/install.log'

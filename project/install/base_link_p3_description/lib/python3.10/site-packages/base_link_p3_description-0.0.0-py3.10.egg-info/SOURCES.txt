@@ -9,6 +9,7 @@ setup.py
 ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt
 ../../build/base_link_p3_description/base_link_p3_description.egg-info/zip-safe
 base_link_p3_description/__init__.py
+config/controllers.yaml
 config/display.rviz
 config/gazebo.rviz
 config/ros_gz_bridge_gazebo.yaml

@@ -1,0 +1,20 @@
+[1.704s] Invoking command in '/app/project/src/robot_test_description': PYTHONPATH=/app/project/build/robot_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/robot_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_test_description build --build-base /app/project/build/robot_test_description/build install --record /app/project/build/robot_test_description/install.log --single-version-externally-managed install_data
+[2.017s] running egg_info
+[2.018s] writing ../../build/robot_test_description/robot_test_description.egg-info/PKG-INFO
+[2.019s] writing dependency_links to ../../build/robot_test_description/robot_test_description.egg-info/dependency_links.txt
+[2.019s] writing entry points to ../../build/robot_test_description/robot_test_description.egg-info/entry_points.txt
+[2.019s] writing requirements to ../../build/robot_test_description/robot_test_description.egg-info/requires.txt
+[2.019s] writing top-level names to ../../build/robot_test_description/robot_test_description.egg-info/top_level.txt
+[2.022s] reading manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+[2.023s] writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'
+[2.023s] running build
+[2.023s] running build_py
+[2.023s] running install
+[2.024s] running install_lib
+[2.026s] running install_data
+[2.026s] running install_egg_info
+[2.029s] removing '/app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.029s] Copying ../../build/robot_test_description/robot_test_description.egg-info to /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info
+[2.031s] running install_scripts
+[2.073s] writing list of installed files to '/app/project/build/robot_test_description/install.log'
+[2.158s] Invoked command in '/app/project/src/robot_test_description' returned '0': PYTHONPATH=/app/project/build/robot_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/robot_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_test_description build --build-base /app/project/build/robot_test_description/build install --record /app/project/build/robot_test_description/install.log --single-version-externally-managed install_data

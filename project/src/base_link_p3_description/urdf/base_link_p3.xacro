@@ -270,7 +270,7 @@
   <axis xyz="-0.0 0.0 -1.0"/>
 </joint>
 
-<joint name="Revolucionar 7" type="continuous">
+<joint name="revolucionar_7" type="continuous">
   <origin xyz="0.359997 -0.19 1.192279" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Parte1__17__2"/>

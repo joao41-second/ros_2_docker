@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (base_link_p3_description) JobQueued: {'identifier': 'base_link_p3_description', 'dependencies': OrderedDict()}
+[0.001121] (robot_test_description) JobQueued: {'identifier': 'robot_test_description', 'dependencies': OrderedDict()}
+[0.001590] (rover__description) JobQueued: {'identifier': 'rover__description', 'dependencies': OrderedDict()}
+[0.001680] (base_link_p3_description) JobStarted: {'identifier': 'base_link_p3_description'}
+[0.014518] (robot_test_description) JobStarted: {'identifier': 'robot_test_description'}
+[0.023453] (rover__description) JobStarted: {'identifier': 'rover__description'}
+[0.099524] (-) TimerEvent: {}
+[0.199824] (-) TimerEvent: {}
+[0.300090] (-) TimerEvent: {}
+[0.400380] (-) TimerEvent: {}
+[0.500700] (-) TimerEvent: {}
+[0.600969] (-) TimerEvent: {}
+[0.701266] (-) TimerEvent: {}
+[0.801577] (-) TimerEvent: {}
+[0.901877] (-) TimerEvent: {}
+[1.002138] (-) TimerEvent: {}
+[1.102429] (-) TimerEvent: {}
+[1.202751] (-) TimerEvent: {}
+[1.303111] (-) TimerEvent: {}
+[1.403390] (-) TimerEvent: {}
+[1.503646] (-) TimerEvent: {}
+[1.603897] (-) TimerEvent: {}
+[1.704194] (-) TimerEvent: {}
+[1.719230] (base_link_p3_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_link_p3_description', 'build', '--build-base', '/app/project/build/base_link_p3_description/build', 'install', '--record', '/app/project/build/base_link_p3_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/base_link_p3_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/app/project/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/app/project/install/rover__description:/app/project/install/robot_test_description:/app/project/install/base_link_t1_description:/app/project/install/base_link_p3_description:/app/project/install/base_link_description:/opt/ros/humble', 'PWD': '/app/project/build/base_link_p3_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/project/build/base_link_p3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/rover__description/lib/python3.10/site-packages:/app/project/install/robot_test_description/lib/python3.10/site-packages:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.726813] (rover__description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover__description', 'build', '--build-base', '/app/project/build/rover__description/build', 'install', '--record', '/app/project/build/rover__description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/rover__description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/app/project/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/app/project/install/rover__description:/app/project/install/robot_test_description:/app/project/install/base_link_t1_description:/app/project/install/base_link_p3_description:/app/project/install/base_link_description:/opt/ros/humble', 'PWD': '/app/project/build/rover__description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/project/build/rover__description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/rover__description/lib/python3.10/site-packages:/app/project/install/rover__description/lib/python3.10/site-packages:/app/project/install/robot_test_description/lib/python3.10/site-packages:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.746843] (robot_test_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_test_description', 'build', '--build-base', '/app/project/build/robot_test_description/build', 'install', '--record', '/app/project/build/robot_test_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/project/src/robot_test_description', 'env': {'HOSTNAME': 'linux-portatil', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/app/project/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/app/simulator/scripts:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/linuxbrew/.linuxbrew/bin:/opt/st/stm32cubeide_1.19.0:/home/joao41/.local/bin:/home/joao41/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/app/project/install/rover__description:/app/project/install/robot_test_description:/app/project/install/base_link_t1_description:/app/project/install/base_link_p3_description:/app/project/install/base_link_description:/opt/ros/humble', 'PWD': '/app/project/build/robot_test_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/project/build/robot_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/robot_test_description/lib/python3.10/site-packages:/app/project/install/rover__description/lib/python3.10/site-packages:/app/project/install/robot_test_description/lib/python3.10/site-packages:/app/project/install/base_link_t1_description/lib/python3.10/site-packages:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:/app/project/install/base_link_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.804312] (-) TimerEvent: {}
+[1.904617] (-) TimerEvent: {}
+[2.004966] (-) TimerEvent: {}
+[2.046661] (base_link_p3_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.048162] (base_link_p3_description) StdoutLine: {'line': b'writing ../../build/base_link_p3_description/base_link_p3_description.egg-info/PKG-INFO\n'}
+[2.048745] (base_link_p3_description) StdoutLine: {'line': b'writing dependency_links to ../../build/base_link_p3_description/base_link_p3_description.egg-info/dependency_links.txt\n'}
+[2.049115] (base_link_p3_description) StdoutLine: {'line': b'writing entry points to ../../build/base_link_p3_description/base_link_p3_description.egg-info/entry_points.txt\n'}
+[2.049268] (base_link_p3_description) StdoutLine: {'line': b'writing requirements to ../../build/base_link_p3_description/base_link_p3_description.egg-info/requires.txt\n'}
+[2.049904] (base_link_p3_description) StdoutLine: {'line': b'writing top-level names to ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt\n'}
+[2.053456] (base_link_p3_description) StdoutLine: {'line': b"reading manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[2.054855] (base_link_p3_description) StdoutLine: {'line': b"writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'\n"}
+[2.055272] (base_link_p3_description) StdoutLine: {'line': b'running build\n'}
+[2.055532] (base_link_p3_description) StdoutLine: {'line': b'running build_py\n'}
+[2.055629] (base_link_p3_description) StdoutLine: {'line': b'running install\n'}
+[2.055885] (base_link_p3_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.057947] (base_link_p3_description) StdoutLine: {'line': b'running install_data\n'}
+[2.058852] (base_link_p3_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.061973] (base_link_p3_description) StdoutLine: {'line': b"removing '/app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.062466] (base_link_p3_description) StdoutLine: {'line': b'Copying ../../build/base_link_p3_description/base_link_p3_description.egg-info to /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info\n'}
+[2.063959] (base_link_p3_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.075667] (rover__description) StdoutLine: {'line': b'running egg_info\n'}
+[2.077058] (rover__description) StdoutLine: {'line': b'writing ../../build/rover__description/rover_description.egg-info/PKG-INFO\n'}
+[2.077445] (rover__description) StdoutLine: {'line': b'writing dependency_links to ../../build/rover__description/rover_description.egg-info/dependency_links.txt\n'}
+[2.077746] (rover__description) StdoutLine: {'line': b'writing entry points to ../../build/rover__description/rover_description.egg-info/entry_points.txt\n'}
+[2.078072] (rover__description) StdoutLine: {'line': b'writing requirements to ../../build/rover__description/rover_description.egg-info/requires.txt\n'}
+[2.078202] (rover__description) StdoutLine: {'line': b'writing top-level names to ../../build/rover__description/rover_description.egg-info/top_level.txt\n'}
+[2.082136] (rover__description) StdoutLine: {'line': b"reading manifest file '../../build/rover__description/rover_description.egg-info/SOURCES.txt'\n"}
+[2.083408] (rover__description) StdoutLine: {'line': b"writing manifest file '../../build/rover__description/rover_description.egg-info/SOURCES.txt'\n"}
+[2.083713] (rover__description) StdoutLine: {'line': b'running build\n'}
+[2.083842] (rover__description) StdoutLine: {'line': b'running build_py\n'}
+[2.084036] (rover__description) StdoutLine: {'line': b'running install\n'}
+[2.084604] (rover__description) StdoutLine: {'line': b'running install_lib\n'}
+[2.086843] (rover__description) StdoutLine: {'line': b'running install_data\n'}
+[2.087405] (rover__description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.092703] (rover__description) StdoutLine: {'line': b"removing '/app/project/install/rover__description/lib/python3.10/site-packages/rover_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.093015] (rover__description) StdoutLine: {'line': b'Copying ../../build/rover__description/rover_description.egg-info to /app/project/install/rover__description/lib/python3.10/site-packages/rover_description-0.0.0-py3.10.egg-info\n'}
+[2.093549] (rover__description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.095828] (base_link_p3_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/base_link_p3_description/install.log'\n"}
+[2.101738] (robot_test_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.104214] (robot_test_description) StdoutLine: {'line': b'writing ../../build/robot_test_description/robot_test_description.egg-info/PKG-INFO\n'}
+[2.104855] (robot_test_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_test_description/robot_test_description.egg-info/dependency_links.txt\n'}
+[2.105569] (-) TimerEvent: {}
+[2.106525] (robot_test_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_test_description/robot_test_description.egg-info/entry_points.txt\n'}
+[2.106766] (robot_test_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_test_description/robot_test_description.egg-info/requires.txt\n'}
+[2.107068] (robot_test_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_test_description/robot_test_description.egg-info/top_level.txt\n'}
+[2.111813] (robot_test_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'\n"}
+[2.113128] (robot_test_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_test_description/robot_test_description.egg-info/SOURCES.txt'\n"}
+[2.113605] (robot_test_description) StdoutLine: {'line': b'running build\n'}
+[2.113909] (robot_test_description) StdoutLine: {'line': b'running build_py\n'}
+[2.114066] (robot_test_description) StdoutLine: {'line': b'running install\n'}
+[2.114445] (robot_test_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.116916] (robot_test_description) StdoutLine: {'line': b'running install_data\n'}
+[2.117441] (robot_test_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.121367] (robot_test_description) StdoutLine: {'line': b"removing '/app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.122009] (robot_test_description) StdoutLine: {'line': b'Copying ../../build/robot_test_description/robot_test_description.egg-info to /app/project/install/robot_test_description/lib/python3.10/site-packages/robot_test_description-0.0.0-py3.10.egg-info\n'}
+[2.123549] (robot_test_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.143541] (rover__description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/rover__description/install.log'\n"}
+[2.166431] (robot_test_description) StdoutLine: {'line': b"writing list of installed files to '/app/project/build/robot_test_description/install.log'\n"}
+[2.188809] (base_link_p3_description) CommandEnded: {'returncode': 0}
+[2.233289] (-) TimerEvent: {}
+[2.246961] (base_link_p3_description) JobEnded: {'identifier': 'base_link_p3_description', 'rc': 0}
+[2.249110] (rover__description) CommandEnded: {'returncode': 0}
+[2.258001] (rover__description) JobEnded: {'identifier': 'rover__description', 'rc': 0}
+[2.262178] (robot_test_description) CommandEnded: {'returncode': 0}
+[2.272421] (robot_test_description) JobEnded: {'identifier': 'robot_test_description', 'rc': 0}
+[2.273641] (-) EventReactorShutdown: {}
