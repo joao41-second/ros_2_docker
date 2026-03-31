@@ -15,3 +15,13 @@ The gazebo using for testing the rial use de robot simutaing the real word
     or 
     make run_robot_gazebo  // use the normal termiinal not in ros2 bash
 ```
+Move _junts the robot unsig the command 
+```
+ ros2 topic pub --once /joint_trajectory_controller/joint_trajectory   trajectory_msgs/msg/JointTrajectory   "{
+    joint_names: ['revolucionar_2','revolucionar_3','revolucionar_4','revolucionar_5','revolucionar_6','revolucionar_7','revolucionar_8','revolucionar_10','revolucionar_11','revolucionar_12'],
+    points: [{
+      positions: [0.0, 0.5, 0.5, 0.0, 0.0, 0.5, 0.0, 0.2, 0.0, 0.0],
+      time_from_start: {sec: 2, nanosec: 0}
+    }]
+  }"
+```

@@ -1,0 +1,20 @@
+[2.125s] Invoking command in '/app/project/src/base_link_p3_description': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_link_p3_description build --build-base /app/project/build/base_link_p3_description/build install --record /app/project/build/base_link_p3_description/install.log --single-version-externally-managed install_data
+[2.542s] running egg_info
+[2.546s] writing ../../build/base_link_p3_description/base_link_p3_description.egg-info/PKG-INFO
+[2.547s] writing dependency_links to ../../build/base_link_p3_description/base_link_p3_description.egg-info/dependency_links.txt
+[2.547s] writing entry points to ../../build/base_link_p3_description/base_link_p3_description.egg-info/entry_points.txt
+[2.547s] writing requirements to ../../build/base_link_p3_description/base_link_p3_description.egg-info/requires.txt
+[2.548s] writing top-level names to ../../build/base_link_p3_description/base_link_p3_description.egg-info/top_level.txt
+[2.552s] reading manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'
+[2.555s] writing manifest file '../../build/base_link_p3_description/base_link_p3_description.egg-info/SOURCES.txt'
+[2.556s] running build
+[2.556s] running build_py
+[2.556s] running install
+[2.557s] running install_lib
+[2.559s] running install_data
+[2.561s] running install_egg_info
+[2.566s] removing '/app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.567s] Copying ../../build/base_link_p3_description/base_link_p3_description.egg-info to /app/project/install/base_link_p3_description/lib/python3.10/site-packages/base_link_p3_description-0.0.0-py3.10.egg-info
+[2.569s] running install_scripts
+[2.617s] writing list of installed files to '/app/project/build/base_link_p3_description/install.log'
+[2.779s] Invoked command in '/app/project/src/base_link_p3_description' returned '0': PYTHONPATH=/app/project/build/base_link_p3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/project/install/base_link_p3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_link_p3_description build --build-base /app/project/build/base_link_p3_description/build install --record /app/project/build/base_link_p3_description/install.log --single-version-externally-managed install_data

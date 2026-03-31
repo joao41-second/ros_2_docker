@@ -235,35 +235,35 @@
   </collision>
 </link>
 
-<joint name="Revolucionar 2" type="continuous">
+<joint name="revolucionar_2" type="continuous">
   <origin xyz="0.360009 0.49 1.192273" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Parte1__17__1"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
-<joint name="Revolucionar 3" type="continuous">
+<joint name="revolucionar_3" type="continuous">
   <origin xyz="-0.41 0.027322 -0.059" rpy="0 0 0"/>
   <parent link="Parte1__17__1"/>
   <child link="body_1"/>
   <axis xyz="0.0 0.0 -1.0"/>
 </joint>
 
-<joint name="Revolucionar 4" type="continuous">
+<joint name="revolucionar_4" type="continuous">
   <origin xyz="0.41 0.027322 -0.059" rpy="0 0 0"/>
   <parent link="Parte1__17__1"/>
   <child link="body_3"/>
   <axis xyz="0.0 0.0 -1.0"/>
 </joint>
 
-<joint name="Revolucionar 5" type="continuous">
+<joint name="revolucionar_5" type="continuous">
   <origin xyz="0.41 0.079382 -0.059" rpy="0 0 0"/>
   <parent link="Parte1__17__2"/>
   <child link="body_4"/>
   <axis xyz="-0.0 0.0 -1.0"/>
 </joint>
 
-<joint name="Revolucionar 6" type="continuous">
+<joint name="revolucionar_6" type="continuous">
   <origin xyz="-0.41 0.079382 -0.059" rpy="0 0 0"/>
   <parent link="Parte1__17__2"/>
   <child link="body_5"/>
@@ -277,28 +277,28 @@
   <axis xyz="0.0 -1.0 0.0"/>
 </joint>
 
-<joint name="Revolucionar 8" type="continuous">
+<joint name="revolucionar_8" type="continuous">
   <origin xyz="-6e-06 0.122735 -0.225" rpy="0 0 0"/>
   <parent link="body_3"/>
   <child link="Parte6_2"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
-<joint name="Revolucionar 10" type="continuous">
+<joint name="revolucionar_10" type="continuous">
   <origin xyz="1.2e-05 -0.133997 -0.225" rpy="0 0 0"/>
   <parent link="body_5"/>
   <child link="Parte6_4"/>
   <axis xyz="-0.0 -1.0 0.0"/>
 </joint>
 
-<joint name="Revolucionar 11" type="continuous">
+<joint name="revolucionar_11" type="continuous">
   <origin xyz="1.2e-05 -0.133997 -0.225" rpy="0 0 0"/>
   <parent link="body_4"/>
   <child link="Parte6_5"/>
   <axis xyz="0.0 -1.0 -0.0"/>
 </joint>
 
-<joint name="Revolucionar 12" type="continuous">
+<joint name="revolucionar_12" type="continuous">
   <origin xyz="-1.2e-05 0.133997 -0.225" rpy="0 0 0"/>
   <parent link="body_1"/>
   <child link="Parte6_3"/>

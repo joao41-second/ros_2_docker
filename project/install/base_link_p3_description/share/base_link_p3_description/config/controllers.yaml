@@ -7,3 +7,26 @@ controller_manager:
 
     joint_trajectory_controller:
       type: joint_trajectory_controller/JointTrajectoryController
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - revolucionar_2  
+      - revolucionar_3  
+      - revolucionar_4  
+      - revolucionar_5  
+      - revolucionar_6  
+      - revolucionar_7  
+      - revolucionar_8  
+      - revolucionar_10  
+      - revolucionar_11  
+      - revolucionar_12  
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+    open_loop_control: true
+    allow_nonzero_velocity_at_trajectory_end: false
+
