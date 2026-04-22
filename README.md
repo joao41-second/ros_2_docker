@@ -19,3 +19,8 @@ make
 
 
 
+
+if gazebo does not open, out of the docker execute the next command
+xhost +local:docker
+To set this definitive config, add it in terminal config file.
+
