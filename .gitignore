@@ -1,3 +1,4 @@
- /project/log
- /project/install
- /project/build
+project/build/
+project/install/
+project/log/
+
