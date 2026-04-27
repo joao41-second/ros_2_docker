@@ -25,6 +25,12 @@ def generate_launch_description():
         'ros_gz_bridge_gazebo.yaml'
     )
 
+    ros_control_config_file = os.path.join(
+        pkg_ros_gz_rbot,
+        'config',
+        'controllers.yaml'
+    )
+
     robot_description_config = xacro.process_file(robot_description_file)
     robot_description = {'robot_description': robot_description_config.toxml()}
 
@@ -77,6 +83,16 @@ def generate_launch_description():
         package='ros_gz_bridge',
         executable='parameter_bridge',
         parameters=[{'config_file': ros_gz_bridge_config}],
+        output='screen'
+    )
+    # -------------------------
+    # controller_manager 
+    # -------------------------
+
+    controller_manager_node = Node(
+        package='controller_manager',
+        executable='ros2_control_node',
+        parameters=[ {'config_file':ros_control_config_file}],
         output='screen'
     )
 
