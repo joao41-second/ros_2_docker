@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'base_link_p3_description'
+package_name = 'bart'
 
 setup(
     name=package_name,

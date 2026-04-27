@@ -1,5 +1,5 @@
 
-ROBOT_NAME = base_link_p3_description 
+ROBOT_NAME = bart
 
 all: ## Start the docker and open the bash terminal 
 	@cd ./docker/  && docker compose up -d --build 

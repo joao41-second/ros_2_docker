@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
-<robot name="base_link_p3" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="bart" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find base_link_p3_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find base_link_p3_description)/urdf/base_link_p3.ros2control" />
-<xacro:include filename="$(find base_link_p3_description)/urdf/base_link_p3.gazebo" />
+<xacro:include filename="$(find bart)/urdf/materials.xacro" />
+<xacro:include filename="$(find bart)/urdf/bart.ros2control" />
+<xacro:include filename="$(find bart)/urdf/bart.gazebo" />
 <link name="base_link">
   <inertial>
     <origin xyz="0.48823838818618254 0.14983639102105534 1.1930603195605385" rpy="0 0 0"/>
@@ -13,14 +13,14 @@
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -34,14 +34,14 @@
   <visual>
     <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -55,14 +55,14 @@
   <visual>
     <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -76,14 +76,14 @@
   <visual>
     <origin xyz="-0.770009 -0.517322 -1.133273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_3.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.770009 -0.517322 -1.133273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_3.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -97,14 +97,14 @@
   <visual>
     <origin xyz="-0.769997 0.110618 -1.133279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_4.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.769997 0.110618 -1.133279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_4.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -118,14 +118,14 @@
   <visual>
     <origin xyz="0.050003 0.110618 -1.133279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_5.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.050003 0.110618 -1.133279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/body_5.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/body_5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -139,14 +139,14 @@
   <visual>
     <origin xyz="-0.359997 0.19 -1.192279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.359997 0.19 -1.192279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -160,14 +160,14 @@
   <visual>
     <origin xyz="-0.770003 -0.640057 -0.908273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.770003 -0.640057 -0.908273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -181,14 +181,14 @@
   <visual>
     <origin xyz="0.049991 0.244615 -0.908279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.049991 0.244615 -0.908279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -202,14 +202,14 @@
   <visual>
     <origin xyz="-0.770009 0.244615 -0.908279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.770009 0.244615 -0.908279" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -223,14 +223,14 @@
   <visual>
     <origin xyz="0.050003 -0.651319 -0.908273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.050003 -0.651319 -0.908273" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find base_link_p3_description)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find bart)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>

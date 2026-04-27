@@ -11,12 +11,12 @@ from os.path import join
 def generate_launch_description():
 
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
-    pkg_ros_gz_rbot = get_package_share_directory('base_link_p3_description')
+    pkg_ros_gz_rbot = get_package_share_directory('bart')
 
     robot_description_file = os.path.join(
         pkg_ros_gz_rbot,
         'urdf',
-        'base_link_p3.xacro'
+        'bart.xacro'
     )
 
     ros_gz_bridge_config = os.path.join(
@@ -65,7 +65,7 @@ def generate_launch_description():
             executable='create',
             arguments=[
                 "-topic", "/robot_description",
-                "-name", "base_link_p3",
+                "-name", "bart",
                 "-allow_renaming", "false",
                 "-x", "0.0",
                 "-y", "0.0",
