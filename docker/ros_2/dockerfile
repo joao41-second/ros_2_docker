@@ -1,35 +1,32 @@
 
-FROM osrf/ros:humble-desktop
+FROM osrf/ros:humble-simulation
 
 SHELL ["/bin/bash", "-c"]
 
+ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y
+RUN apt-get update && apt-get install -y \
+    ros-humble-ros-gz-sim \
+    ros-humble-ros-gz-bridge \
+    ros-humble-ros-gz-interfaces \
+    ros-humble-xacro \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    ros-humble-gazebo-ros2-control \
+    ros-humble-joint-state-publisher-gui \
+    ros-humble-urdf-tutorial \
+    ros-humble-ign-ros2-control \
+    ros-humble-ros-core \
+    ros-humble-geometry2 \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
-RUN apt -y install \
-  ros-humble-ros-gz-sim \
-  ros-humble-ros-gz-bridge \
-  ros-humble-ros-gz-interfaces \
-  ros-humble-xacro
-
-RUN apt-get -y install ros-humble-gazebo-*
-RUN apt-get -y install ros-humble-ros2-control
-RUN apt-get -y install ros-humble-ros2-controllers
-RUN apt-get -y install ros-humble-gazebo-ros2-control
-RUN apt-get -y install ros-humble-joint-state-publisher-gui
-RUN apt-get -y install ros-humble-urdf-tutorial
-RUN apt-get -y install ros-humble-ign-ros2-control
-
-
-RUN apt -y install ros-humble-ros-core ros-humble-geometry2
-RUN echo "export GAZEBO_PLUGIN_PATH=\$GAZEBO_PLUGIN_PATH:/opt/ros/humble/lib" >> ~/.bashrc
+ENV GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:/opt/ros/humble/lib
 
 WORKDIR /app
 
-COPY ./ros_entrypoint.sh ./ros_entrypoint.sh
-RUN chmod +x ./ros_entrypoint.sh
+COPY ros_entrypoint.sh /app/ros_entrypoint.sh
+RUN chmod +x /app/ros_entrypoint.sh
 
-# Use caminho absoluto para o entrypoint
 ENTRYPOINT ["/app/ros_entrypoint.sh"]
 CMD ["bash"]
-
