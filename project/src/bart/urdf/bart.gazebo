@@ -86,7 +86,7 @@
 <!-- ======================== -->
 <gazebo reference="lidar_1">
   <material>Gazebo/Black</material>
-  <sensor name="lidar_sensor" type="ray">
+  <sensor name="lidar_sensor" type="gpu_lidar">
     <pose>0 0 0 0 0 0</pose>
     <ray>
       <scan>
