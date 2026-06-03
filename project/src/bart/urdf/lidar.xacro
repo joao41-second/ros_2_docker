@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<robot name="lidar" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- LiDAR link definition -->
+  <link name="lidar_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.25"/>
+      <inertia ixx="0.0001" iyy="0.0001" izz="0.0001" ixy="0" iyz="0" ixz="0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.07"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.07"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint connecting LiDAR to base -->
+  <joint name="lidar_joint" type="fixed">
+    <origin xyz="0.0 0.0 0.15" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="lidar_1"/>
+  </joint>
+
+</robot>
