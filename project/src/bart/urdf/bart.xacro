@@ -4,6 +4,8 @@
 <xacro:include filename="$(find bart)/urdf/materials.xacro" />
 <xacro:include filename="$(find bart)/urdf/bart.ros2control" />
 <xacro:include filename="$(find bart)/urdf/bart.gazebo" />
+<xacro:include filename="$(find bart)/urdf/lidar.xacro" />
+
 <link name="base_link">
   <inertial>
     <origin xyz="0.48823838818618254 0.14983639102105534 1.1930603195605385" rpy="0 0 0"/>
