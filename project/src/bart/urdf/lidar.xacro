@@ -30,4 +30,36 @@
     <child link="lidar_1"/>
   </joint>
 
+  <!-- LiDAR Gazebo plugin configuration -->
+  <gazebo reference="lidar_1">
+    <material>Gazebo/Black</material>
+    <sensor name="lidar_sensor" type="gpu_lidar">
+      <topic>lidar_1/scan</topic>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159265359</min_angle>
+            <max_angle>3.14159265359</max_angle>
+          </horizontal>
+          <vertical>
+            <samples>16</samples>
+            <resolution>1</resolution>
+            <min_angle>-0.261799</min_angle>
+            <max_angle>0.261799</max_angle>
+          </vertical>
+        </scan>
+        <range>
+          <min>0.08</min>
+          <max>30.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+    </sensor>
+  </gazebo>
+
 </robot>
