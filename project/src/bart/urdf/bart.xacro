@@ -1,310 +1,317 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <robot name="bart" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find bart)/urdf/materials.xacro" />
-<xacro:include filename="$(find bart)/urdf/bart.ros2control" />
-<xacro:include filename="$(find bart)/urdf/bart.gazebo" />
-<xacro:include filename="$(find bart)/urdf/lidar.xacro" />
+  <xacro:include filename="$(find bart)/urdf/materials.xacro" />
+  <xacro:include filename="$(find bart)/urdf/bart.ros2control" />
+  <xacro:include filename="$(find bart)/urdf/bart.gazebo" />
+  <xacro:include filename="$(find bart)/urdf/lidar.xacro" />
 
-<link name="base_link">
-  <inertial>
-    <origin xyz="0.48823838818618254 0.14983639102105534 1.1930603195605385" rpy="0 0 0"/>
-    <mass value="46.376893976501755"/>
-    <inertia ixx="2.002069" iyy="3.88283" izz="4.845997" ixy="0.001994" iyz="-0.000599" ixz="0.602482"/>
-  </inertial>
-  <visual>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.48823838818618254 0.14983639102105534 1.1930603195605385" rpy="0 0 0" />
+      <mass value="46.376893976501755" />
+      <inertia ixx="2.002069" iyy="3.88283" izz="4.845997" ixy="0.001994" iyz="-0.000599"
+        ixz="0.602482" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="Parte1__17__1">
-  <inertial>
-    <origin xyz="0.0007132587028423343 0.004261269870717066 -0.024439219322571537" rpy="0 0 0"/>
-    <mass value="11.344297541309349"/>
-    <inertia ixx="0.034487" iyy="1.409892" izz="1.396504" ixy="0.000254" iyz="-0.003774" ixz="-0.000343"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="Parte1__17__1">
+    <inertial>
+      <origin xyz="0.0007132587028423343 0.004261269870717066 -0.024439219322571537" rpy="0 0 0" />
+      <mass value="11.344297541309349" />
+      <inertia ixx="0.034487" iyy="1.409892" izz="1.396504" ixy="0.000254" iyz="-0.003774"
+        ixz="-0.000343" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.360009 -0.49 -1.192273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte1__17__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="body_1">
-  <inertial>
-    <origin xyz="-4.1475883898120514e-05 0.004808803274935047 -0.1762628238361843" rpy="0 0 0"/>
-    <mass value="8.196233975814405"/>
-    <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="0.006226" ixz="-1.4e-05"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="body_1">
+    <inertial>
+      <origin xyz="-4.1475883898120514e-05 0.004808803274935047 -0.1762628238361843" rpy="0 0 0" />
+      <mass value="8.196233975814405" />
+      <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="0.006226"
+        ixz="-1.4e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.049991 -0.517322 -1.133273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="body_3">
-  <inertial>
-    <origin xyz="-4.1461578783374975e-05 0.004808803274935047 -0.1762628238361843" rpy="0 0 0"/>
-    <mass value="8.196233975814405"/>
-    <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="0.006226" ixz="-1.4e-05"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.770009 -0.517322 -1.133273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_3.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.770009 -0.517322 -1.133273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_3.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="body_3">
+    <inertial>
+      <origin xyz="-4.1461578783374975e-05 0.004808803274935047 -0.1762628238361843" rpy="0 0 0" />
+      <mass value="8.196233975814405" />
+      <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="0.006226"
+        ixz="-1.4e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.770009 -0.517322 -1.133273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.770009 -0.517322 -1.133273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="body_4">
-  <inertial>
-    <origin xyz="4.143158000458058e-05 -0.004809645850008343 -0.1762628323772918" rpy="0 0 0"/>
-    <mass value="8.196233975814405"/>
-    <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="-0.006226" ixz="1.4e-05"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.769997 0.110618 -1.133279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_4.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.769997 0.110618 -1.133279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_4.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="body_4">
+    <inertial>
+      <origin xyz="4.143158000458058e-05 -0.004809645850008343 -0.1762628323772918" rpy="0 0 0" />
+      <mass value="8.196233975814405" />
+      <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="-0.006226"
+        ixz="1.4e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.769997 0.110618 -1.133279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_4.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.769997 0.110618 -1.133279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_4.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="body_5">
-  <inertial>
-    <origin xyz="4.141727489074404e-05 -0.004809645850008135 -0.17626283237729146" rpy="0 0 0"/>
-    <mass value="8.196233975814405"/>
-    <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="-0.006226" ixz="1.4e-05"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.050003 0.110618 -1.133279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_5.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.050003 0.110618 -1.133279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/body_5.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="body_5">
+    <inertial>
+      <origin xyz="4.141727489074404e-05 -0.004809645850008135 -0.17626283237729146" rpy="0 0 0" />
+      <mass value="8.196233975814405" />
+      <inertia ixx="0.06724" iyy="0.050751" izz="0.028045" ixy="-2e-05" iyz="-0.006226"
+        ixz="1.4e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0.050003 0.110618 -1.133279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_5.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.050003 0.110618 -1.133279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/body_5.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="Parte1__17__2">
-  <inertial>
-    <origin xyz="0.0007132996269144654 0.056321273151356654 -0.024439227863678914" rpy="0 0 0"/>
-    <mass value="11.344297541309349"/>
-    <inertia ixx="0.034487" iyy="1.409892" izz="1.396504" ixy="0.000254" iyz="-0.003774" ixz="-0.000343"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.359997 0.19 -1.192279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.359997 0.19 -1.192279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="Parte1__17__2">
+    <inertial>
+      <origin xyz="0.0007132996269144654 0.056321273151356654 -0.024439227863678914" rpy="0 0 0" />
+      <mass value="11.344297541309349" />
+      <inertia ixx="0.034487" iyy="1.409892" izz="1.396504" ixy="0.000254" iyz="-0.003774"
+        ixz="-0.000343" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.359997 0.19 -1.192279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.359997 0.19 -1.192279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte1__17__2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="Parte6_2">
-  <inertial>
-    <origin xyz="-0.0009038326245139894 -0.055001544958308 -0.0006381400064267018" rpy="0 0 0"/>
-    <mass value="8.776606415040463"/>
-    <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="0.0" ixz="-0.000507"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.770003 -0.640057 -0.908273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.770003 -0.640057 -0.908273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="Parte6_2">
+    <inertial>
+      <origin xyz="-0.0009038326245139894 -0.055001544958308 -0.0006381400064267018" rpy="0 0 0" />
+      <mass value="8.776606415040463" />
+      <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="0.0" ixz="-0.000507" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.770003 -0.640057 -0.908273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.770003 -0.640057 -0.908273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="Parte6_4">
-  <inertial>
-    <origin xyz="-0.0033331420102889267 0.05499828222708522 -0.004581015915993025" rpy="0 0 0"/>
-    <mass value="8.776606415040463"/>
-    <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="0.0" ixz="-0.000507"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.049991 0.244615 -0.908279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.049991 0.244615 -0.908279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="Parte6_4">
+    <inertial>
+      <origin xyz="-0.0033331420102889267 0.05499828222708522 -0.004581015915993025" rpy="0 0 0" />
+      <mass value="8.776606415040463" />
+      <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="0.0" ixz="-0.000507" />
+    </inertial>
+    <visual>
+      <origin xyz="0.049991 0.244615 -0.908279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.049991 0.244615 -0.908279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_4.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="Parte6_5">
-  <inertial>
-    <origin xyz="0.0009036867962681772 0.05500089589519774 -0.0006381676210214238" rpy="0 0 0"/>
-    <mass value="8.776606415040463"/>
-    <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="-0.0" ixz="0.000507"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.770009 0.244615 -0.908279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.770009 0.244615 -0.908279" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="Parte6_5">
+    <inertial>
+      <origin xyz="0.0009036867962681772 0.05500089589519774 -0.0006381676210214238" rpy="0 0 0" />
+      <mass value="8.776606415040463" />
+      <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="-0.0" ixz="0.000507" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.770009 0.244615 -0.908279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="-0.770009 0.244615 -0.908279" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_5.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<link name="Parte6_3">
-  <inertial>
-    <origin xyz="-0.0033329675718140744 0.05499826316885659 -0.004581007374887314" rpy="0 0 0"/>
-    <mass value="8.776606415040463"/>
-    <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="0.0" ixz="-0.000507"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.050003 -0.651319 -0.908273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.050003 -0.651319 -0.908273" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="file://$(find bart)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
+  <link name="Parte6_3">
+    <inertial>
+      <origin xyz="-0.0033329675718140744 0.05499826316885659 -0.004581007374887314" rpy="0 0 0" />
+      <mass value="8.776606415040463" />
+      <inertia ixx="0.060833" iyy="0.104458" izz="0.061281" ixy="0.0" iyz="0.0" ixz="-0.000507" />
+    </inertial>
+    <visual>
+      <origin xyz="0.050003 -0.651319 -0.908273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin xyz="0.050003 -0.651319 -0.908273" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find bart)/meshes/Parte6_3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
 
-<joint name="revolucionar_2" type="continuous">
-  <origin xyz="0.360009 0.49 1.192273" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="Parte1__17__1"/>
-  <axis xyz="0.0 1.0 0.0"/>
-</joint>
+  <joint name="revolucionar_2" type="continuous">
+    <origin xyz="0.360009 0.49 1.192273" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="Parte1__17__1" />
+    <axis xyz="0.0 1.0 0.0" />
+  </joint>
 
-<joint name="revolucionar_3" type="continuous">
-  <origin xyz="-0.41 0.027322 -0.059" rpy="0 0 0"/>
-  <parent link="Parte1__17__1"/>
-  <child link="body_1"/>
-  <axis xyz="0.0 0.0 -1.0"/>
-</joint>
+  <joint name="revolucionar_3" type="continuous">
+    <origin xyz="-0.41 0.027322 -0.059" rpy="0 0 0" />
+    <parent link="Parte1__17__1" />
+    <child link="body_1" />
+    <axis xyz="0.0 0.0 -1.0" />
+  </joint>
 
-<joint name="revolucionar_4" type="continuous">
-  <origin xyz="0.41 0.027322 -0.059" rpy="0 0 0"/>
-  <parent link="Parte1__17__1"/>
-  <child link="body_3"/>
-  <axis xyz="0.0 0.0 -1.0"/>
-</joint>
+  <joint name="revolucionar_4" type="continuous">
+    <origin xyz="0.41 0.027322 -0.059" rpy="0 0 0" />
+    <parent link="Parte1__17__1" />
+    <child link="body_3" />
+    <axis xyz="0.0 0.0 -1.0" />
+  </joint>
 
-<joint name="revolucionar_5" type="continuous">
-  <origin xyz="0.41 0.079382 -0.059" rpy="0 0 0"/>
-  <parent link="Parte1__17__2"/>
-  <child link="body_4"/>
-  <axis xyz="-0.0 0.0 -1.0"/>
-</joint>
+  <joint name="revolucionar_5" type="continuous">
+    <origin xyz="0.41 0.079382 -0.059" rpy="0 0 0" />
+    <parent link="Parte1__17__2" />
+    <child link="body_4" />
+    <axis xyz="-0.0 0.0 -1.0" />
+  </joint>
 
-<joint name="revolucionar_6" type="continuous">
-  <origin xyz="-0.41 0.079382 -0.059" rpy="0 0 0"/>
-  <parent link="Parte1__17__2"/>
-  <child link="body_5"/>
-  <axis xyz="-0.0 0.0 -1.0"/>
-</joint>
+  <joint name="revolucionar_6" type="continuous">
+    <origin xyz="-0.41 0.079382 -0.059" rpy="0 0 0" />
+    <parent link="Parte1__17__2" />
+    <child link="body_5" />
+    <axis xyz="-0.0 0.0 -1.0" />
+  </joint>
 
-<joint name="revolucionar_7" type="continuous">
-  <origin xyz="0.359997 -0.19 1.192279" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="Parte1__17__2"/>
-  <axis xyz="0.0 -1.0 0.0"/>
-</joint>
+  <joint name="revolucionar_7" type="continuous">
+    <origin xyz="0.359997 -0.19 1.192279" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="Parte1__17__2" />
+    <axis xyz="0.0 -1.0 0.0" />
+  </joint>
 
-<joint name="revolucionar_8" type="continuous">
-  <origin xyz="-6e-06 0.122735 -0.225" rpy="0 0 0"/>
-  <parent link="body_3"/>
-  <child link="Parte6_2"/>
-  <axis xyz="0.0 1.0 0.0"/>
-</joint>
+  <joint name="revolucionar_8" type="continuous">
+    <origin xyz="-6e-06 0.122735 -0.225" rpy="0 0 0" />
+    <parent link="body_3" />
+    <child link="Parte6_2" />
+    <axis xyz="0.0 1.0 0.0" />
+  </joint>
 
-<joint name="revolucionar_10" type="continuous">
-  <origin xyz="1.2e-05 -0.133997 -0.225" rpy="0 0 0"/>
-  <parent link="body_5"/>
-  <child link="Parte6_4"/>
-  <axis xyz="-0.0 -1.0 0.0"/>
-</joint>
+  <joint name="revolucionar_10" type="continuous">
+    <origin xyz="1.2e-05 -0.133997 -0.225" rpy="0 0 0" />
+    <parent link="body_5" />
+    <child link="Parte6_4" />
+    <axis xyz="-0.0 -1.0 0.0" />
+  </joint>
 
-<joint name="revolucionar_11" type="continuous">
-  <origin xyz="1.2e-05 -0.133997 -0.225" rpy="0 0 0"/>
-  <parent link="body_4"/>
-  <child link="Parte6_5"/>
-  <axis xyz="0.0 -1.0 -0.0"/>
-</joint>
+  <joint name="revolucionar_11" type="continuous">
+    <origin xyz="1.2e-05 -0.133997 -0.225" rpy="0 0 0" />
+    <parent link="body_4" />
+    <child link="Parte6_5" />
+    <axis xyz="0.0 -1.0 -0.0" />
+  </joint>
 
-<joint name="revolucionar_12" type="continuous">
-  <origin xyz="-1.2e-05 0.133997 -0.225" rpy="0 0 0"/>
-  <parent link="body_1"/>
-  <child link="Parte6_3"/>
-  <axis xyz="0.0 1.0 0.0"/>
-</joint>
+  <joint name="revolucionar_12" type="continuous">
+    <origin xyz="-1.2e-05 0.133997 -0.225" rpy="0 0 0" />
+    <parent link="body_1" />
+    <child link="Parte6_3" />
+    <axis xyz="0.0 1.0 0.0" />
+  </joint>
 
 </robot>
