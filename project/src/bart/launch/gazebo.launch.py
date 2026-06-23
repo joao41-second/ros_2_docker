@@ -85,6 +85,22 @@ def generate_launch_description():
         parameters=[{'config_file': ros_gz_bridge_config}],
         output='screen'
     )
+
+    # -------------------------
+    # Lidar Topics Bridge (explicit bridge for LiDAR scan)
+    # -------------------------
+    lidar_bridge = Node(
+    package='ros_gz_bridge',
+    executable='parameter_bridge',
+    arguments=[
+        '/world/empty/model/bart/link/base_link/sensor/lidar/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan'
+    ],
+    remappings=[
+        ('/world/empty/model/bart/link/base_link/sensor/lidar/scan', '/scan'),
+    ],
+    output='screen'
+    )
+
     # -------------------------
     # controller_manager 
     # -------------------------
@@ -119,11 +135,14 @@ def generate_launch_description():
         )]
     )
 
+    
     return LaunchDescription([
         gazebo,
         spawn_robot,
         ros_gz_bridge,
+        lidar_bridge,
         robot_state_publisher,
+        controller_manager_node,        # ← FALTA ESTE
         joint_state_broadcaster_spawner,
         joint_trajectory_controller_spawner
-    ])
+])

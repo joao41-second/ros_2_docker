@@ -1,6 +1,14 @@
-- ros_topic_name: "/clock"
-  gz_topic_name: "/clock"
-  ros_type_name: "rosgraph_msgs/msg/Clock"
-  gz_type_name: "gz.msgs.Clock"
+# config/ros_gz_bridge_gazebo.yaml
+
+- ros_topic_name: "/scan"
+  gz_topic_name: "/world/empty/model/bart/link/lidar_link/sensor/lidar_sensor/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
   direction: GZ_TO_ROS
 
+# Se quiseres PointCloud2 também:
+- ros_topic_name: "/lidar/points"
+  gz_topic_name: "/world/empty/model/bart/link/lidar_link/sensor/lidar_sensor/scan/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "gz.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
