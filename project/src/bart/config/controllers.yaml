@@ -1,17 +1,16 @@
 controller_manager:
   ros__parameters:
     update_rate: 100
-
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
-
     joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    velocity_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
 joint_trajectory_controller:
   ros__parameters:
     joints:
-      - revolucionar_2  
       - revolucionar_3  
       - revolucionar_4  
       - revolucionar_5  
@@ -23,10 +22,20 @@ joint_trajectory_controller:
       - revolucionar_12  
     command_interfaces:
       - position
-
     state_interfaces:
       - position
       - velocity
     open_loop_control: true
     allow_nonzero_velocity_at_trajectory_end: false
 
+velocity_controller:
+  ros__parameters:
+    joints:
+      - revolucionar_2
+    command_interfaces:
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    open_loop_control: true
+    allow_nonzero_velocity_at_trajectory_end: true

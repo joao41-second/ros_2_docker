@@ -24,4 +24,13 @@ Move _junts the robot unsig the command
       time_from_start: {sec: 2, nanosec: 0}
     }]
   }"
+ros2 topic pub --once /velocity_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{
+  joint_names: ['revolucionar_2'],
+  points: [{
+    positions: [0.0],
+    velocities: [2.0],
+    time_from_start: {sec: 2}
+  }]
+}"
+
 ```

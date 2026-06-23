@@ -133,9 +133,18 @@ def generate_launch_description():
             arguments=['joint_trajectory_controller'],
             output='screen'
         )]
-    )
+        )
 
-    
+    velocity_controller_spawner = TimerAction(
+        period=12.0,
+        actions=[Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['velocity_controller'],
+        output='screen'
+        )]
+    )
+ 
     return LaunchDescription([
         gazebo,
         spawn_robot,
@@ -144,5 +153,7 @@ def generate_launch_description():
         robot_state_publisher,
         controller_manager_node,        # ← FALTA ESTE
         joint_state_broadcaster_spawner,
-        joint_trajectory_controller_spawner
+        joint_trajectory_controller_spawner,
+        velocity_controller_spawner
+        
 ])

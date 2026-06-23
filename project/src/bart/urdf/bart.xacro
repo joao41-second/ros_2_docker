@@ -249,6 +249,7 @@
     <parent link="base_link" />
     <child link="Parte1__17__1" />
     <axis xyz="0.0 1.0 0.0" />
+    <!-- SEM <limit> — correto para continuous -->
   </joint>
 
   <joint name="revolucionar_3" type="continuous">
