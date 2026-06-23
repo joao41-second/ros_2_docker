@@ -16,10 +16,6 @@ joint_trajectory_controller:
       - Dir_D_F  
       - Dir_D_T  
       - Fix_2  
-      - Wheel_E_F  
-      - Wheel_D_T  
-      - Wheel_D_F  
-      - Wheel_E_T  
     command_interfaces:
       - position
     state_interfaces:
@@ -32,6 +28,10 @@ velocity_controller:
   ros__parameters:
     joints:
       - fix_1
+      - Wheel_E_F  
+      - Wheel_D_T  
+      - Wheel_D_F  
+      - Wheel_E_T  
     command_interfaces:
       - velocity
     state_interfaces:
