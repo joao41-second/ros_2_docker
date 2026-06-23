@@ -26,15 +26,15 @@
   <joint name="lidar_joint" type="fixed">
     <parent link="base_link" />
     <child link="lidar_link" />
-    <origin xyz="0 0 0.2" rpy="0 0 0" />
+    <origin xyz="0 0 1.5" rpy="0 0 0" />
   </joint>
 
   <gazebo reference="lidar_link">
     <sensor name="lidar" type="gpu_lidar">
+      <visualize>true</visualize>
       <pose>0 0 0 0 0 0</pose>
       <update_rate>10</update_rate>
       <always_on>true</always_on>
-      <visualize>true</visualize>
 
       <ray>
         <scan>
