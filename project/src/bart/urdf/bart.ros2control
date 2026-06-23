@@ -6,7 +6,7 @@
     <hardware>
       <plugin>gz_ros2_control/GazeboSimSystem</plugin>
     </hardware>
-    <joint name="revolucionar_2">
+    <joint name="fix_1">
       <command_interface name="velocity">
         <param name="min">=10</param>
         <param name="max">10</param>
@@ -15,54 +15,54 @@
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_3">
+    <joint name="Dir_E_T">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_4">
+    <joint name="Dir_E_F">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_5">
+    <joint name="Dir_D_F">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_6">
+    <joint name="Dir_D_T">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_7">
+    <joint name="Fix_2">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_8">
+    <joint name="Wheel_E_F">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
-    <joint name="revolucionar_10">
-      <command_interface name="position" />
-      <state_interface name="position" />
-      <state_interface name="velocity" />
-    </joint>
-
-    <joint name="revolucionar_11">
+    <joint name="Wheel_D_T">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />
     </joint>
 
-    <joint name="revolucionar_12">
+    <joint name="Wheel_D_F">
+      <command_interface name="position" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+
+    <joint name="Wheel_E_T">
       <command_interface name="position" />
       <state_interface name="position" />
       <state_interface name="velocity" />

@@ -11,15 +11,15 @@ controller_manager:
 joint_trajectory_controller:
   ros__parameters:
     joints:
-      - revolucionar_3  
-      - revolucionar_4  
-      - revolucionar_5  
-      - revolucionar_6  
-      - revolucionar_7  
-      - revolucionar_8  
-      - revolucionar_10  
-      - revolucionar_11  
-      - revolucionar_12  
+      - Dir_E_T  
+      - Dir_E_F  
+      - Dir_D_F  
+      - Dir_D_T  
+      - Fix_2  
+      - Wheel_E_F  
+      - Wheel_D_T  
+      - Wheel_D_F  
+      - Wheel_E_T  
     command_interfaces:
       - position
     state_interfaces:
@@ -31,7 +31,7 @@ joint_trajectory_controller:
 velocity_controller:
   ros__parameters:
     joints:
-      - revolucionar_2
+      - fix_1
     command_interfaces:
       - velocity
     state_interfaces:
