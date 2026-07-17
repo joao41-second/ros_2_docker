@@ -2,6 +2,7 @@
 ROBOT_NAME = bart
 
 all: ## Start the docker and open the bash terminal 
+	xhost +local:docker
 	@cd ./docker/  && docker compose up -d --build 
 	docker exec -it ros_2_h /bin/bash 
 
